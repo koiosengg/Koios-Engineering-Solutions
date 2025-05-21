@@ -4,6 +4,9 @@ import Banner from "./Home/Banner";
 import Marquee from "./Home/Marquee";
 import WhyUs from "./Home/WhyUs";
 import Infrastructure from "./Home/Infrastructure";
+import Services from "./Home/Services";
+import Tools from "./Home/Tools";
+import Verticals from "./Home/Verticals";
 
 function Home() {
   return (
@@ -19,6 +22,9 @@ function Home() {
       <Marquee />
       <WhyUs />
       <Infrastructure />
+      <Services />
+      <Tools />
+      <Verticals />
     </>
   );
 }

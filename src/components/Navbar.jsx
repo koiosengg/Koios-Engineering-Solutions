@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import GeneralEngineeringLogo from "../assets/Navbar/General Engineering Logo.png";
 import VehicleDevelopmentLogo from "../assets/Navbar/Vehicle Development Logo.png";
 import ThreeDServicesLogo from "../assets/Navbar/3D Services Logo.png";
 import Logo from "../assets/Navbar/Navbar Logo.png";
@@ -44,7 +45,7 @@ function Navbar() {
                 <div className="s-dropdown-heading">
                   <img
                     loading="lazy"
-                    src={VehicleDevelopmentLogo}
+                    src={GeneralEngineeringLogo}
                     alt="General Engineering Logo"
                   />
                   <a href="./Engineering-Solutions.html">General Engineering</a>
