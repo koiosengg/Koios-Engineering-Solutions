@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="/3Dscan" element={<ThreeDscan />} />
+            <Route path="/3d_scanning" element={<ThreeDscan />} />
             <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>

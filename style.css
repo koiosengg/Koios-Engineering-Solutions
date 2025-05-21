@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +9,645 @@
 }
 
 body {
-  background: #111;
+  background: var(--Woodsmoke----BG-950----bg, #1a1a1a);
+}
+
+/* Navbar */
+
+.s-navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  padding: 0px 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(26, 26, 26, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 2000;
+}
+
+.s-logo-container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.s-logo-container img {
+  height: 38px;
+}
+
+.s-logo-container p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.s-nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.s-nav-link-heading:hover .s-nav-link-text p {
+  color: #ffbf00;
+}
+
+.s-nav-link-heading:hover .s-nav-link-text svg {
+  fill: #ffbf00;
+  transform: rotate(180deg);
+}
+
+.s-nav-link-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.s-nav-link-text p {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.s-nav-link-text svg {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 7.914px 5.293px 8.793px 5.293px;
+  justify-content: center;
+  align-items: center;
+  fill: white;
+  transition: transform 0.3s ease;
+}
+
+.s-nav-link-heading {
+  position: relative;
+}
+
+.s-dropdown {
+  position: absolute;
+  padding-top: 8px;
+  display: none;
+}
+
+.s-nav-link-heading:hover .s-dropdown {
+  display: block;
+}
+
+.s-dropdown-container {
+  display: flex;
+  width: 274px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 10px;
+  border: 0.3px solid rgba(255, 255, 255, 0.6);
+  background: linear-gradient(193deg, #1e1e1e 32.7%, #202020 145.96%);
+}
+
+.s-dropdown-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.s-dropdown-heading img {
+  width: 40px;
+  height: 40px;
+}
+
+.s-dropdown-heading a {
+  color: var(--Absolute-White, #fff);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.s-dropdown-set {
+  display: flex;
+  padding: 8px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.s-dropdown-set .heading a {
+  color: var(--Absolute-White, #fff);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.s-dropdown-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.s-dropdown-options a {
+  color: var(--gray---for-text-400, #98a2b3);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.s-dropdown-options a:hover {
+  color: #ffffff;
+}
+
+.s-single-options a {
+  color: var(--gray---for-text-400, #98a2b3);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.s-single-options a:hover {
+  color: #ffffff;
+}
+
+.s-contact-us {
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  background: var(--Amber-500----Primary, #ffbf00);
+}
+
+.s-contact-us:hover {
+  box-shadow: 0px 4px 20px 0px rgba(255, 191, 0, 0.15);
+}
+
+.s-contact-us .s-nav-link-text p {
+  color: var(--Woodsmoke----BG-950----bg, #1a1a1a);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: bold;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.s-contact-us .s-nav-link-text svg {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 4.411px 6.095px 4.411px 7.833px;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-mobile-nav-button {
+  display: none;
+}
+
+.s-mobile-navbar {
+  display: none;
+}
+
+/* Home */
+
+.p-home {
+  height: 100vh;
+  padding-top: 80px;
+  position: relative;
+}
+
+.p-home-banner-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p-home-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.p-implementing-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 950px;
+}
+
+.p-implementing-text {
+  height: 210px;
+  text-align: center;
+  font-family: "Allerta Stencil";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -6px;
+  text-transform: capitalize;
+  background: linear-gradient(
+    92deg,
+    #ffbf00 17.84%,
+    #0d9bbf 48.87%,
+    #fff 87.19%,
+    #ffbf00
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 150% auto;
+  animation: textShine 8s ease-in-out infinite;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: -0% 0;
+  }
+
+  100% {
+    background-position: 300% 0;
+  }
+}
+
+.p-endless-solutions {
+  color: var(--gray---for-text-300, #d0d5dd);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.p-get-started-btn {
+  min-width: 194px;
+  height: 56px;
+  cursor: pointer;
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 8px;
+  justify-content: space-between;
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  background: var(--Grey-10, #1a1a1a);
+  text-decoration: none;
+}
+
+.p-get-started-btn:hover {
+  box-shadow: 0px 4px 20px 0px rgba(255, 191, 0, 0.15);
+}
+
+.p-get-started-btn svg {
+  align-self: center;
+}
+
+.p-get-started-btn p {
+  color: #ffbf00;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.p-logos-container {
+  padding: 40px 200px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.p-logos {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 84px;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.p-logos img {
+  height: 80px;
+  object-fit: cover;
+}
+
+.p-spotlight {
+  display: flex;
+  margin: auto;
+}
+
+.p-whyus-text {
+  color: var(--Amber-500----Primary, #ffbf00);
+  text-align: center;
+  font-family: "Allerta Stencil";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.96px;
+}
+
+.p-whyus-container p {
+  color: var(--gray---for-text-400, #98a2b3);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  align-items: center;
+}
+
+.p-whyus-container {
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -120px;
+  padding-left: 200px;
+  padding-right: 200px;
+  gap: 40px;
+}
+
+.p-whyus-p-container {
+  align-self: center;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.p-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-self: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+.p-card-row-top {
+  display: flex;
+  gap: 24px;
+}
+
+.p-card-row-btm {
+  display: flex;
+  gap: 24px;
+}
+
+.p-card-main {
+  width: 100%;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(202, 255, 51, 0.1);
+  background: linear-gradient(
+      106deg,
+      rgba(255, 191, 0, 0.02) -29.45%,
+      rgba(255, 191, 0, 0) 27.86%
+    ),
+    linear-gradient(267deg, #1c1c1c 40.67%, rgba(28, 28, 28, 0.5) 99.81%),
+    url(./aboutus-koios-bg.png);
+  background-blend-mode: normal, normal, screen;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.p-icon-text-card.whyus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+
+.p-benefits-svg-container {
+  display: flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 70px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 191, 0, 0.05) 0%,
+    rgba(255, 191, 0, 0) 100%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.p-benefits-svg-second-container {
+  border-radius: 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) -66.22%,
+    rgba(255, 255, 255, 0) 85.46%
+  );
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.p-icon-text-card.whyus svg {
+  width: 40px;
+  height: 40px;
+}
+
+.p-icon-text-card.whyus p {
+  text-align: left;
+  color: var(--Absolute-White, #fff);
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.p-details-text {
+  width: 100%;
+  color: var(--Grey-70, #b3b3b3);
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.s-infrastructure {
+  width: 100%;
+  padding: 80px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.s-infrastructure-heading {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.s-infrastructure-heading h2 {
+  color: var(--Amber-500----Primary, #ffbf00);
+  text-align: center;
+  font-family: "Allerta Stencil";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.96px;
+}
+
+.s-infrastructure-heading p {
+  color: var(--gray---for-text-400, #98a2b3);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.s-infrastructure-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.s-infrastructure-gallery {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.s-infrastructure-slide {
+  width: 100%;
+  height: 442px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.s-infrastructure-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.s-infrastructure-button {
+  display: flex;
+  padding: 20px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: rgba(17, 17, 17, 0.7);
+}
+
+.s-infrastructure-button.prev-button {
+  position: absolute;
+  left: 30px;
+}
+
+.s-infrastructure-button.next-button {
+  position: absolute;
+  right: 30px;
+}
+
+.s-infrastructure-text {
+  position: absolute;
+  bottom: -70px;
+  display: flex;
+  width: 702px;
+  height: 140px;
+  padding: 43px 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid #ffbf00;
+  opacity: 0.9;
+  background: linear-gradient(0deg, #191919 0%, #191919 100%),
+    url(<path-to-image>) lightgray 0% 0% / 62.46418356895447px
+      62.46418356895447px repeat;
+  background-blend-mode: normal, screen;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.s-infrastructure-text h3 {
+  color: var(--Absolute-White, #fff);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.s-infrastructure-text p {
+  color: var(--gray---for-text-400, #98a2b3);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* 3D Scan */

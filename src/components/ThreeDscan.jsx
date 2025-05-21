@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Banner from "./ThreeDscan/Banner";
 import Marquee from "./ThreeDscan/Marquee";
 import Solutions from "./ThreeDscan/Solutions";
@@ -10,7 +11,11 @@ import Last from "./ThreeDscan/Last";
 
 function ThreeDscan() {
   return (
-    <>
+    <div style={{ background: "#111" }}>
+      <Helmet>
+        <title>3D Scan</title>
+        <meta name="description" content="Welcome to 3D Scanning Page" />
+      </Helmet>
       <Banner />
       <Marquee />
       <Solutions />
@@ -19,7 +24,7 @@ function ThreeDscan() {
       <Scanning />
       <Testimony />
       <Last />
-    </>
+    </div>
   );
 }
 
