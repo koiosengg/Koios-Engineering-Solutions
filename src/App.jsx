@@ -8,7 +8,7 @@ import ThreeDscan from "./components/ThreeDscan";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import GeneralEngineering from "./components/GeneralEngineering";
-
+import PrivacyPolicy from "./components/PrivacyPolicy";
 function App() {
   return (
     <HelmetProvider>
@@ -24,6 +24,7 @@ function App() {
             />
             <Route path="/3d_scanning" element={<ThreeDscan />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy_policy" element={<PrivacyPolicy />} />
           </Route>
         </Routes>
         <Footer />

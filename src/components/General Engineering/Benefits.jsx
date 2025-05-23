@@ -391,7 +391,7 @@ function Benefits() {
                     >
                       <feColorMatrix
                         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       />
                     </filter>
                     <filter
@@ -403,19 +403,19 @@ function Benefits() {
                     >
                       <feColorMatrix
                         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0.2126 0.7152 0.0722 0 0"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       />
                     </filter>
                     <clipPath id="de95c7d450">
                       <path
                         d="M 2.328125 2.328125 L 372.828125 2.328125 L 372.828125 372.828125 L 2.328125 372.828125 Z M 2.328125 2.328125 "
-                        clip-rule="nonzero"
+                        clipRule="nonzero"
                       />
                     </clipPath>
                     <clipPath id="dd28f0fc05">
                       <path
                         d="M 38 37.5 L 337 37.5 L 337 337.5 L 38 337.5 Z M 38 37.5 "
-                        clip-rule="nonzero"
+                        clipRule="nonzero"
                       />
                     </clipPath>
                     <mask id="3f613a14f7">
@@ -427,12 +427,12 @@ function Benefits() {
                       </g>
                     </mask>
                   </defs>
-                  <g clip-path="url(#de95c7d450)">
+                  <g clipPath="url(#de95c7d450)">
                     <path
                       fill="#0d9bbf"
                       d="M 187.496094 372.664062 C 85.199219 372.664062 2.328125 289.226562 2.328125 187.496094 C 2.328125 85.769531 85.199219 2.328125 187.496094 2.328125 C 289.796875 2.328125 372.664062 85.199219 372.664062 187.496094 C 372.664062 289.796875 289.226562 372.664062 187.496094 372.664062 Z M 187.496094 13.757812 C 91.484375 13.757812 13.757812 91.484375 13.757812 187.496094 C 13.757812 283.511719 91.484375 361.234375 187.496094 361.234375 C 283.511719 361.234375 361.234375 283.511719 361.234375 187.496094 C 361.234375 91.484375 282.9375 13.757812 187.496094 13.757812 Z"
-                      fill-opacity="1"
-                      fill-rule="nonzero"
+                      fillOpacity="1"
+                      fillRule="nonzero"
                     />
                   </g>
                   <g>
@@ -440,12 +440,12 @@ function Benefits() {
                       points="125,190 175,240 250,155"
                       fill="none"
                       stroke="#0d9bbf"
-                      stroke-width="12"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="12"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
-                  <g clip-path="url(#dd28f0fc05)">
+                  <g clipPath="url(#dd28f0fc05)">
                     <g mask="url(#3f613a14f7)">
                       <g transform="matrix(0.20247, 0, 0, 0.202293, 37.968752, 37.499998)"></g>
                     </g>
