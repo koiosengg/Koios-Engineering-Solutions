@@ -28,7 +28,7 @@ function Navbar() {
         </Link>
         <div className="s-nav-link">
           <div className="s-nav-link-heading">
-            <a href="./Engineering-Solutions.html" className="s-nav-link-text">
+            <Link to="/general_engineering" className="s-nav-link-text">
               <p>General Engineering</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ function Navbar() {
               >
                 <path d="M1.70667 0.792998L6.99966 6.086L12.2927 0.792998L13.7067 2.207L8.41366 7.5C8.03861 7.87494 7.52999 8.08557 6.99966 8.08557C6.46934 8.08557 5.96072 7.87494 5.58566 7.5L0.292663 2.207L1.70667 0.792998Z" />
               </svg>
-            </a>
+            </Link>
             <div className="s-dropdown">
               <div className="s-dropdown-container">
                 <div className="s-dropdown-heading">
@@ -48,7 +48,7 @@ function Navbar() {
                     src={GeneralEngineeringLogo}
                     alt="General Engineering Logo"
                   />
-                  <a href="./Engineering-Solutions.html">General Engineering</a>
+                  <Link to="/general_engineering">General Engineering</Link>
                 </div>
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">

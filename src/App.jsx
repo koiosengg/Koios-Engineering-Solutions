@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import ThreeDscan from "./components/ThreeDscan";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import GeneralEngineering from "./components/GeneralEngineering";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
+            <Route
+              path="/general_engineering"
+              element={<GeneralEngineering />}
+            />
             <Route path="/3d_scanning" element={<ThreeDscan />} />
             <Route path="/contact" element={<Contact />} />
           </Route>
