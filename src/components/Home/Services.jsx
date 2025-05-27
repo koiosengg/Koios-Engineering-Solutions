@@ -90,7 +90,7 @@ function Services() {
   ];
 
   return (
-    <div className="s-infrastructure">
+    <div className="s-infrastructure" id="Services">
       <div className="s-infrastructure-heading">
         <h2>Our Services</h2>
         <p>
@@ -161,7 +161,10 @@ function Services() {
             </div>
             <div className="s-services-container-info-line"></div>
             <div className="s-services-container-info-right">
-              <a href="#" className="s-services-container-info-set">
+              <Link
+                to="/mechanical_design"
+                className="s-services-container-info-set"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -211,7 +214,7 @@ function Services() {
                   </defs>
                 </svg>
                 <h4>Design</h4>
-              </a>
+              </Link>
               <a href="#" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

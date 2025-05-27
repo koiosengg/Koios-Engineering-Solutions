@@ -14,7 +14,7 @@ function Banner() {
             Endless Solutions, One Destination
           </div>
         </div>
-        <a className="p-get-started-btn">
+        <a href="#Services" className="p-get-started-btn">
           <p>Get Started</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Img1 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Dyno v1.112.png";
 import Img2 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Hopper 1 v8.110.png";
 import Img3 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Machine Base V2 v41.44.png";
@@ -54,6 +55,7 @@ function MechanicalDesign() {
       setCounter((prev) => prev - 1);
     }
   };
+  
   return (
     <div className="s-product-list-set">
       <div className="s-product-list-set-heading">
@@ -122,7 +124,7 @@ function MechanicalDesign() {
           manufacturing techniques, these tools ensure optimal functionality and
           reliability in mechanical designs.
         </p>
-        <a href="./mechanical design.html">
+        <Link to="/mechanical_design">
           <span>Explore More</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +138,7 @@ function MechanicalDesign() {
               fill="#FFBF00"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

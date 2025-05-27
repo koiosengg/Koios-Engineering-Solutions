@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--Woodsmoke----BG-950----bg, #1a1a1a);
 }
@@ -1020,6 +1024,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  transition: all 0.3s;
 }
 
 .s-verticals-info-option:not(.active-option) {
@@ -1029,6 +1034,7 @@ body {
 .s-verticals-info-option img {
   height: 32px;
   object-fit: cover;
+  transition: all 0.3s;
 }
 
 .s-verticals-info-option p {
@@ -1039,6 +1045,7 @@ body {
   font-weight: 600;
   line-height: 28px;
   flex-shrink: 0;
+  transition: all 0.3s;
 }
 
 .s-verticals-info-option:first-child {
@@ -2097,6 +2104,7 @@ body {
 .s-slider img {
   width: 608px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .s-carousel-buttons.disabled {
@@ -2606,6 +2614,151 @@ body {
     opacity: 0;
     transform: translateY(-100%);
   }
+}
+
+/* Sub Products Section */
+
+.p-mechanical-design {
+  padding-top: 80px;
+  background-color: #1a1a1a;
+}
+
+.p-breadcrumb {
+  width: 100%;
+  height: 64px;
+}
+
+.p-breadcrumb a {
+  color: var(--Woodsmoke----BG-400, #888);
+  text-decoration: none;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.p-breadcrumb p {
+  color: var(--Woodsmoke----BG-400, #888);
+  text-decoration: none;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.p-breadcrumb-text {
+  display: flex;
+  width: 100%;
+  padding: 20px 500px 20px 200px;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.p-breadcrumb-text a:hover {
+  color: #ffbf00;
+}
+
+.p-breadcrumb-text.blue a:hover {
+  color: #01cfdc;
+}
+
+.p-breadcrumb-text.white a:hover {
+  color: white;
+}
+
+span {
+  color: var(--Woodsmoke----BG-400, #888);
+}
+
+.p-mechanical-text-container {
+  width: 100%;
+  height: calc(100svh - 142px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  padding: 0px 200px 0px 200px;
+}
+
+.p-blue-gradient-text {
+  background: linear-gradient(90deg, #0d9bbf 19.69%, #fff 105.83%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.p-blue-gradient-text.engineering {
+  text-align: left;
+}
+
+.p-blue-gradient-text.edutech {
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  background: linear-gradient(
+    90deg,
+    #fff 19.69%,
+    rgba(255, 255, 255, 0.6) 105.83%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p-yellow-gradient-text {
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  background: linear-gradient(90deg, #ffbf00 19.69%, #fff 105.83%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p-big-mechanical-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+}
+
+.p-title-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.p-title-description p {
+  color: var(--gray---for-text-100, #f2f4f7);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 /* 3D Scan */
