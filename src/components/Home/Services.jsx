@@ -215,7 +215,10 @@ function Services() {
                 </svg>
                 <h4>Design</h4>
               </Link>
-              <a href="#" className="s-services-container-info-set">
+              <Link
+                to="/mechanical_manufacturing"
+                className="s-services-container-info-set"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -259,7 +262,7 @@ function Services() {
                   </defs>
                 </svg>
                 <h4>Manufacturing</h4>
-              </a>
+              </Link>
             </div>
           </div>
         )}

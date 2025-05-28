@@ -73,7 +73,11 @@ function Verticals() {
                   industry standards...
                 </p>
               </section>
-              <a href="#" className="p-get-started-btn">
+              <a
+                href="https://www.koiostudio.com/"
+                target="_blank"
+                className="p-get-started-btn"
+              >
                 <p>Know More</p>
               </a>
             </div>

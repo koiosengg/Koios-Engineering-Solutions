@@ -9,7 +9,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import GeneralEngineering from "./components/GeneralEngineering";
 import MechanicalDesign from "./components/MechanicalDesign";
+import MechanicalManufacturing from "./components/MechanicalManufacturing";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+
 function App() {
   return (
     <HelmetProvider>
@@ -24,6 +26,10 @@ function App() {
               element={<GeneralEngineering />}
             />
             <Route path="/mechanical_design" element={<MechanicalDesign />} />
+            <Route
+              path="/mechanical_manufacturing"
+              element={<MechanicalManufacturing />}
+            />
             <Route path="/3d_scanning" element={<ThreeDscan />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy_policy" element={<PrivacyPolicy />} />

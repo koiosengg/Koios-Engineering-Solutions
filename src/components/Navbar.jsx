@@ -53,9 +53,9 @@ function Navbar() {
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">
                     <Link to="/mechanical_design">Mechanical Design</Link>
-                    <a href="./mechanical manufacturing.html">
+                    <Link to="/mechanical_manufacturing">
                       Mechanical Manufacturing
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

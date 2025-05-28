@@ -1,18 +1,10 @@
 import React, { useRef, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import Img1 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions Picture11.png";
-import Img2 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions Picture15.png";
-import Img3 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions gokart disc hub 1.png";
-import Img4 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions gokart disc hub 2.png";
-import Img5 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (1).png";
-import Img6 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (2).png";
-import Img7 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (3).png";
-import Img8 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.26_a1b10e92-removebg-preview.png";
-import Img9 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.29_9974c34c-removebg-preview.png";
-import Img10 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.37_46ca1fc5-removebg-preview.png";
-import Img11 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.38_383f6b66-removebg-preview.png";
+import Img1 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture11.png";
+import Img2 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture13.png";
+import Img3 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture14.png";
+import Img4 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture15.png";
 
-function MechanicalManufacturing() {
+function MetalFabrication() {
   const sliderRef = useRef(null);
   const sliderContentRef = useRef(null);
   const indicatorRef = useRef(null);
@@ -23,13 +15,6 @@ function MechanicalManufacturing() {
     Img2,
     Img3,
     Img4,
-    Img5,
-    Img6,
-    Img7,
-    Img8,
-    Img9,
-    Img10,
-    Img11,
   ];
   const totalSlides = slides.length;
 
@@ -75,12 +60,13 @@ function MechanicalManufacturing() {
   return (
     <div className="s-product-list-set">
       <div className="s-product-list-set-heading">
-        <p>Mechanical Manufacturing</p>
+        <p>Metal Fabrication</p>
+        <h2>
+          Fabrication support and services for metal fabrication jobs for
+          various applications.
+        </h2>
       </div>
-      <div
-        className="s-product-list-set-container"
-        style={{ paddingBottom: "20px" }}
-      >
+      <div className="s-product-list-set-container">
         <div className="s-product-img-carousel" ref={sliderRef}>
           <div className="s-slider" ref={sliderContentRef}>
             {slides.map((img, index) => (
@@ -136,28 +122,16 @@ function MechanicalManufacturing() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Dive into our mechanical manufacturing world, where every job is a
-          masterpiece. From metal fabrication to custom test bench
-          manufacturing, we're crafting excellence with each turn of the gear.
+          Process of shaping and manipulating metal materials through cutting,
+          bending, and assembling, involving techniques like welding, machining,
+          and forming to create complex structures and components for machinery
+          and structures. It encompasses precision engineering methods to
+          transform raw metal into functional products, optimizing durability
+          and performance in mechanical applications.
         </p>
-        <Link to="/mechanical_manufacturing">
-          <span>Explore More</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="8"
-            height="14"
-            viewBox="0 0 8 14"
-            fill="none"
-          >
-            <path
-              d="M1.81139 13.707L0.400391 12.293L5.68938 6.99997L0.400391 1.70697L1.81539 0.292969L7.10038 5.58597C7.47532 5.96102 7.68595 6.46964 7.68595 6.99997C7.68595 7.5303 7.47532 8.03891 7.10038 8.41397L1.81139 13.707Z"
-              fill="#FFBF00"
-            />
-          </svg>
-        </Link>
       </div>
     </div>
   );
 }
 
-export default MechanicalManufacturing;
+export default MetalFabrication;
