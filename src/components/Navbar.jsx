@@ -62,7 +62,7 @@ function Navbar() {
             </div>
           </div>
           <div className="s-nav-link-heading">
-            <a href="./Engineering-Solutions.html" className="s-nav-link-text">
+            <Link to="/vehicle_development" className="s-nav-link-text">
               <p>Vehicle Development</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ function Navbar() {
               >
                 <path d="M1.70667 0.792998L6.99966 6.086L12.2927 0.792998L13.7067 2.207L8.41366 7.5C8.03861 7.87494 7.52999 8.08557 6.99966 8.08557C6.46934 8.08557 5.96072 7.87494 5.58566 7.5L0.292663 2.207L1.70667 0.792998Z" />
               </svg>
-            </a>
+            </Link>
             <div className="s-dropdown">
               <div className="s-dropdown-container">
                 <div className="s-dropdown-heading">
@@ -82,7 +82,7 @@ function Navbar() {
                     src={VehicleDevelopmentLogo}
                     alt="Vehicle Development Logo"
                   />
-                  <a href="./automotive design.html">Vehicle Development</a>
+                  <Link to="/vehicle_development">Vehicle Development</Link>
                 </div>
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">

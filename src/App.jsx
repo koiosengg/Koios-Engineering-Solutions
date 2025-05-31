@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import GeneralEngineering from "./components/GeneralEngineering";
 import MechanicalDesign from "./components/MechanicalDesign";
 import MechanicalManufacturing from "./components/MechanicalManufacturing";
+import VehicleDevelopment from "./components/VehicleDevelopment";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
             <Route
               path="/mechanical_manufacturing"
               element={<MechanicalManufacturing />}
+            />
+              <Route
+              path="/vehicle_development"
+              element={<VehicleDevelopment />}
             />
             <Route path="/3d_scanning" element={<ThreeDscan />} />
             <Route path="/contact" element={<Contact />} />
