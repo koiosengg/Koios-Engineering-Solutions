@@ -1591,7 +1591,7 @@ body {
 .p-privacy-policy-main h1 {
   color: #fff;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Allerta Stencil";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -1871,7 +1871,7 @@ body {
 
 .s-benefits-text p {
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Allerta Stencil";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -2202,6 +2202,70 @@ body {
   align-items: center;
 }
 
+.p-various-types {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.p-left-service-text p {
+  width: 248px;
+}
+
+.p-left-service-text,
+.p-right-service-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.p-btm-line {
+  margin-top: 8px;
+}
+
+.p-right-service-text,
+.p-left-service-text,
+.p-right-service-text p {
+  width: 248px;
+}
+
+.p-various-types-text {
+  color: var(--gray---for-text-400, #98a2b3);
+  width: 608px;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.p-service-offering {
+  width: 502px;
+  display: flex;
+  gap: 40px;
+}
+
+.p-service-offering p {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.p-btm-line {
+  background: rgba(255, 191, 0, 0.25);
+  width: 231px;
+  height: 0.5px;
+}
+
+.p-btm-line.blue {
+  background: #01cfdc;
+}
+
 .s-load-more {
   display: flex;
   padding-top: 60px;
@@ -2314,6 +2378,7 @@ body {
 
 .s-carousel-set img {
   object-fit: fill;
+  background: #111;
 }
 
 .mechanicalGallery .s-carousel-set img {
@@ -2737,7 +2802,7 @@ span {
 .p-big-mechanical-title {
   color: #fff;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Allerta Stencil";
   font-size: 60px;
   font-style: normal;
   font-weight: 400;

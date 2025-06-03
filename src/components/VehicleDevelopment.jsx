@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import Banner from "./Vehicle Development/Banner";
 import Benefits from "./Vehicle Development/Benefits";
 import Products from "./Vehicle Development/Products";
+import Gallery from "./Vehicle Development/Gallery";
 
 function VehicleDevelopment() {
   return (
@@ -17,6 +18,7 @@ function VehicleDevelopment() {
       <Banner />
       <Benefits />
       <Products />
+      <Gallery />
     </>
   );
 }
