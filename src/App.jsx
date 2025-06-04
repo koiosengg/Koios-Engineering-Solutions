@@ -12,6 +12,7 @@ import MechanicalDesign from "./components/MechanicalDesign";
 import MechanicalManufacturing from "./components/MechanicalManufacturing";
 import VehicleDevelopment from "./components/VehicleDevelopment";
 import AutomotiveDesign from "./components/AutomotiveDesign";
+import AutomotiveManufacturing from "./components/AutomotiveManufacturing";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 
 function App() {
@@ -37,6 +38,10 @@ function App() {
               element={<VehicleDevelopment />}
             />
             <Route path="/automotive_design" element={<AutomotiveDesign />} />
+            <Route
+              path="/automotive_manufacturing"
+              element={<AutomotiveManufacturing />}
+            />
             <Route path="/3d_scanning" element={<ThreeDscan />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy_policy" element={<PrivacyPolicy />} />

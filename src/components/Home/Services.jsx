@@ -400,7 +400,7 @@ function Services() {
                 </svg>
                 <h4>Styling</h4>
               </a>
-              <a href="#" className="s-services-container-info-set">
+              <Link to="/automotive_manufacturing" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -430,8 +430,8 @@ function Services() {
                   </defs>
                 </svg>
                 <h4>Automotive Manufacturing</h4>
-              </a>
-              <a href="#" className="s-services-container-info-set">
+              </Link>
+              <Link to="/automotive_design" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -475,7 +475,7 @@ function Services() {
                   </defs>
                 </svg>
                 <h4>Automotive Design</h4>
-              </a>
+              </Link>
               <a href="#" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
