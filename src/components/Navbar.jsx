@@ -90,14 +90,14 @@ function Navbar() {
                     <Link to="/automotive_manufacturing">
                       Automotive Manufacturing
                     </Link>
-                    <a href="./electric vehicle.html">Electric Vehicle</a>
+                    <Link to="/electric_vehicle">Electric Vehicle</Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="s-nav-link-heading">
-            <a href="./3Dscan.html" className="s-nav-link-text">
+            <Link to="/3d_scanning" className="s-nav-link-text">
               <p>3D Services</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ function Navbar() {
               >
                 <path d="M1.70667 0.792998L6.99966 6.086L12.2927 0.792998L13.7067 2.207L8.41366 7.5C8.03861 7.87494 7.52999 8.08557 6.99966 8.08557C6.46934 8.08557 5.96072 7.87494 5.58566 7.5L0.292663 2.207L1.70667 0.792998Z" />
               </svg>
-            </a>
+            </Link>
             <div className="s-dropdown">
               <div className="s-dropdown-container">
                 <div className="s-dropdown-heading">
@@ -117,7 +117,7 @@ function Navbar() {
                     src={ThreeDServicesLogo}
                     alt="3D Services Logo"
                   />
-                  <a href="./3Dscan.html">3D Services</a>
+                  <Link to="/3d_scanning">3D Services</Link>
                 </div>
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">
@@ -128,7 +128,7 @@ function Navbar() {
             </div>
           </div>
           <div className="s-nav-link-heading">
-            <Link to="/company_branding" className="s-nav-link-text">
+            <Link to="/about" className="s-nav-link-text">
               <p>About Us</p>
             </Link>
           </div>
