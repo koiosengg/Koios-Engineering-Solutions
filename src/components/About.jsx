@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import Banner from "./About/Banner";
+import Validators from "./About/Validators";
+import Koios from "./About/Koios";
+import Vision from "./About/Vision";
+import BelowVision from "./About/BelowVision";
 
 function About() {
   return (
-    <div>About</div>
-  )
+    <>
+      <Banner />
+      <Validators />
+      <Koios />
+      <Vision />
+      <BelowVision />
+    </>
+  );
 }
 
-export default About
+export default About;

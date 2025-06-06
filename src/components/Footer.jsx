@@ -200,7 +200,7 @@ function Footer() {
             </Link>
           </div>
           <div className="p-link-two">
-            <Link to="/company_branding" className="p-hover software">
+            <Link to="/about" className="p-hover software">
               About Us
             </Link>
             <Link to="/contact" className="p-hover software">

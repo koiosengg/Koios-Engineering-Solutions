@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
+import Whatsapp from "./components/Whatsapp";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import GeneralEngineering from "./components/GeneralEngineering";
@@ -23,6 +24,7 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Navbar />
+        <Whatsapp />
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
