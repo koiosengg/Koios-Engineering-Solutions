@@ -3697,7 +3697,7 @@ span {
 .s-aboutus-text span {
   color: #fff;
   text-align: center;
-  font-family: Quicksand;
+font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -3761,7 +3761,7 @@ span {
 .s-validators-set p {
   color: #fff;
   text-align: center;
-  font-family: Quicksand;
+font-family: Raleway;
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
@@ -3772,7 +3772,7 @@ span {
 .s-aboutus-validators span {
   color: var(--gray---for-text-400, #98a2b3);
   text-align: center;
-  font-family: Quicksand;
+font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -3823,7 +3823,7 @@ span {
 
 .s-aboutus-content p {
   color: var(--gray---for-text-300, #d0d5dd);
-  font-family: Quicksand;
+font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -3841,7 +3841,7 @@ span {
 
 .s-aboutus-content-container p {
   color: var(--gray---for-text-400, #98a2b3);
-  font-family: "Quicksand";
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -3908,7 +3908,7 @@ span {
 .s-vision .content p {
   color: var(--gray---for-text-50, #f9fafb);
   text-align: center;
-  font-family: Quicksand;
+font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -3919,7 +3919,7 @@ span {
 .s-vision .content .main {
   color: var(--gray---for-text-300, #d0d5dd);
   text-align: center;
-  font-family: Quicksand;
+font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -3962,7 +3962,7 @@ span {
 .s-below-vision-container p {
   color: #fff;
   text-align: center;
-  font-family: Quicksand;
+font-family: Raleway;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
