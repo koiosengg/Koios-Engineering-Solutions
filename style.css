@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +42,7 @@ body {
 }
 
 .s-logo-container p {
-  font-family: Inter;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -79,7 +75,7 @@ body {
 
 .s-nav-link-text p {
   color: #fff;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -138,7 +134,7 @@ body {
 
 .s-dropdown-heading a {
   color: var(--Absolute-White, #fff);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -156,7 +152,7 @@ body {
 
 .s-dropdown-set .heading a {
   color: var(--Absolute-White, #fff);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -173,7 +169,7 @@ body {
 
 .s-dropdown-options a {
   color: var(--gray---for-text-400, #98a2b3);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -187,7 +183,7 @@ body {
 
 .s-single-options a {
   color: var(--gray---for-text-400, #98a2b3);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -216,7 +212,7 @@ body {
 .s-contact-us .s-nav-link-text p {
   color: var(--Woodsmoke----BG-950----bg, #1a1a1a);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: bold;
   font-weight: 600;
@@ -344,7 +340,7 @@ body {
 .p-endless-solutions {
   color: var(--gray---for-text-300, #d0d5dd);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -380,7 +376,7 @@ body {
 .p-get-started-btn p {
   color: #ffbf00;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -435,7 +431,7 @@ body {
 .p-whyus-container p {
   color: var(--gray---for-text-400, #98a2b3);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -543,7 +539,7 @@ body {
 .p-icon-text-card.whyus p {
   text-align: left;
   color: var(--Absolute-White, #fff);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -553,7 +549,7 @@ body {
 .p-details-text {
   width: 100%;
   color: var(--Grey-70, #b3b3b3);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
@@ -593,7 +589,7 @@ body {
 .s-infrastructure-heading p {
   color: var(--gray---for-text-400, #98a2b3);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -674,7 +670,7 @@ body {
 .s-infrastructure-text h3 {
   color: var(--Absolute-White, #fff);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -683,7 +679,7 @@ body {
 
 .s-infrastructure-text p {
   color: var(--gray---for-text-400, #98a2b3);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -756,7 +752,7 @@ body {
 
 .s-services-container-options p {
   color: var(--Absolute-White, #fff);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -810,7 +806,7 @@ body {
 
 .s-services-container-info-left h3 {
   color: var(--Absolute-White, #fff);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -819,7 +815,7 @@ body {
 
 .s-services-container-info-left p {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -840,7 +836,7 @@ body {
 .yellow-button p {
   color: var(--Woodsmoke----BG-950----bg, #1a1a1a);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -882,7 +878,7 @@ body {
 
 .s-services-container-info-set h4 {
   color: #fff;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -959,7 +955,7 @@ body {
 
 .s-tools-set section h3 {
   color: var(--Absolute-White, #fff);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -969,7 +965,7 @@ body {
 .s-tools-set p {
   width: 100%;
   color: var(--gray---for-text-400, #98a2b3);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1027,7 +1023,7 @@ body {
 .s-verticals-heading p {
   color: var(--gray---for-text-400, #98a2b3);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -1072,7 +1068,7 @@ body {
 
 .s-verticals-info-option p {
   color: var(--gray---for-text-500, #667085);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -1139,7 +1135,7 @@ body {
 
 .s-verticals-info-text section h3 {
   color: #fff;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -1148,7 +1144,7 @@ body {
 
 .s-verticals-info-text section p {
   color: var(--gray---for-text-100, #f2f4f7);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -1234,7 +1230,7 @@ body {
   width: 640px;
   flex-shrink: 0;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 35px;
   font-style: normal;
   font-weight: 600;
@@ -1255,7 +1251,7 @@ body {
   width: 640px;
   flex-shrink: 0;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 35px;
   font-style: normal;
   font-weight: 600;
@@ -1321,7 +1317,7 @@ body {
 .we-deliver-main p {
   flex-shrink: 0;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 35px;
   font-style: normal;
   font-weight: 600;
@@ -1353,7 +1349,7 @@ body {
 .p-contact-button p {
   color: var(--Woodsmoke----BG-950----bg, #1a1a1a);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -1381,7 +1377,7 @@ body {
 .p-mail-button p {
   color: #ffbf00;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -1417,7 +1413,7 @@ body {
 .p-koios h1 {
   align-self: center;
   color: #fff;
-  font-family: Inter;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -1431,7 +1427,7 @@ body {
   flex-direction: column;
   padding-bottom: 64px;
   padding-top: 32px;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1440,7 +1436,7 @@ body {
 }
 
 .p-rights-reserved {
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1520,7 +1516,7 @@ body {
 }
 
 .p-address-container p {
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1549,7 +1545,7 @@ body {
 .p-linkedin-extended a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1564,7 +1560,7 @@ body {
 }
 
 .p-rights-reserved {
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1586,7 +1582,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 8px;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1595,7 +1591,7 @@ body {
 }
 
 .p-policy-tos a {
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1639,7 +1635,7 @@ body {
 .p-privacy-policy-main p {
   color: var(--gray---for-text-400, #98a2b3);
   text-align: left;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -1650,7 +1646,7 @@ body {
 .p-privacy-policy-main h2 {
   color: #fff;
   text-align: left;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-style: normal;
   font-weight: 400;
   line-height: 72px;
@@ -1876,7 +1872,7 @@ body {
   width: 800px;
   color: var(--gray---for-text-100, #f2f4f7);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -1922,7 +1918,7 @@ body {
 .s-benefits-text span {
   color: var(--gray---for-text-400, #98a2b3);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -1952,7 +1948,7 @@ body {
 .s-benefits-set p {
   width: 194px;
   color: var(--Absolute-White, #fff);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -1975,7 +1971,7 @@ body {
 
 .p-svg-text p {
   color: var(--Absolute-White, #fff);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -2056,7 +2052,7 @@ body {
 
 .s-product-list-set-heading p {
   color: #fff;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -2065,7 +2061,7 @@ body {
 
 .s-product-list-set-heading h2 {
   color: #fff;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -2074,7 +2070,7 @@ body {
 
 .subpage-desc {
   color: var(--gray---for-text-400, #98a2b3) !important;
-  font-family: Quicksand !important;
+ font-family: Raleway;
   font-size: 18px !important;
   font-style: normal !important;
   font-weight: 500 !important;
@@ -2082,7 +2078,7 @@ body {
 }
 
 .s-product-list-set-heading .heading {
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -2199,13 +2195,13 @@ body {
 
 .s-product-list-set-container p {
   flex-shrink: 0;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
   color: var(--gray---for-text-400, #98a2b3);
-  font-family: Quicksand;
+  font-family: Raleway;
 }
 
 .s-product-list-set-container a {
@@ -2219,7 +2215,7 @@ body {
 
 .s-product-list-set-container a span {
   color: var(--Amber-500----Primary, #ffbf00);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2267,7 +2263,7 @@ body {
 .p-various-types-text {
   color: var(--gray---for-text-400, #98a2b3);
   width: 608px;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -2282,7 +2278,7 @@ body {
 
 .p-service-offering p {
   color: #fff;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -2312,7 +2308,7 @@ body {
 .s-load-more p {
   color: #ffbf00;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -2340,7 +2336,7 @@ body {
 .s-see-less p {
   color: #ffbf00;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -2682,7 +2678,7 @@ body {
 
 .s-carousel-text p {
   color: #fff;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -2729,7 +2725,7 @@ body {
 .p-breadcrumb a {
   color: var(--Woodsmoke----BG-400, #888);
   text-decoration: none;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -2739,7 +2735,7 @@ body {
 .p-breadcrumb p {
   color: var(--Woodsmoke----BG-400, #888);
   text-decoration: none;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -2788,7 +2784,7 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -2802,7 +2798,7 @@ span {
 
 .p-blue-gradient-text.edutech {
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -2820,7 +2816,7 @@ span {
 
 .p-yellow-gradient-text {
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -2852,7 +2848,7 @@ span {
 .p-title-description p {
   color: var(--gray---for-text-100, #f2f4f7);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -3009,7 +3005,7 @@ span {
   box-shadow: 0px 10px 30px 0px rgba(255, 191, 0, 0.05);
   color: #fff;
   text-align: center;
-  font-family: Poppins;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -4008,7 +4004,7 @@ font-family: Raleway;
 .p-talk-to-us {
   color: var(--gray---for-text-400, #98a2b3);
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -4051,7 +4047,7 @@ font-family: Raleway;
 
 .p-contact-form input {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -4070,7 +4066,7 @@ font-family: Raleway;
   flex-direction: column;
   gap: 8px;
   color: var(--gray---for-text-25, #fcfcfd);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -4086,7 +4082,7 @@ font-family: Raleway;
 }
 
 .p-input::placeholder {
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -4101,12 +4097,12 @@ font-family: Raleway;
   border: 2px solid var(--Woodsmoke----BG-600, #5d5d5d);
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
 }
 
 .p-textarea::placeholder {
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -4139,7 +4135,7 @@ font-family: Raleway;
 .p-submit-text p {
   color: #ffbf00;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -4149,7 +4145,7 @@ font-family: Raleway;
 .p-explore-services {
   padding-top: 250px;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 14px;
   font-weight: 600;
   line-height: 17.5px;
@@ -4227,7 +4223,7 @@ font-family: Raleway;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -4284,7 +4280,7 @@ font-family: Raleway;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
