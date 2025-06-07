@@ -26,7 +26,7 @@ function Navbar() {
           <img src={Logo} />
           <p>Koios Engineering Solutions</p>
         </Link>
-        <div className="s-nav-link">
+        <div className="s-nav-link notMobile">
           <div className="s-nav-link-heading">
             <Link to="/general_engineering" className="s-nav-link-text">
               <p>General Engineering</p>
@@ -192,47 +192,154 @@ function Navbar() {
           </svg>
         </div>
         <div className="s-mobile-navlink-sets">
-          <div className="s-mobile-navlink-set Engineering">
-            <div className="s-mobile-navlink-heading">
-              <Link
-                to="/web_desgining"
-                className="heading"
-                onClick={toggleMobileNav}
-              >
-                Web Designing
+          <div class="s-mobile-navlink-set Engineering">
+            <div class="s-mobile-navlink-heading">
+              <Link to="/general_engineering" onClick={toggleMobileNav} class="heading">
+                General Engineering
               </Link>
+              <div class="s-mobile-navlink-heading-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="8"
+                  viewBox="0 0 12 8"
+                  fill="none"
+                >
+                  <path
+                    d="M11.5892 2.14019L10.4108 0.964355L5.99999 5.37185L1.58916 0.964355L0.410828 2.14352L4.82166 6.54768C5.13421 6.86013 5.55805 7.03566 5.99999 7.03566C6.44193 7.03566 6.86578 6.86013 7.17833 6.54768L11.5892 2.14019Z"
+                    fill="#98A2B3"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="s-mobile-nav-list">
+              <div class="s-mobile-nav-list-logo">
+                <img
+                  loading="lazy"
+                  src={GeneralEngineeringLogo}
+                  alt="General Engineering Logo"
+                />
+              </div>
+              <div class="s-mobile-nav-list-container">
+                <div class="s-mobile-nav-list-item">
+                  <Link
+                    to="/mechanical_design" onClick={toggleMobileNav}
+                    style={{ padding: "2px", textDecoration: "none" }}
+                  >
+                    <p>Mechanical Design</p>
+                  </Link>
+                </div>
+                <div class="s-mobile-nav-list-item">
+                  <Link
+                    to="/mechanical_manufacturing" onClick={toggleMobileNav}
+                    style={{ padding: "2px", textDecoration: "none" }}
+                  >
+                    <p>Mechanical Manufacturing</p>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="s-mobile-navlink-set Engineering">
-            <div className="s-mobile-navlink-heading">
-              <Link
-                to="/web_development"
-                className="heading"
-                onClick={toggleMobileNav}
-              >
-                Web Development
+          <div class="s-mobile-navlink-set Engineering">
+            <div class="s-mobile-navlink-heading">
+              <Link to="/vehicle_development" onClick={toggleMobileNav} class="heading">
+                Vehicle Development
               </Link>
+              <div class="s-mobile-navlink-heading-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="8"
+                  viewBox="0 0 12 8"
+                  fill="none"
+                >
+                  <path
+                    d="M11.5892 2.14019L10.4108 0.964355L5.99999 5.37185L1.58916 0.964355L0.410828 2.14352L4.82166 6.54768C5.13421 6.86013 5.55805 7.03566 5.99999 7.03566C6.44193 7.03566 6.86578 6.86013 7.17833 6.54768L11.5892 2.14019Z"
+                    fill="#98A2B3"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="s-mobile-nav-list">
+              <div class="s-mobile-nav-list-logo">
+                <img
+                  loading="lazy"
+                  src={VehicleDevelopmentLogo}
+                  alt="Vehicle Development Logo"
+                />
+              </div>
+              <div class="s-mobile-nav-list-container">
+                <div class="s-mobile-nav-list-item">
+                  <Link
+                    to="/automotive_design" onClick={toggleMobileNav}
+                    style={{ padding: "2px", textDecoration: "none" }}
+                  >
+                    <p>Automotive Design</p>
+                  </Link>
+                </div>
+                <div class="s-mobile-nav-list-item">
+                  <Link
+                    to="/automotive_manufacturing" onClick={toggleMobileNav}
+                    style={{ padding: "2px", textDecoration: "none" }}
+                  >
+                    <p>Automotive Manufacturing</p>
+                  </Link>
+                </div>
+                <div class="s-mobile-nav-list-item">
+                  <Link
+                    to="/electric_vehicle" onClick={toggleMobileNav}
+                    style={{ padding: "2px", textDecoration: "none" }}
+                  >
+                    <p>Electric Vehicle</p>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="s-mobile-navlink-set Engineering">
-            <div className="s-mobile-navlink-heading">
-              <Link
-                to="/app_development"
-                className="heading"
-                onClick={toggleMobileNav}
-              >
-                App Development
+          <div class="s-mobile-navlink-set Engineering">
+            <div class="s-mobile-navlink-heading">
+              <Link to="/3d_scanning" onClick={toggleMobileNav} class="heading">
+                3D Service
               </Link>
+              <div class="s-mobile-navlink-heading-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="8"
+                  viewBox="0 0 12 8"
+                  fill="none"
+                >
+                  <path
+                    d="M11.5892 2.14019L10.4108 0.964355L5.99999 5.37185L1.58916 0.964355L0.410828 2.14352L4.82166 6.54768C5.13421 6.86013 5.55805 7.03566 5.99999 7.03566C6.44193 7.03566 6.86578 6.86013 7.17833 6.54768L11.5892 2.14019Z"
+                    fill="#98A2B3"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="s-mobile-nav-list">
+              <div class="s-mobile-nav-list-logo">
+                <img
+                  loading="lazy"
+                  src={ThreeDServicesLogo}
+                  alt="3D Services Logo"
+                />
+              </div>
+              <div class="s-mobile-nav-list-container">
+                <div class="s-mobile-nav-list-item">
+                  <Link
+                    to="/3d_scanning" onClick={toggleMobileNav}
+                    style={{ padding: "2px", textDecoration: "none" }}
+                  >
+                    <p>3D Scanning</p>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="s-mobile-navlink-set Engineering">
-            <div className="s-mobile-navlink-heading">
-              <Link
-                to="/company_branding"
-                className="heading"
-                onClick={toggleMobileNav}
-              >
-                Company Branding
+          <div class="s-mobile-navlink-set Engineering">
+            <div class="s-mobile-navlink-heading">
+              <Link to="/about" onClick={toggleMobileNav} class="heading">
+                About Us
               </Link>
             </div>
           </div>
