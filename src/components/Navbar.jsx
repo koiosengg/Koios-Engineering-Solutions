@@ -192,12 +192,12 @@ function Navbar() {
           </svg>
         </div>
         <div className="s-mobile-navlink-sets">
-          <div class="s-mobile-navlink-set Engineering">
-            <div class="s-mobile-navlink-heading">
-              <Link to="/general_engineering" onClick={toggleMobileNav} class="heading">
+          <div className="s-mobile-navlink-set Engineering">
+            <div className="s-mobile-navlink-heading">
+              <Link to="/general_engineering" onClick={toggleMobileNav} className="heading">
                 General Engineering
               </Link>
-              <div class="s-mobile-navlink-heading-icon">
+              <div className="s-mobile-navlink-heading-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="12"
@@ -212,16 +212,16 @@ function Navbar() {
                 </svg>
               </div>
             </div>
-            <div class="s-mobile-nav-list">
-              <div class="s-mobile-nav-list-logo">
+            <div className="s-mobile-nav-list">
+              <div className="s-mobile-nav-list-logo">
                 <img
                   loading="lazy"
                   src={GeneralEngineeringLogo}
                   alt="General Engineering Logo"
                 />
               </div>
-              <div class="s-mobile-nav-list-container">
-                <div class="s-mobile-nav-list-item">
+              <div className="s-mobile-nav-list-container">
+                <div className="s-mobile-nav-list-item">
                   <Link
                     to="/mechanical_design" onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
@@ -229,7 +229,7 @@ function Navbar() {
                     <p>Mechanical Design</p>
                   </Link>
                 </div>
-                <div class="s-mobile-nav-list-item">
+                <div className="s-mobile-nav-list-item">
                   <Link
                     to="/mechanical_manufacturing" onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
@@ -240,12 +240,12 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <div class="s-mobile-navlink-set Engineering">
-            <div class="s-mobile-navlink-heading">
-              <Link to="/vehicle_development" onClick={toggleMobileNav} class="heading">
+          <div className="s-mobile-navlink-set Engineering">
+            <div className="s-mobile-navlink-heading">
+              <Link to="/vehicle_development" onClick={toggleMobileNav} className="heading">
                 Vehicle Development
               </Link>
-              <div class="s-mobile-navlink-heading-icon">
+              <div className="s-mobile-navlink-heading-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="12"
@@ -260,16 +260,16 @@ function Navbar() {
                 </svg>
               </div>
             </div>
-            <div class="s-mobile-nav-list">
-              <div class="s-mobile-nav-list-logo">
+            <div className="s-mobile-nav-list">
+              <div className="s-mobile-nav-list-logo">
                 <img
                   loading="lazy"
                   src={VehicleDevelopmentLogo}
                   alt="Vehicle Development Logo"
                 />
               </div>
-              <div class="s-mobile-nav-list-container">
-                <div class="s-mobile-nav-list-item">
+              <div className="s-mobile-nav-list-container">
+                <div className="s-mobile-nav-list-item">
                   <Link
                     to="/automotive_design" onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
@@ -277,7 +277,7 @@ function Navbar() {
                     <p>Automotive Design</p>
                   </Link>
                 </div>
-                <div class="s-mobile-nav-list-item">
+                <div className="s-mobile-nav-list-item">
                   <Link
                     to="/automotive_manufacturing" onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
@@ -285,7 +285,7 @@ function Navbar() {
                     <p>Automotive Manufacturing</p>
                   </Link>
                 </div>
-                <div class="s-mobile-nav-list-item">
+                <div className="s-mobile-nav-list-item">
                   <Link
                     to="/electric_vehicle" onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
@@ -296,12 +296,12 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <div class="s-mobile-navlink-set Engineering">
-            <div class="s-mobile-navlink-heading">
-              <Link to="/3d_scanning" onClick={toggleMobileNav} class="heading">
+          <div className="s-mobile-navlink-set Engineering">
+            <div className="s-mobile-navlink-heading">
+              <Link to="/3d_scanning" onClick={toggleMobileNav} className="heading">
                 3D Service
               </Link>
-              <div class="s-mobile-navlink-heading-icon">
+              <div className="s-mobile-navlink-heading-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="12"
@@ -316,16 +316,16 @@ function Navbar() {
                 </svg>
               </div>
             </div>
-            <div class="s-mobile-nav-list">
-              <div class="s-mobile-nav-list-logo">
+            <div className="s-mobile-nav-list">
+              <div className="s-mobile-nav-list-logo">
                 <img
                   loading="lazy"
                   src={ThreeDServicesLogo}
                   alt="3D Services Logo"
                 />
               </div>
-              <div class="s-mobile-nav-list-container">
-                <div class="s-mobile-nav-list-item">
+              <div className="s-mobile-nav-list-container">
+                <div className="s-mobile-nav-list-item">
                   <Link
                     to="/3d_scanning" onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
@@ -336,9 +336,9 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <div class="s-mobile-navlink-set Engineering">
-            <div class="s-mobile-navlink-heading">
-              <Link to="/about" onClick={toggleMobileNav} class="heading">
+          <div className="s-mobile-navlink-set Engineering">
+            <div className="s-mobile-navlink-heading">
+              <Link to="/about" onClick={toggleMobileNav} className="heading">
                 About Us
               </Link>
             </div>

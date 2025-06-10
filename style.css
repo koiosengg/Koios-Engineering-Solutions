@@ -701,6 +701,15 @@ body {
   align-self: stretch;
 }
 
+.s-services-container-new-options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
 .s-services-container-options {
   width: 100%;
   display: flex;
@@ -732,11 +741,15 @@ body {
 }
 
 .s-services-container-options.active-option svg path {
-  stroke: #ffffff;
+  stroke: #fff;
 }
 
-.s-services-container-options.active-option:first-child svg path {
-  fill: #ffffff;
+.s-services-container-new-options:first-child
+  .s-services-container-options.active-option
+  svg
+  path {
+  fill: #fff;
+  stroke: none;
 }
 
 .s-services-container-options section svg {
@@ -768,7 +781,6 @@ body {
   display: flex;
   min-height: 459px;
   padding: 24px 120px;
-  display: flex;
   align-items: center;
   gap: 48px;
   border-radius: 0px 0px 12px 12px;
@@ -4317,6 +4329,7 @@ span {
   display: none;
 }
 
+
 @media screen and (max-width: 1200px) {
   .notMobile {
     display: none;
@@ -4627,6 +4640,334 @@ span {
 
   .s-mobile-navlink-set:hover .s-mobile-navlink-heading-icon {
     transform: rotate(180deg);
+  }
+
+  /* Home */
+
+  .p-home {
+    width: 100%;
+  }
+
+  .p-home-heading {
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    gap: 34px;
+  }
+
+  .p-implementing-container {
+    width: 100%;
+  }
+
+  .p-implementing-text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -2.64px;
+    text-transform: capitalize;
+    background: linear-gradient(
+      92deg,
+      #ffbf00 17.84%,
+      #0d9bbf 48.87%,
+      #fff 87.19%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .p-get-started-btn {
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    height: 36px;
+    width: 335px;
+    padding: 8px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50px;
+    border: 1px solid #ffbf00;
+    background: var(--Grey-10, #1a1a1a);
+  }
+
+  .p-get-started-btn p {
+    color: #ffbf00;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .p-get-started-btn svg {
+    height: 11px;
+    width: 6px;
+  }
+
+  .p-logos-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .p-logos {
+    gap: 20px;
+  }
+
+  .p-whyus-container {
+    width: 100%;
+    margin-top: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 32px;
+    padding-bottom: 48px;
+  }
+
+  .p-spotlight {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .p-whyus-text {
+    color: var(--Amber-500----Primary, #ffbf00);
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
+
+  .p-whyus-p-container p {
+    color: var(--gray---for-text-400, #98a2b3);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .p-whyus-p-container {
+    width: auto;
+  }
+
+  .p-card-row-top {
+    flex-direction: column;
+  }
+
+  .p-card-row-btm {
+    flex-direction: column;
+  }
+
+  .p-card-main {
+    display: flex;
+    width: 100%;
+    padding: 20px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    height: auto;
+  }
+
+  .p-cards-container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .p-icon-text-card.whyus {
+    width: 100%;
+  }
+
+  .p-details-text {
+    color: var(--Grey-70, #b3b3b3);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    /* 21px */
+  }
+
+  .p-icon-text-card.whyus p {
+    color: var(--Absolute-White, #fff);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .p-benefits-svg-container.whyus {
+    height: 65px;
+    width: 65px;
+    padding: 8px;
+  }
+
+  .p-benefits-svg-second-container.whyus {
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+  }
+
+  .p-benefits-svg-second-container.whyus svg {
+    height: 34px;
+    width: 39px;
+  }
+
+  .p-hover-text-container {
+    display: none;
+  }
+
+  .p-our-services-container {
+    width: 100%;
+  }
+
+  .s-infrastructure {
+    width: 100%;
+    padding: 40px 20px;
+  }
+
+  .s-infrastructure-heading {
+    width: 100%;
+    gap: 0;
+  }
+
+  .s-infrastructure-heading h2 {
+    color: var(--Amber-500----Primary, #ffbf00);
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.48px;
+  }
+
+  .s-infrastructure-heading p {
+    color: var(--gray---for-text-400, #98a2b3);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .s-infrastructure-button {
+    display: flex;
+    padding: 5px 8px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: rgba(17, 17, 17, 0.7);
+  }
+
+  .s-infrastructure-button svg {
+    width: 8px;
+    height: 14px;
+    aspect-ratio: 4/7;
+  }
+
+  .s-infrastructure-button.prev-button {
+    left: 10px;
+  }
+
+  .s-infrastructure-button.next-button {
+    right: 10px;
+  }
+
+  .s-infrastructure-text {
+    width: 80%;
+    padding: 0px 60px;
+  }
+
+  .s-infrastructure-text h3 {
+    color: var(--Absolute-White, #fff);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+  }
+
+  .s-infrastructure-text p {
+    color: var(--gray---for-text-400, #98a2b3);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #Services {
+    padding: 120px 0px 40px 0px;
+  }
+
+  #Services .s-infrastructure-heading {
+    padding: 0px 20px;
+  }
+
+  .s-services-container-options {
+    justify-content: flex-start;
+  }
+
+  .s-services-container-heading {
+    flex-direction: column;
+  }
+
+  .s-services-container-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px 20px;
+  }
+
+  .s-services-container-info-left h3 {
+    color: var(--Absolute-White, #fff);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+  }
+
+  .s-services-container-info-left p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .yellow-button p {
+    color: var(--Woodsmoke----BG-950----bg, #1a1a1a);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .s-services-container-info-line {
+    height: 1px;
+    width: 100%;
+  }
+
+  .s-services-container-info-set h4 {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
   }
 
   /* 3D Scanning */

@@ -23,8 +23,8 @@ function Home() {
       <WhyUs />
       <Infrastructure />
       <Services />
-      <Tools />
-      <Verticals />
+      {/* <Tools />
+      <Verticals /> */}
     </>
   );
 }

@@ -10,9 +10,6 @@ function Banner() {
           <div className="p-implementing-text">
             implementing your ideas to reality
           </div>
-          <div className="p-endless-solutions">
-            Endless Solutions, One Destination
-          </div>
         </div>
         <a href="#Services" className="p-get-started-btn">
           <p>Get Started</p>
