@@ -707,7 +707,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 4px;
 }
 
 .s-services-container-options {
@@ -774,6 +773,14 @@ body {
 
 .s-services-container-options:not(.active-option):hover p {
   color: #ffbf00;
+}
+
+.s-services-container-heading .s-services-container-info {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  min-height: 0;
+  padding: 0;
 }
 
 .s-services-container-info {
@@ -4329,7 +4336,6 @@ span {
   display: none;
 }
 
-
 @media screen and (max-width: 1200px) {
   .notMobile {
     display: none;
@@ -4924,12 +4930,18 @@ span {
     flex-direction: column;
   }
 
+  .s-services-container-heading .s-services-container-info {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    padding: 24px 20px;
+  }
+
   .s-services-container-info {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
-    padding: 24px 20px;
   }
 
   .s-services-container-info-left h3 {
@@ -4968,6 +4980,110 @@ span {
     font-style: normal;
     font-weight: 500;
     line-height: 32px; /* 200% */
+  }
+
+  .s-tools-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+
+  .s-tools-set {
+    width: 80%;
+    flex-shrink: 0;
+    flex: none;
+  }
+
+  .s-verticals {
+    display: none;
+  }
+
+  .s-mobile-verticals {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+    padding: 40px 20px;
+  }
+
+  .s-verticals-heading {
+    width: 100%;
+  }
+
+  .s-mobile-verticals-set {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #0d9bbf;
+    background: linear-gradient(
+      228deg,
+      #1c1c1c 0.94%,
+      rgba(28, 28, 28, 0) 104.91%
+    );
+    box-shadow: 0px 0px 15px 0px rgba(13, 155, 191, 0.1);
+  }
+
+  .s-mobile-verticals-set:last-child {
+    border-radius: 12px;
+    border: 1px solid #ffbf00;
+    background: linear-gradient(
+      228deg,
+      #1c1c1c 0.94%,
+      rgba(28, 28, 28, 0) 104.91%
+    );
+    box-shadow: 0px 0px 15px 0px rgba(13, 155, 191, 0.1);
+  }
+
+  .s-mobile-verticals-set section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .s-mobile-verticals-set section img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+  }
+
+  .s-mobile-verticals-set section h3 {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .s-mobile-verticals-set section p {
+    color: var(--gray---for-text-300, #d0d5dd);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .s-mobile-verticals-set a {
+    text-decoration: none;
+    color: #ffbf00;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 
   /* 3D Scanning */

@@ -5,7 +5,7 @@ function Tools() {
   return (
     <div className="s-infrastructure">
       <div className="s-infrastructure-heading">
-        <h2>Our Services</h2>
+        <h2>Our Tools</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
           volutpat diam turpis aliquam a. Dictum massa ut sit odio. Quis augue

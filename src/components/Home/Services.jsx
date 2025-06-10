@@ -118,7 +118,7 @@ function Services() {
 
               {service.id === "General_Engineering" &&
                 activeService === "General_Engineering" && (
-                  <div className="s-services-container-info general-engineering mobile">
+                  <div className="s-services-container-info general-engineering">
                     <div className="s-services-container-info-left">
                       <section>
                         <svg
@@ -273,7 +273,7 @@ function Services() {
 
               {service.id === "Vehicle_Development" &&
                 activeService === "Vehicle_Development" && (
-                  <div className="s-services-container-info vehicle-development mobile">
+                  <div className="s-services-container-info vehicle-development">
                     <div className="s-services-container-info-left">
                       <section>
                         <svg
@@ -547,7 +547,7 @@ function Services() {
 
               {service.id === "3D_Services" &&
                 activeService === "3D_Services" && (
-                  <div className="s-services-container-info threeD-services mobile">
+                  <div className="s-services-container-info threeD-services">
                     <div className="s-services-container-info-left">
                       <section>
                         <svg
