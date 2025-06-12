@@ -10,12 +10,7 @@ function MetalFabrication() {
   const indicatorRef = useRef(null);
   const [counter, setCounter] = useState(0);
 
-  const slides = [
-    Img1,
-    Img2,
-    Img3,
-    Img4,
-  ];
+  const slides = [Img1, Img2, Img3, Img4];
   const totalSlides = slides.length;
 
   useEffect(() => {
@@ -122,12 +117,11 @@ function MetalFabrication() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Process of shaping and manipulating metal materials through cutting,
-          bending, and assembling, involving techniques like welding, machining,
-          and forming to create complex structures and components for machinery
-          and structures. It encompasses precision engineering methods to
-          transform raw metal into functional products, optimizing durability
-          and performance in mechanical applications.
+          Process of shaping and joining metal by cutting, bending, welding, and
+          grinding to create complex structures and components for machinery .
+          It encompasses precision engineering methods to transform raw metal
+          into functional products, optimizing durability and performance in
+          mechanical applications.
         </p>
       </div>
     </div>

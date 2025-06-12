@@ -121,11 +121,13 @@ function VehicleManufacturing() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Creating the overall look, shape, and features of a car. We combine
-          aesthetics, aerodynamics, and functionality to make a vehicle that's
-          attractive, efficient, and safe. Our engineers and designers work
-          together to balance style with practicality, ensuring a harmonious
-          blend of form and function.
+          Vehicle Prototype manufacturing is a very complex and a key process
+          that shapes the development of the new vehicles . The Process includes
+          manufacturing and integration of all subsystems of the vehicle in
+          order to achieve the desired result for which the vehicle has been
+          designed for . We specialize in developing electric vehicle prototypes
+          with an experience of over 40 plus vehicles that we have built across
+          the country of various models.
         </p>
         <div className="p-various-types">
           <div className="p-various-types-text">

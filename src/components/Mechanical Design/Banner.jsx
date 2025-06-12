@@ -20,11 +20,11 @@ function Banner() {
         <div className="p-title-description">
           <div className="p-big-mechanical-title">Mechanical Design</div>
           <p>
-            Utilizing CAD software and various analysis tools to engineer
-            precise components and systems tailored to specific requirements. By
-            integrating principles of mechanics, materials science, and
-            manufacturing techniques, these tools ensure optimal functionality
-            and reliability in mechanical designs.
+            Utilizing 3D Modeling and simulation softwares to design components
+            and assemblies to meet the specific requirements. By integrating
+            principles of mechanics, materials science, and manufacturing
+            techniques, these tools ensure optimal functionality and reliability
+            in mechanical designs.
           </p>
         </div>
       </div>

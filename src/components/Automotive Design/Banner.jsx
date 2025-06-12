@@ -20,10 +20,11 @@ function Banner() {
         <div className="p-title-description">
           <div className="p-big-mechanical-title">Automotive Design</div>
           <p>
-            Explore our automotive design service, where we specialize in
-            crafting vehicles, components, chassis, and powertrains. We
-            integrate advanced engineering principles to engineer innovative
-            solutions that drive performance and efficiency.
+            Explore our automotive design services , where we specialize in
+            design of vehicles, chassis, components, body panels and vehicle
+            styling and rendering . We integrate advanced engineering principles
+            to build vehicles which deliver at most reliability, safety and
+            performance.
           </p>
         </div>
       </div>

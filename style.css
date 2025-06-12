@@ -5521,6 +5521,55 @@ span {
 
   /* Sub Product Pages */
 
+  .p-breadcrumb {
+    display: none;
+  }
+
+  .p-mechanical-text-container {
+    height: calc(100svh - 80px);
+    padding: 0px 20px;
+  }
+
+  .p-big-mechanical-title {
+    width: 335px;
+    align-self: center;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+  }
+
+  .p-title-description p {
+    align-self: center;
+    color: var(--Woodsmoke----BG-300, #b0b0b0);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .p-btm-line {
+    width: 100%;
+  }
+
+  .p-right-service-text,
+  .p-left-service-text,
+  .p-right-service-text p {
+    width: 100%;
+  }
+
+  .p-service-offering {
+    width: 100%;
+  }
+
+  .p-various-types-text {
+    width: 100%;
+  }
   /* About */
 
   .s-aboutus-hero {

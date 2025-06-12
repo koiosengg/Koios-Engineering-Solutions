@@ -89,7 +89,8 @@ function VehicleChassisAndPowertrainDesign() {
       <div className="s-product-list-set-heading">
         <p>Vehicle Chassis And Powertrain Design</p>
         <h2>
-          Designing and Development of vehicle Chassis powered by a powertrain.
+          Design of Vehicle Chassis and powertrain integration to extract the
+          best performance.
         </h2>
       </div>
       <div className="s-product-list-set-container">
@@ -148,12 +149,11 @@ function VehicleChassisAndPowertrainDesign() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Creating the framework that supports and holds all the components of a
-          car together, like the skeleton of the vehicle. Our powertrain design
-          focuses on crafting the engine, transmission, and other systems that
-          generate and transmit power to the wheels. These elements are crucial
-          for us in making sure your car runs smoothly, efficiently, and safely
-          on the road.
+          The Vehicle chassis is what supports all the vehicle systems to
+          function together . Chassis Design is one of the most important
+          aspects of vehicle design . Powertrain integration is equally
+          important to extract the best performance from the vehicle with a
+          smooth ride.
         </p>
       </div>
     </div>

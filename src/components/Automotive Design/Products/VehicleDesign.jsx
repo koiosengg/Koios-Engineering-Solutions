@@ -87,7 +87,8 @@ function VehicleDesign() {
       <div className="s-product-list-set-heading">
         <p>Vehicle Design</p>
         <h2>
-          Designing and development of vehicles for your specialized purposes.
+          We specialize in the design of 2 wheeler and 3 Wheelers and Intra
+          facility vehicles.
         </h2>
       </div>
       <div className="s-product-list-set-container">
@@ -146,11 +147,11 @@ function VehicleDesign() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Creating the overall look, shape, and features of a car. We combine
-          aesthetics, aerodynamics, and functionality to make a vehicle that's
-          attractive, efficient, and safe. Our engineers and designers work
-          together to balance style with practicality, ensuring a harmonious
-          blend of form and function.
+          We specialize in delivering the best vehicles by keeping the purpose
+          of the vehicle at most priority and considering key points such as
+          safety, performance and durability as the bench marking points of the
+          Vehicle Development process. Our engineers and designers work together
+          to ensure a harmonious blend of form and function.
         </p>
         <div className="p-various-types">
           <div className="p-various-types-text">

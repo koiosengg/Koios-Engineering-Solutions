@@ -63,8 +63,8 @@ function MachineDesign() {
       <div className="s-product-list-set-heading">
         <p>Machine Design</p>
         <h2>
-          Designing machine elements and Assemblies for your machine
-          requirement!
+          We specialize in Special purpose machine design to meet the
+          operational objectives of the machine with at most precision.
         </h2>
       </div>
       <div className="s-product-list-set-container">
@@ -126,8 +126,8 @@ function MachineDesign() {
           Creating functional and efficient elements and assemblies by applying
           engineering principles, materials, and components. Our designers
           analyze requirements, constraints, and user needs to develop precise
-          plans. It encompasses selecting appropriate materials, designing for
-          desired functions, and optimizing structures for performance and
+          machines. It encompasses selecting appropriate materials, designing
+          for desired functions, and optimizing structures for performance and
           safety.
         </p>
       </div>

@@ -32,7 +32,7 @@ function VehicleComponentDesign() {
     Img10,
     Img11,
     Img12,
-    Img13
+    Img13,
   ];
 
   const totalSlides = slides.length;
@@ -81,8 +81,8 @@ function VehicleComponentDesign() {
       <div className="s-product-list-set-heading">
         <p>Vehicle Component Design</p>
         <h2>
-          Designing and Development of vehicle components for specific your
-          requirements
+          Design of components of the vehicle to meet the specific purpose and
+          working conditions.
         </h2>
       </div>
       <div className="s-product-list-set-container">
@@ -141,12 +141,11 @@ function VehicleComponentDesign() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Creating the essential parts that make a car work smoothly. We craft
-          things like engines, brakes, and lights, ensuring they fit together
-          perfectly and perform efficiently on the road. Our engineers use their
-          skills to balance factors like strength, safety, and efficiency to
-          create components that give your car its unique character and
-          performance.
+          Design of components in a vehicle plays a very vital role which
+          contributes to the strength, performance and durability of the
+          vehicle. We take at most care while designing the components to meet
+          the specific requirements. Our engineers use their skills to balance
+          factors like strength, safety, and efficiency to create components.
         </p>
       </div>
     </div>

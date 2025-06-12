@@ -59,12 +59,12 @@ function EVProtoIntegration() {
   };
 
   return (
-    <div class="s-product-list-set">
-      <div class="s-product-list-set-heading">
+    <div className="s-product-list-set">
+      <div className="s-product-list-set-heading">
         <p>EV Proto Integration</p>
         <h2>Manufacturing Support for electric vehicle prototypes</h2>
       </div>
-      <div class="s-product-list-set-container">
+      <div className="s-product-list-set-container">
         <div className="s-product-img-carousel" ref={sliderRef}>
           <div className="s-slider" ref={sliderContentRef}>
             {slides.map((img, index) => (
@@ -119,7 +119,7 @@ function EVProtoIntegration() {
 
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
-        <p class="subpage-desc">
+        <p className="subpage-desc">
           Seamlessly incorporating prototype components and systems. In his
           process we integrate electric drivetrains, battery management, and
           control systems into a cohesive unit. It ensures efficient testing and

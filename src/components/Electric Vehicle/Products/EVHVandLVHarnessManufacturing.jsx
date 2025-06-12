@@ -53,14 +53,14 @@ function EVHVandLVHarnessManufacturing() {
   };
 
   return (
-    <div class="s-product-list-set">
-      <div class="s-product-list-set-heading">
+    <div className="s-product-list-set">
+      <div className="s-product-list-set-heading">
         <p>EV - HV and LV Harness Manufacturing</p>
         <h2>
           Manufacturing customized wiring harness to run your EV reliably.
         </h2>
       </div>
-      <div class="s-product-list-set-container">
+      <div className="s-product-list-set-container">
         <div className="s-product-img-carousel" ref={sliderRef}>
           <div className="s-slider" ref={sliderContentRef}>
             {slides.map((img, index) => (
@@ -115,7 +115,7 @@ function EVHVandLVHarnessManufacturing() {
 
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
-        <p class="subpage-desc">
+        <p className="subpage-desc">
           Creating the intricate network of cables and connectors that carry
           power and data throughout the vehicle. These harnesses connect the
           battery, motor, charging system, and various components, ensuring
