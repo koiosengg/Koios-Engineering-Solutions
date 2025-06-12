@@ -1170,6 +1170,10 @@ body {
   opacity: 0.8;
 }
 
+.s-mobile-verticals {
+  display: none;
+}
+
 /* Footer */
 
 .p-footer-container {
@@ -3502,7 +3506,7 @@ span {
 .testimony-set p {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  font-family: Roboto;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -3543,7 +3547,7 @@ span {
 .testimony-set-person h3 {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  font-family: Roboto;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -5084,6 +5088,689 @@ span {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+
+  /* Products */
+
+  .s-product-banner {
+    padding: 120px 20px 24px 20px;
+    height: 100svh;
+  }
+
+  .s-product-banner-container {
+    gap: 48px;
+  }
+
+  .s-product-banner-logo {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s-product-banner-logo img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+  }
+
+  .s-product-banner-logo-bg-edutech,
+  .s-product-banner-logo-bg-engg,
+  .s-product-banner-logo-bg-software {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+  }
+
+  .s-product-banner-text p {
+    color: #fff;
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+  }
+
+  .s-product-banner-text span {
+    width: 100%;
+    color: var(--Woodsmoke----BG-300, #b0b0b0);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .s-benefits {
+    padding: 24px 20px;
+    gap: 48px;
+  }
+
+  .s-benefits-text {
+    padding-top: 20px;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .s-benefits-text p {
+    font-family: "Allerta Stencil";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(
+      90deg,
+      #fff 3.85%,
+      rgba(255, 255, 255, 0.6) 143.9%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .s-benefits-text span {
+    color: var(--gray---for-text-400, #98a2b3);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .s-benefits-container {
+    width: 100%;
+    gap: 0px;
+    flex-direction: row;
+  }
+
+  .s-benefits-sets {
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .s-benefits-set {
+    width: 100%;
+    min-height: 72px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+  }
+
+  .s-benefits-set-logo {
+    width: 28px;
+    height: 28px;
+  }
+
+  .s-benefits-set-logo img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .s-benefits-set p {
+    width: 100%;
+    color: var(--Absolute-White, #fff);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .p-svg-text-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+  }
+
+  .p-svg-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-icon-text-card {
+    flex-direction: column;
+  }
+
+  .p-benefits-svg-container {
+    height: 65px;
+    width: 65px;
+    padding: 8px;
+  }
+
+  .p-benefits-svg-second-container {
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+  }
+
+  .p-benefits-svg-second-container svg {
+    height: 34px;
+    width: 39px;
+  }
+
+  .p-svg-text p {
+    align-self: stretch;
+    color: var(--Absolute-White, #fff);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .s-vision-mission {
+    padding: 24px 20px;
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .s-vision-mission-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .s-vision-mission-container-text {
+    gap: 8px;
+  }
+
+  .s-vision-mission-container-text li {
+    width: 100%;
+    height: auto;
+    color: var(--gray---for-text-400, #98a2b3);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .s-vision-mission-container p {
+    color: var(--gray---for-text-25, #fcfcfd);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .s-product-list {
+    padding: 24px 20px;
+  }
+
+  .s-product-list-set {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .s-product-list-set-heading {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .s-engineering-solutions .s-product-list-set-heading {
+    border-right: 0;
+  }
+
+  .s-software-solutions .s-product-list-set-heading {
+    border-right: 0;
+  }
+
+  .s-product-list-set-heading {
+    border-right: 0;
+  }
+
+  .s-engineering-solutions
+    .s-product-list-set:nth-child(1)
+    .s-product-list-set-heading,
+  .s-hidden-products
+    .s-product-list-set:nth-child(1)
+    .s-product-list-set-heading,
+  .s-hidden-products
+    .s-product-list-set:nth-child(4)
+    .s-product-list-set-heading {
+    border-top: 1px solid #01cfdc;
+    padding-top: 44px;
+  }
+
+  .s-software-solutions
+    .s-product-list-set:first-child
+    .s-product-list-set-heading {
+    border-top: 1px solid #ffd24d;
+    padding-top: 44px;
+  }
+
+  .s-product-list-set:first-child .s-product-list-set-heading {
+    border-top: 1px solid #e7e7e7;
+    padding-top: 44px;
+  }
+
+  .s-product-list-set-heading .heading {
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    background: linear-gradient(90deg, #0d9bbf 19.69%, #fff 105.83%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .s-product-list-set-heading p {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .s-product-list-set-container {
+    padding-left: 0px;
+    width: 100%;
+    height: auto;
+    border-left: 0px;
+  }
+
+  .s-software-solutions .s-product-list-set-container {
+    border-left: 0px solid #ffd24d;
+  }
+
+  .s-engineering-solutions .s-product-list-set-container {
+    border-left: 0px solid #01cfdc;
+  }
+
+  .s-product-list-set-container img {
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+  }
+
+  .s-slider img {
+    width: 100%;
+  }
+
+  .s-product-img-carousel {
+    width: 100%;
+  }
+
+  .s-product-list-set-container p {
+    width: 100%;
+    height: auto;
+  }
+
+  .s-load-more {
+    padding: 0;
+  }
+
+  .s-see-less {
+    padding: 0;
+  }
+
+  .s-load-more p,
+  .s-see-less p {
+    height: auto;
+    padding: 12px 24px;
+  }
+
+  .s-gallery {
+    padding: 24px 20px;
+    gap: 32px;
+  }
+
+  .s-gallery .heading {
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(
+      90deg,
+      #fff 3.85%,
+      rgba(255, 255, 255, 0.6) 143.9%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gallery {
+    width: 8px;
+    height: 10px;
+  }
+  .s-carousel {
+    width: 375px;
+    height: 200px;
+  }
+
+  .s-position0 {
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+  }
+
+  .s-position0 img {
+    width: 280px;
+    height: 200px;
+  }
+
+  .s-position-1,
+  .s-position1 {
+    width: 90px;
+    height: 172px;
+    border-radius: 12px;
+  }
+
+  .s-position-1 img,
+  .s-position1 img {
+    width: 90px;
+    height: 172px;
+  }
+
+  .s-position-2,
+  .s-position2 {
+    width: 73px;
+    height: 134px;
+    border-radius: 12px;
+  }
+
+  .s-position-2 img,
+  .s-position2 img {
+    width: 73px;
+    height: 134px;
+  }
+
+  .s-carousel-text {
+    margin-top: -12px;
+    height: 20px;
+  }
+
+  .s-carousel-text p {
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  /* Sub Product Pages */
+
+  /* About */
+
+  .s-aboutus-hero {
+    display: flex;
+    padding: 20px;
+    padding-top: 92px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .s-aboutus-bg {
+    top: 54px;
+  }
+
+  .s-aboutus-bg img {
+    width: 178.325px;
+    height: 156.46px;
+    flex-shrink: 0;
+  }
+
+  .s-aboutus-logo {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 16px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 8px;
+    background: radial-gradient(
+      161.14% 147.01% at 1.51% 100%,
+      #1a1a1a 0%,
+      #101010 95.85%
+    );
+    box-shadow: 0px 1.6px 80px 1.6px rgba(255, 191, 0, 0.1);
+  }
+
+  .s-aboutus-logo svg {
+    width: 56px;
+    height: 48px;
+  }
+
+  .s-aboutus-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  .s-aboutus-text p {
+    font-family: "Allerta Stencil";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    background: linear-gradient(
+      90deg,
+      #fff 3.85%,
+      rgba(255, 255, 255, 0.6) 143.9%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .s-aboutus-text span {
+    color: var(--gray---for-text-400, #98a2b3);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .s-aboutus-text span::first-letter {
+    text-transform: capitalize;
+  }
+
+  .s-aboutus-validators {
+    padding: 24px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .s-validators-set {
+    display: flex;
+    height: 120px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+  }
+
+  .s-validators-set p {
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .s-validators-set span {
+    color: var(--gray---for-text-400, #98a2b3);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .s-aboutus {
+    padding: 24px 20px;
+  }
+
+  .s-aboutus .heading {
+    display: none;
+  }
+
+  .s-aboutus-content {
+    width: 100%;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid rgba(202, 255, 51, 0.1);
+    background: linear-gradient(
+        106deg,
+        rgba(255, 191, 0, 0.05) -29.45%,
+        rgba(255, 191, 0, 0) 27.86%
+      ),
+      linear-gradient(267deg, #1c1c1c 40.67%, rgba(28, 28, 28, 0) 99.81%),
+      url("./s-public/aboutus-koios-bg.png");
+    background-blend-mode: normal, normal, screen;
+  }
+
+  .s-aboutus-content p {
+    color: var(--Woodsmoke----BG-300, #b0b0b0);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .s-aboutus-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  .s-aboutus-content-container p {
+    color: var(--Woodsmoke----BG-300, #b0b0b0);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .s-aboutus-content-container .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+  }
+
+  .s-aboutus-content-container .heading p {
+    color: var(--gray---for-text-25, #fcfcfd);
+    font-family: "Allerta Stencil";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .s-aboutus-content-container .heading svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .s-vision {
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+  }
+
+  .s-vision span {
+    color: var(--Amber-500----Primary, #ffbf00);
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .s-vision .content {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+
+  .s-vision .content p {
+    color: var(--Woodsmoke----BG-300, #b0b0b0);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .s-vision .content .main {
+    color: var(--Woodsmoke----BG-300, #b0b0b0);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .s-below-vision {
+    display: none;
   }
 
   /* 3D Scanning */

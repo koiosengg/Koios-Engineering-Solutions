@@ -314,7 +314,7 @@ function Services() {
                         cursus. Viverra sit tempus tortor platea. Sit non donec
                         vulputate mattis.
                       </p>
-                      <a href="#" className="yellow-button">
+                      <Link to="/vehicle_development" className="yellow-button">
                         <p>Explore</p>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -328,11 +328,11 @@ function Services() {
                             fill="#1A1A1A"
                           />
                         </svg>
-                      </a>
+                      </Link>
                     </div>
                     <div className="s-services-container-info-line"></div>
                     <div className="s-services-container-info-right">
-                      <a href="#" className="s-services-container-info-set">
+                      {/* <a href="#" className="s-services-container-info-set">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -405,7 +405,7 @@ function Services() {
                           </defs>
                         </svg>
                         <h4>Styling</h4>
-                      </a>
+                      </a> */}
                       <Link
                         to="/automotive_manufacturing"
                         className="s-services-container-info-set"
@@ -580,7 +580,7 @@ function Services() {
                         cursus. Viverra sit tempus tortor platea. Sit non donec
                         vulputate mattis.
                       </p>
-                      <a href="#" className="yellow-button">
+                      <Link to="/3d_scanning" className="yellow-button">
                         <p>Explore</p>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -594,11 +594,11 @@ function Services() {
                             fill="#1A1A1A"
                           />
                         </svg>
-                      </a>
+                      </Link>
                     </div>
                     <div className="s-services-container-info-line"></div>
                     <div className="s-services-container-info-right">
-                      <a href="#" className="s-services-container-info-set">
+                      {/* <a href="#" className="s-services-container-info-set">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -660,8 +660,11 @@ function Services() {
                           </defs>
                         </svg>
                         <h4>3D Printing</h4>
-                      </a>
-                      <a href="#" className="s-services-container-info-set">
+                      </a> */}
+                      <Link
+                        to="/3d_scanning"
+                        className="s-services-container-info-set"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -692,7 +695,7 @@ function Services() {
                           </defs>
                         </svg>
                         <h4>3D Scanning</h4>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 )}
@@ -893,7 +896,7 @@ function Services() {
                 fusce in. Interdum integer nec ultrices tempor cursus. Viverra
                 sit tempus tortor platea. Sit non donec vulputate mattis.
               </p>
-              <a href="#" className="yellow-button">
+              <Link to="/vehicle_development" className="yellow-button">
                 <p>Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -907,11 +910,11 @@ function Services() {
                     fill="#1A1A1A"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
             <div className="s-services-container-info-line"></div>
             <div className="s-services-container-info-right">
-              <a href="#" className="s-services-container-info-set">
+              {/* <a href="#" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -984,7 +987,7 @@ function Services() {
                   </defs>
                 </svg>
                 <h4>Styling</h4>
-              </a>
+              </a> */}
               <Link
                 to="/automotive_manufacturing"
                 className="s-services-container-info-set"
@@ -1157,7 +1160,7 @@ function Services() {
                 fusce in. Interdum integer nec ultrices tempor cursus. Viverra
                 sit tempus tortor platea. Sit non donec vulputate mattis.
               </p>
-              <a href="#" className="yellow-button">
+              <Link to="/3d_scanning" className="yellow-button">
                 <p>Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1171,11 +1174,11 @@ function Services() {
                     fill="#1A1A1A"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
             <div className="s-services-container-info-line"></div>
             <div className="s-services-container-info-right">
-              <a href="#" className="s-services-container-info-set">
+              {/* <a href="#" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -1237,8 +1240,8 @@ function Services() {
                   </defs>
                 </svg>
                 <h4>3D Printing</h4>
-              </a>
-              <a href="#" className="s-services-container-info-set">
+              </a> */}
+              <Link to="/3d_scanning" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -1269,7 +1272,7 @@ function Services() {
                   </defs>
                 </svg>
                 <h4>3D Scanning</h4>
-              </a>
+              </Link>
             </div>
           </div>
         )}

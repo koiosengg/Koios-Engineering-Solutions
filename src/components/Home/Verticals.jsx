@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import DesktopBackground from "../../assets/Home/Verticals/Desktop Background.png";
 import KES from "../../assets/Home/Verticals/KES.png";
 import TKS from "../../assets/Home/Verticals/TKS.png";
@@ -57,9 +58,9 @@ function Verticals() {
                     highest industry standards...
                   </p>
                 </section>
-                <a href="#" className="p-get-started-btn">
+                <Link to="/general_engineering" className="p-get-started-btn">
                   <p>Know More</p>
-                </a>
+                </Link>
               </div>
             )}
 
@@ -106,7 +107,7 @@ function Verticals() {
               with cutting-edge manufacturing, for your specialized machines and
               vehicles, meticulously meeting the highest industry standards...
             </p>
-            <a href="#">Know More</a>
+            <Link to="/general_engineering">Know More</Link>
           </section>
         </div>
         <div className="s-mobile-verticals-set">
