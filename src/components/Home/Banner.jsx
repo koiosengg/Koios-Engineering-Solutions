@@ -1,10 +1,9 @@
 import React from "react";
-import DesktopBackground from "../../assets/Home/Banner/Desktop Background.png";
-
+import Particle from "../Particle";
 function Banner() {
   return (
     <div className="p-home">
-      <img src={DesktopBackground} className="p-home-banner-background" />
+        <Particle />
       <div className="p-home-heading">
         <div className="p-implementing-container">
           <div className="p-implementing-text">
