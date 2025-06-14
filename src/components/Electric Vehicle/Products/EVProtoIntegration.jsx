@@ -10,12 +10,7 @@ function EVProtoIntegration() {
   const indicatorRef = useRef(null);
   const [counter, setCounter] = useState(0);
 
-  const slides = [
-    Img1,
-    Img2,
-    Img3,
-    Img4,
-  ];
+  const slides = [Img1, Img2, Img3, Img4];
 
   const totalSlides = slides.length;
 
@@ -61,8 +56,11 @@ function EVProtoIntegration() {
   return (
     <div className="s-product-list-set">
       <div className="s-product-list-set-heading">
-        <p>EV Proto Integration</p>
-        <h2>Manufacturing Support for electric vehicle prototypes</h2>
+        <p> EV Prototype Integration</p>
+        <h2>
+          Manufacturing and Integration of EV Prototype and Proof of Concept
+          vehicles.
+        </h2>
       </div>
       <div className="s-product-list-set-container">
         <div className="s-product-img-carousel" ref={sliderRef}>
@@ -120,11 +118,11 @@ function EVProtoIntegration() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Seamlessly incorporating prototype components and systems. In his
-          process we integrate electric drivetrains, battery management, and
-          control systems into a cohesive unit. It ensures efficient testing and
-          validation of electric vehicles' functionality and performance during
-          the development phase.
+          Seamlessly assembling and integrating prototype components and
+          systems. In this process we integrate electrical powertrains , battery
+          packs modules , power electronic control systems and all mechanical
+          systems into the vehicle . We ensure all the sub systems are
+          calibrated and aligned properly to function harmoniously .
         </p>
       </div>
     </div>

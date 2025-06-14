@@ -116,12 +116,11 @@ function EVHVandLVHarnessManufacturing() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Creating the intricate network of cables and connectors that carry
-          power and data throughout the vehicle. These harnesses connect the
-          battery, motor, charging system, and various components, ensuring
-          seamless communication and energy distribution. Our expertise
-          contributes to the reliable and efficient operation of electric
-          vehicles, driving innovation in sustainable transportation.
+          We design and manufacture High Voltage Harness, Low Voltage Harness
+          and Auxiliary Harness. Our main objective is to design and build wiring
+          harnesses that keep the electric vehicle safe from any electrical
+          mishaps and enhance the life and functionality of the harness to last
+          for a longer duration .
         </p>
       </div>
     </div>

@@ -77,7 +77,7 @@ function EVProtoDevelopment() {
   return (
     <div className="s-product-list-set">
       <div className="s-product-list-set-heading">
-        <p>EV Proto Development</p>
+        <p> Electric Vehicle Prototype Manufacturing</p>
         <h2>Research and development of electric vehicle prototypes.</h2>
       </div>
       <div className="s-product-list-set-container">
@@ -136,11 +136,10 @@ function EVProtoDevelopment() {
           <div className="s-carousel-indicator" ref={indicatorRef}></div>
         </div>
         <p className="subpage-desc">
-          Creating prototype models to test and refine various aspects of
-          electric vehicles. This process includes optimizing battery systems,
-          motor efficiency, and energy management. Through these prototypes, we
-          enhance electric vehicle technology, ensuring optimal performance,
-          range, and sustainability.
+          We build vehicle prototypes with and objective to achieve the desired
+          result and performance for which the vehicle was designed to achieve
+          with at most precision and accuracy .We ensure all the quality and
+          design parameters are met during the vehicle build
         </p>
       </div>
     </div>

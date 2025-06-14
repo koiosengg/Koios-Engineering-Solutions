@@ -20,10 +20,8 @@ function Banner() {
         <div className="p-title-description">
           <div className="p-big-mechanical-title">Electric Vehicle</div>
           <p>
-            After working with the leaders EV Design and Developemnt on projects
-            from prototyping and integration to part manufacturing and power
-            cable design, we're your go-to for cutting-edge solutions in
-            electric vehicle innovation.
+            We specialize in end-to-end EV Vehicle development services with 40+
+            prototypes of two and 3-Wheeler built over the years.
           </p>
         </div>
       </div>
