@@ -48,7 +48,7 @@ function Particle() {
       },
       particles: {
         color: {
-          value: ["#ffffff", "#ff007f", "#00ffff", "#00ff00", "#ffcc00"],
+          value: ["#ffbf00", "#fff", "#01cfdc"],
         },
         links: {
           color: "#ffffff",
