@@ -6,6 +6,7 @@ import Staidrich from "../../assets/Home/Marquee/Staidrich.png";
 import Engginno from "../../assets/Home/Marquee/Engginno.png";
 import EParivahan from "../../assets/Home/Marquee/e parivahan.png";
 import Micronix from "../../assets/Home/Marquee/Micronix.png";
+import UrbanSphere from "../../assets/Home/Marquee/Urban Sphere.png";
 
 function Marquee() {
   return (
@@ -18,6 +19,7 @@ function Marquee() {
         <img src={Engginno} />
         <img src={EParivahan} />
         <img src={Micronix} />
+        <img src={UrbanSphere} />
         <img src={LML} />
         <img src={SEG} />
         <img src={ISK} />
@@ -25,6 +27,7 @@ function Marquee() {
         <img src={Engginno} />
         <img src={EParivahan} />
         <img src={Micronix} />
+        <img src={UrbanSphere} />
         <img src={LML} />
         <img src={SEG} />
         <img src={ISK} />
@@ -32,6 +35,7 @@ function Marquee() {
         <img src={Engginno} />
         <img src={EParivahan} />
         <img src={Micronix} />
+        <img src={UrbanSphere} />
         <img src={LML} />
         <img src={SEG} />
         <img src={ISK} />
@@ -39,6 +43,7 @@ function Marquee() {
         <img src={Engginno} />
         <img src={EParivahan} />
         <img src={Micronix} />
+        <img src={UrbanSphere} />
         <img src={LML} />
         <img src={SEG} />
         <img src={ISK} />
@@ -46,6 +51,7 @@ function Marquee() {
         <img src={Engginno} />
         <img src={EParivahan} />
         <img src={Micronix} />
+        <img src={UrbanSphere} />
       </div>
     </div>
   );
