@@ -122,6 +122,7 @@ function Navbar() {
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">
                     <Link to="/3d_scanning">3D Scanning</Link>
+                    <Link to="/3d_printing">3D Printing</Link>
                   </div>
                 </div>
               </div>
@@ -194,7 +195,11 @@ function Navbar() {
         <div className="s-mobile-navlink-sets">
           <div className="s-mobile-navlink-set Engineering">
             <div className="s-mobile-navlink-heading">
-              <Link to="/general_engineering" onClick={toggleMobileNav} className="heading">
+              <Link
+                to="/general_engineering"
+                onClick={toggleMobileNav}
+                className="heading"
+              >
                 General Engineering
               </Link>
               <div className="s-mobile-navlink-heading-icon">
@@ -223,7 +228,8 @@ function Navbar() {
               <div className="s-mobile-nav-list-container">
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/mechanical_design" onClick={toggleMobileNav}
+                    to="/mechanical_design"
+                    onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
                     <p>Mechanical Design</p>
@@ -231,7 +237,8 @@ function Navbar() {
                 </div>
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/mechanical_manufacturing" onClick={toggleMobileNav}
+                    to="/mechanical_manufacturing"
+                    onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
                     <p>Mechanical Manufacturing</p>
@@ -242,7 +249,11 @@ function Navbar() {
           </div>
           <div className="s-mobile-navlink-set Engineering">
             <div className="s-mobile-navlink-heading">
-              <Link to="/vehicle_development" onClick={toggleMobileNav} className="heading">
+              <Link
+                to="/vehicle_development"
+                onClick={toggleMobileNav}
+                className="heading"
+              >
                 Vehicle Development
               </Link>
               <div className="s-mobile-navlink-heading-icon">
@@ -271,7 +282,8 @@ function Navbar() {
               <div className="s-mobile-nav-list-container">
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/automotive_design" onClick={toggleMobileNav}
+                    to="/automotive_design"
+                    onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
                     <p>Automotive Design</p>
@@ -279,7 +291,8 @@ function Navbar() {
                 </div>
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/automotive_manufacturing" onClick={toggleMobileNav}
+                    to="/automotive_manufacturing"
+                    onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
                     <p>Automotive Manufacturing</p>
@@ -287,7 +300,8 @@ function Navbar() {
                 </div>
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/electric_vehicle" onClick={toggleMobileNav}
+                    to="/electric_vehicle"
+                    onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
                     <p>Electric Vehicle</p>
@@ -298,7 +312,11 @@ function Navbar() {
           </div>
           <div className="s-mobile-navlink-set Engineering">
             <div className="s-mobile-navlink-heading">
-              <Link to="/3d_scanning" onClick={toggleMobileNav} className="heading">
+              <Link
+                to="/3d_scanning"
+                onClick={toggleMobileNav}
+                className="heading"
+              >
                 3D Service
               </Link>
               <div className="s-mobile-navlink-heading-icon">
@@ -327,7 +345,8 @@ function Navbar() {
               <div className="s-mobile-nav-list-container">
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/3d_scanning" onClick={toggleMobileNav}
+                    to="/3d_scanning"
+                    onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
                     <p>3D Scanning</p>

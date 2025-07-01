@@ -21,7 +21,7 @@ function Particle() {
       fullScreen: { enable: false },
       background: {
         color: {
-          value: "#1a1a1a",
+          value: "#111",
         },
       },
       fpsLimit: 120,

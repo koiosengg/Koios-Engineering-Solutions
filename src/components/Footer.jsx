@@ -192,10 +192,10 @@ function Footer() {
             <Link to="/general_engineering" className="p-hover engg">
               General Engineering
             </Link>
-            <Link to="/web_development" className="p-hover software">
+            <Link to="/vehicle_development" className="p-hover software">
               Vehicle Development
             </Link>
-            <Link to="/app_development" className="p-hover edutech">
+            <Link to="/3d_scanning" className="p-hover edutech">
               3D Services
             </Link>
           </div>

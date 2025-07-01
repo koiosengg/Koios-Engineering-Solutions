@@ -14,6 +14,7 @@ import AutomotiveDesign from "./components/AutomotiveDesign";
 import AutomotiveManufacturing from "./components/AutomotiveManufacturing";
 import ElectricVehicle from "./components/ElectricVehicle";
 import ThreeDscan from "./components/ThreeDscan";
+import ThreeDprinting from "./components/ThreeDprinting";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import PrivacyPolicy from "./components/PrivacyPolicy";
@@ -48,10 +49,11 @@ function App() {
             />
             <Route path="/electric_vehicle" element={<ElectricVehicle />} />
             <Route path="/3d_scanning" element={<ThreeDscan />} />
+            <Route path="/3d_printing" element={<ThreeDprinting />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy_policy" element={<PrivacyPolicy />} />
-              <Route path="*" element={<Home />} />
+            <Route path="*" element={<Home />} />
           </Route>
         </Routes>
         <Footer />
