@@ -3955,6 +3955,370 @@ span {
   line-height: 24px; /* 171.429% */
 }
 
+.threeD-printing-fdm-capabilities {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+  padding: 80px 160px;
+}
+
+.threeD-printing-fdm-capabilities-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.threeD-printing-fdm-capabilities-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.threeD-printing-fdm-capabilities-text {
+  width: 100%;
+  display: flex;
+  max-width: 328px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.threeD-printing-fdm-capabilities-text h3 {
+  color: #ffbf00;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 25.2px */
+}
+
+.threeD-printing-fdm-capabilities-text section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  align-self: stretch;
+}
+
+.threeD-printing-fdm-capabilities-text section h4 {
+  color: #e7e7e7;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+}
+
+.threeD-printing-fdm-capabilities-text section p {
+  color: #d8d8d8;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.threeD-printing-fdm-capabilities-info ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.threeD-printing-fdm-capabilities-info ul li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.threeD-printing-fdm-capabilities-info ul li svg {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: 1/1;
+}
+
+.threeD-printing-fdm-capabilities-info ul li p {
+  color: #cacaca;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+}
+
+.threeD-printing-fdm-capabilities-info ul li span {
+  color: #e7e7e7;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.threeD-printing-fdm-capabilities-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.threeD-printing-fdm-capabilities-img img {
+  width: 100%;
+  height: 390px;
+  object-fit: contain;
+}
+
+.threeD-printing-applications {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.threeD-printing-applications-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+
+.threeD-printing-applications-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.threeD-printing-applications-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.threeD-printing-applications-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.threeD-printing-applications-set {
+  width: 100%;
+  display: flex;
+  padding: 24px 40px;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.threeD-printing-applications-set:hover {
+  background: #191919;
+}
+
+.threeD-printing-applications-set span {
+  color: #e7e7e7;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+  letter-spacing: -0.5px;
+  transition: all 0.3s;
+}
+
+.threeD-printing-applications-set section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.threeD-printing-applications-set h3 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.2px;
+}
+
+.threeD-printing-applications-set p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.threeD-printing-applications-active-set {
+  background: #1a1a1a;
+}
+
+.threeD-printing-applications-active-set span {
+  color: #ffbf00;
+}
+
+.threeD-printing-materials {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.threeD-printing-materials-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.threeD-printing-materials-slide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.threeD-printing-materials-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.threeD-printing-materials-set {
+  width: calc(100% / 3);
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.threeD-printing-materials-set img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  background: #d9d9d9;
+}
+
+.threeD-printing-materials-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.threeD-printing-materials-text section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.threeD-printing-materials-text section h3 {
+  color: #ffbf00;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.threeD-printing-materials-text section span {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.threeD-printing-materials-text ul {
+  width: 100%;
+  display: flex;
+  padding-top: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  align-self: stretch;
+  border-top: 1px solid #1e1e1e;
+}
+
+.threeD-printing-materials-text ul li {
+  width: 100%;
+  color: #e7e7e7;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.threeD-printing-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.threeD-printing-dots button {
+  width: 10px;
+  height: 10px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: rgba(202, 202, 202, 0.5);
+  transition: all 0.3s;
+}
+
+.threeD-printing-dots .threeD-printing-active-dot {
+  background: #fff;
+}
+
 /* About */
 
 .s-aboutus-hero {

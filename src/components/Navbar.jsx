@@ -352,6 +352,15 @@ function Navbar() {
                     <p>3D Scanning</p>
                   </Link>
                 </div>
+                <div className="s-mobile-nav-list-item">
+                  <Link
+                    to="/3d_printing"
+                    onClick={toggleMobileNav}
+                    style={{ padding: "2px", textDecoration: "none" }}
+                  >
+                    <p> 3D Printing</p>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
