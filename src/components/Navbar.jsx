@@ -98,7 +98,10 @@ function Navbar() {
           </div>
           <div className="s-nav-link-heading">
             <Link to="/3d_scanning" className="s-nav-link-text">
-              <p>3D Services</p>
+              <p>
+                {" "}
+                <span>3</span>D Service
+              </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
@@ -117,12 +120,18 @@ function Navbar() {
                     src={ThreeDServicesLogo}
                     alt="3D Services Logo"
                   />
-                  <Link to="/3d_scanning">3D Services</Link>
+                  <Link to="/3d_scanning">
+                    <span>3</span>D Service
+                  </Link>
                 </div>
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">
-                    <Link to="/3d_scanning">3D Scanning</Link>
-                    <Link to="/3d_printing">3D Printing</Link>
+                    <Link to="/3d_scanning">
+                      <span>3</span>D Scanning
+                    </Link>
+                    <Link to="/3d_printing">
+                      <span>3</span>D Printing
+                    </Link>
                   </div>
                 </div>
               </div>

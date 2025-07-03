@@ -61,6 +61,10 @@ body {
   color: #ffbf00;
 }
 
+.s-nav-link-heading:hover .s-nav-link-text p span {
+  color: #ffbf00;
+}
+
 .s-nav-link-heading:hover .s-nav-link-text svg {
   fill: #ffbf00;
   transform: rotate(180deg);
@@ -76,6 +80,15 @@ body {
 .s-nav-link-text p {
   color: #fff;
   font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.s-nav-link-text p span {
+  color: #fff;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -142,6 +155,16 @@ body {
   text-decoration: none;
 }
 
+.s-dropdown-heading a span {
+  color: var(--Absolute-White, #fff);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
 .s-dropdown-set {
   display: flex;
   padding: 8px 0px;
@@ -177,7 +200,21 @@ body {
   text-decoration: none;
 }
 
+.s-dropdown-options a span {
+  color: var(--gray---for-text-400, #98a2b3);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
 .s-dropdown-options a:hover {
+  color: #ffffff;
+}
+
+.s-dropdown-options a:hover span {
   color: #ffffff;
 }
 
@@ -409,6 +446,15 @@ body {
   }
   100% {
     transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes revvMarquee {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -1689,7 +1735,6 @@ body {
   padding: 229px 320px 158px 320px;
   justify-content: center;
   align-items: center;
-  background: #1a1a1a;
 }
 
 .s-product-banner-container {
@@ -1913,7 +1958,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 80px;
-  background: var(--Woodsmoke----BG-950----bg, #1a1a1a);
 }
 
 .s-benefits-text {
@@ -2054,7 +2098,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--Woodsmoke----BG-950----bg, #1a1a1a);
 }
 
 .s-product-list-set {
@@ -2393,7 +2436,6 @@ body {
   padding-bottom: 80px;
   flex-direction: column;
   align-items: center;
-  background: #1a1a1a;
 }
 
 .s-gallery .heading {
@@ -2741,7 +2783,6 @@ body {
 
 .p-mechanical-design {
   padding-top: 80px;
-  background-color: #1a1a1a;
 }
 
 .p-breadcrumb {
@@ -3547,6 +3588,7 @@ span {
   height: 40px;
   object-fit: cover;
   border-radius: 50%;
+  background: #fff;
 }
 
 .testimony-set-person h3 {
@@ -4319,6 +4361,228 @@ span {
   background: #fff;
 }
 
+.threeD-printing-logos {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.threeD-printing-logos-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.threeD-printing-logos-container img {
+  height: 64px;
+  object-fit: cover;
+}
+
+.threeD-printing-marquee {
+  padding: 80px 0px;
+  position: relative;
+}
+
+.threeD-printing-marquee::before {
+  content: " ";
+  width: 200px;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(90deg, #111 40%, transparent 90%);
+}
+
+.threeD-printing-marquee::after {
+  content: " ";
+  width: 200px;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(270deg, #111 40%, transparent 90%);
+}
+
+.threeD-printing-brochure {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.threeD-printing-brochure-container {
+  width: 100%;
+  display: flex;
+  padding: 100px 70px;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(1, 1, 1, 0.4);
+}
+
+.threeD-printing-brochure-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.threeD-printing-brochure-info section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.threeD-printing-brochure-info section p {
+  color: var(--gray---for-text-400, #98a2b3);
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.threeD-printing-brochure-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  position: relative;
+}
+
+.threeD-printing-brochure-img img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  transform: translateY(-20%);
+  position: absolute;
+}
+
+.threeD-printing-testimony {
+  width: 100%;
+  padding: 80px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.threeD-printing-testimony-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.threeD-printing-testimony-container::before {
+  content: " ";
+  width: 200px;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(90deg, #111 40%, transparent 90%);
+}
+
+.threeD-printing-testimony-container::after {
+  content: " ";
+  width: 200px;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(270deg, #111 40%, transparent 90%);
+}
+
+.threeD-printing-testimony-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.threeD-printing-testimony-marquee {
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  animation: marquee 20s linear infinite;
+}
+
+.threeD-printing-testimony-marquee-rev {
+  animation: revvMarquee 20s linear infinite;
+}
+
+.threeD-printing-testimony-set {
+  display: flex;
+  width: 270px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.threeD-printing-testimony-set section {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.threeD-printing-testimony-set section img {
+  width: 20px;
+  height: 20px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.threeD-printing-testimony-set p {
+  color: #b6b6b3;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.threeD-printing-testimony-set h3 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
 /* About */
 
 .s-aboutus-hero {
@@ -4331,7 +4595,6 @@ span {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  background: var(--Default-color-Pure-Black, #1a1a1a);
 }
 
 .s-aboutus-bg {
@@ -4423,7 +4686,6 @@ span {
   align-items: center;
   gap: 10px;
   align-self: stretch;
-  background: var(--DEFAULT-BG, #1a1a1a);
 }
 
 .s-validators-set {
@@ -4490,7 +4752,6 @@ span {
   align-items: center;
   gap: 40px;
   align-self: stretch;
-  background: var(--Woodsmoke----BG-950----bg, #1a1a1a);
 }
 
 .s-aboutus .heading p {
@@ -4585,7 +4846,6 @@ span {
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  background: var(--DEFAULT-BG, #1a1a1a);
 }
 
 .s-vision span {
@@ -4637,12 +4897,6 @@ span {
   padding: 80px 360px;
   justify-content: center;
   align-items: center;
-  background: conic-gradient(
-      from 180deg at 50% 50%,
-      #1a1a1a 90.60135126113892deg,
-      #1a1a1a 270.0000214576721deg
-    ),
-    #1a1a1a;
   position: relative;
   overflow: hidden;
 }
@@ -4681,7 +4935,6 @@ span {
 
 .p-contact {
   padding-top: 80px;
-  background: #1a1a1a;
 }
 
 .p-text {
@@ -4885,7 +5138,7 @@ span {
 .p-logo-slider::after {
   width: 100px;
   height: 75px;
-  background: linear-gradient(-90deg, transparent, #1a1a1a);
+  background: linear-gradient(-90deg, transparent, #111);
   content: "";
   position: absolute;
   width: 45px;

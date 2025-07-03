@@ -7,6 +7,10 @@ import WhyChooseFDM from "./ThreeDprinting/WhyChooseFDM";
 import FDMCapabilities from "./ThreeDprinting/FDMCapabilities";
 import Applications from "./ThreeDprinting/Applications";
 import Materials from "./ThreeDprinting/Materials";
+import Logos from "./ThreeDprinting/Logos";
+import Marquee from "./ThreeDprinting/Marquee";
+import Brochure from "./ThreeDprinting/Brochure";
+import Testimony from "./ThreeDprinting/Testimony";
 
 function ThreeDprinting() {
   return (
@@ -22,6 +26,10 @@ function ThreeDprinting() {
       <FDMCapabilities />
       <Applications />
       <Materials />
+      <Logos />
+      <Marquee />
+      <Brochure />
+      <Testimony />
     </div>
   );
 }

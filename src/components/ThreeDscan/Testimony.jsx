@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import StarSVG from "../../assets/ThreeDscan/Testimony/StarSVG";
 import UrbanSphere from "../../assets/ThreeDscan/Testimony/UrbanSphere.png";
+import ISK from "../../assets/ThreeDscan/Testimony/ISK.png";
+import Motorcycles89 from "../../assets/ThreeDscan/Testimony/89 Motorcycles.png";
+import Sukalpatech from "../../assets/ThreeDscan/Testimony/Sukalpatech.png"
+import Eparivahan from "../../assets/ThreeDscan/Testimony/Eparivahan.png"
 import Testimony1 from "../../assets/ThreeDscan/Testimony/Testimony1.avif";
 import SectionScrollAnimation from "../SectionScrollAnimation";
 
@@ -45,7 +49,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Testimony1} />
+                  <img src={Motorcycles89} />
                   <h3>89 Motorcycles</h3>
                 </div>
               </div>
@@ -66,7 +70,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Testimony1} />
+                  <img src={Sukalpatech} />
                   <h3>Sukalpatech</h3>
                 </div>
               </div>
@@ -110,7 +114,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Testimony1} />
+                  <img src={Eparivahan} />
                   <h3>Eparivahan</h3>
                 </div>
               </div>
@@ -151,7 +155,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Testimony1} />
+                  <img src={ISK} />
                   <h3>Isk Auto Industries</h3>
                 </div>
               </div>
@@ -176,7 +180,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Testimony1} />
+              <img src={Motorcycles89} />
               <h3>89 Motorcycles</h3>
             </div>
           </div>
@@ -197,8 +201,8 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Testimony1} />
-              <h3>Sukalpatech</h3>
+              <img src={Sukalpatech} />
+              <h3>Sukalpa Tech</h3>
             </div>
           </div>
         </div>
@@ -238,7 +242,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Testimony1} />
+              <img src={Eparivahan} />
               <h3>Eparivahan</h3>
             </div>
           </div>
@@ -279,7 +283,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Testimony1} />
+              <img src={ISK} />
               <h3>Isk Auto Industries</h3>
             </div>
           </div>
