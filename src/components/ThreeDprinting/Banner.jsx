@@ -1,10 +1,12 @@
 import React from "react";
 import DesktopBanner from "../../assets/ThreeDprinting/Banner/Desktop Banner.png";
+import MobileBanner from "../../assets/ThreeDprinting/Banner/Mobile Banner.png"
 
 function Banner() {
   return (
     <div className="threeD-printing-banner">
-      <img src={DesktopBanner} className="threeD-printing-banner-background" />
+      <img src={DesktopBanner} className="threeD-printing-banner-background notMobile" />
+      <img src={MobileBanner} className="threeD-printing-banner-background mobile" />
       <div className="threeD-printing-banner-container">
         <section>
           <h1>
