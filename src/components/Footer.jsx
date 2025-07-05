@@ -196,7 +196,7 @@ function Footer() {
               Vehicle Development
             </Link>
             <Link to="/3d_scanning" className="p-hover edutech">
-              3D Services
+              <span>3</span>D Services
             </Link>
           </div>
           <div className="p-link-two">

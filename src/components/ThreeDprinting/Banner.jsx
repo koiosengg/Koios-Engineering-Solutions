@@ -14,9 +14,9 @@ function Banner() {
             EXCELLENCE
           </h1>
           <p>
-            Welcome to the world of 3D Printing, the driving force behind
+            Welcome to the world of <span>3</span>D Printing, the driving force behind
             innovation, creativity, and precision in the world of additive
-            manufacturing.We offer best-in-class 3D printing and scanning
+            manufacturing.We offer best-in-class <span>3</span>D printing and scanning
             services across the country, catering to various industries and
             meeting their expectations using cutting-edge technology and
             experienced hands.

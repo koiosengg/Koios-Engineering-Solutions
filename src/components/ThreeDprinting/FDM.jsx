@@ -12,7 +12,7 @@ function FDM() {
           <div className="grid-cell-container">
             <h2>What is Fused Deposition Modeling (FDM)?</h2>
             <p>
-              Fused Deposition Modeling, often referred to as FDM, is a 3D
+              Fused Deposition Modeling, often referred to as FDM, is a <span>3</span>D
               printing process that transforms digital designs into physical
               objects layer by layer. It works by heating and extruding a
               thermoplastic filament material, which is deposited layer upon

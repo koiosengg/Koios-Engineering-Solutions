@@ -6,10 +6,14 @@ function Materials() {
   const slideRef = useRef(null);
 
   useEffect(() => {
-    const groups =
-      slideRef.current?.querySelectorAll(".threeD-printing-materials-group") ||
+    const sets =
+      slideRef.current?.querySelectorAll(".threeD-printing-materials-set") ||
       [];
-    setGroupCount(groups.length);
+
+    const screenWidth = window.innerWidth;
+    const groups =
+      screenWidth >= 1200 ? Math.ceil(sets.length / 3) : sets.length;
+    setGroupCount(groups);
   }, []);
 
   const handleDotClick = (index) => {
@@ -90,7 +94,7 @@ function Materials() {
               </div>
             </div>
           </div>
-            <div className="threeD-printing-materials-group">
+          <div className="threeD-printing-materials-group">
             <div className="threeD-printing-materials-set">
               <img />
               <div className="threeD-printing-materials-text">

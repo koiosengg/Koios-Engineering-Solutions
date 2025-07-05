@@ -896,6 +896,7 @@ body {
   display: flex;
   padding: 8px 16px;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   border-radius: 50px;
   border: 1px solid #ffbf00;
@@ -1534,6 +1535,10 @@ body {
   text-decoration: none;
 }
 
+.p-links a span {
+  font-family: Inter;
+}
+
 .p-hover.engg:hover {
   color: #0d9bbf;
 }
@@ -1543,6 +1548,10 @@ body {
 }
 
 .p-hover.edutech:hover {
+  color: #0d9bbf;
+}
+
+.p-hover.edutech:hover span {
   color: #0d9bbf;
 }
 
@@ -3543,16 +3552,27 @@ span {
   min-height: 277px;
   padding: 40px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
   flex-shrink: 0;
+  align-self: stretch;
 }
 
 .testimony-set p {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
   font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.testimony-set p span {
+  font-family: Inter;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -3595,6 +3615,16 @@ span {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
   font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+}
+
+.testimony-set-person h3 span {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -3739,6 +3769,16 @@ span {
   line-height: normal;
 }
 
+.threeD-printing-banner-container section p span {
+  color: var(--gray---for-text-400, #98a2b3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .fdm {
   width: 100%;
   padding: 80px 160px;
@@ -3838,6 +3878,11 @@ span {
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 30px */
+}
+
+.grid-cell p span {
+  color: #797c86;
+  font-family: Inter;
 }
 
 .threeD-printing-why-choose {
@@ -4218,6 +4263,15 @@ span {
   line-height: 140%; /* 22.4px */
 }
 
+.threeD-printing-applications-set p span {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
 .threeD-printing-applications-active-set {
   background: #1a1a1a;
 }
@@ -4256,6 +4310,7 @@ span {
   align-items: center;
   gap: 24px;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .threeD-printing-materials-set {
@@ -7056,7 +7111,12 @@ span {
   /* 3D Printing */
 
   .threeD-printing-banner {
+    height: 100svh;
     overflow: hidden;
+  }
+
+  .threeD-printing-banner-background {
+    height: 100%;
   }
 
   .threeD-printing-banner-container {
@@ -7203,58 +7263,188 @@ span {
     padding: 6px;
   }
 
-  .threeD-printing-why-choose-fdm-set section h3{
-    color: #FFF;
-text-align: center;
-font-family: Raleway;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: capitalize;
+  .threeD-printing-why-choose-fdm-set section h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
   }
 
-  .threeD-printing-why-choose-fdm-set section p{
-    color: #B6B6B3;
-text-align: center;
-font-family: Raleway;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  .threeD-printing-why-choose-fdm-set section p {
+    color: #b6b6b3;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 
-  .threeD-printing-fdm-capabilities{
+  .threeD-printing-fdm-capabilities {
     display: flex;
-padding: 48px 20px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 40px;
+    padding: 48px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
   }
 
-  .threeD-printing-fdm-capabilities-container{
+  .threeD-printing-fdm-capabilities-container {
     flex-direction: column;
     gap: 64px;
   }
 
-  .threeD-printing-fdm-capabilities-info{
+  .threeD-printing-fdm-capabilities-info {
     width: 100%;
     gap: 40px;
   }
 
-.threeD-printing-fdm-capabilities-info ul li p{
-  color: #CACACA;
-font-family: Raleway;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; /* 22.4px */
-}
+  .threeD-printing-fdm-capabilities-info ul li p {
+    color: #cacaca;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+  }
 
-.threeD-printing-fdm-capabilities-img{
-  width: 100%;
-}
+  .threeD-printing-fdm-capabilities-img {
+    width: 100%;
+  }
+
+  .threeD-printing-applications {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .threeD-printing-applications-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+  }
+
+  .threeD-printing-applications-img img {
+    border-radius: 20px;
+  }
+
+  .threeD-printing-applications-info {
+    gap: 12px;
+  }
+
+  .threeD-printing-applications-set h3 {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+  }
+
+  .threeD-printing-applications-set p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+  }
+
+  .threeD-printing-applications-set p span {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+  }
+
+  .threeD-printing-materials {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .threeD-printing-materials-group {
+    width: 300%;
+    gap: 0px;
+  }
+
+  .threeD-printing-logos {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .threeD-printing-logos-container {
+    gap: 20px;
+  }
+
+  .threeD-printing-logos-container img {
+    height: 30px;
+  }
+
+  .threeD-printing-marquee {
+    padding-top: 0px;
+  }
+
+  .threeD-printing-marquee::before,
+  .threeD-printing-marquee::after {
+    display: none;
+  }
+
+  .threeD-printing-brochure {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .threeD-printing-brochure-container {
+    gap: 0px;
+    padding: 24px;
+    flex-direction: column-reverse;
+  }
+
+  .threeD-printing-brochure-img img {
+    position: static;
+  }
+
+  .threeD-printing-brochure h2 {
+    text-align: left;
+  }
+
+  .threeD-printing-brochure .yellow-button {
+    width: 100%;
+  }
+
+  .threeD-printing-testimony {
+    padding: 48px 0px;
+    gap: 40px;
+  }
+
+  .threeD-printing-testimony-container::before {
+    width: 100px;
+  }
+
+  .threeD-printing-testimony-container::after {
+    width: 100px;
+  }
 
   /* Contact */
 
@@ -7417,6 +7607,10 @@ line-height: 140%; /* 22.4px */
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+  }
+
+  .p-links a span {
+    font-family: Inter;
   }
 
   .p-content-box {

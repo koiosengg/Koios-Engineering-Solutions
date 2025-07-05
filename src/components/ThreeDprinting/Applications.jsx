@@ -27,7 +27,7 @@ const applicationData = [
     img: Img4,
     title: "Concept Modelling",
     description:
-      "Bring concepts to life with detailed and precise 3D printed models.",
+      <>Bring concepts to life with detailed and precise <span>3</span>D printed models.</>,
   },
 ];
 
