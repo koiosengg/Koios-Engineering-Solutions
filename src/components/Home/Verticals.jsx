@@ -52,10 +52,7 @@ function Verticals() {
                 <section>
                   <h3>Koios Engineering Solutions</h3>
                   <p>
-                    We deliver exceptional mechanical and automotive design,
-                    coupled with cutting-edge manufacturing, for your
-                    specialized machines and vehicles, meticulously meeting the
-                    highest industry standards...
+                  We Deliver Exceptional Mechanical and automotive designs coupled with cutting edge manufacturing services for your specialized needs in terms of Vehicle and Mechanical Domain .
                   </p>
                 </section>
                 <Link to="/general_engineering" className="p-get-started-btn">

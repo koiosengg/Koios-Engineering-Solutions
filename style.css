@@ -1033,6 +1033,11 @@ body {
   line-height: 30px;
 }
 
+.s-tools-set section h3 span{
+  font-family: Inter;
+    color: var(--Absolute-White, #fff);
+}
+
 .s-tools-set p {
   width: 100%;
   color: var(--gray---for-text-400, #98a2b3);

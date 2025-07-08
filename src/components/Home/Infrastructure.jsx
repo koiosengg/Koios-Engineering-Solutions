@@ -78,9 +78,9 @@ function Infrastructure() {
       <div className="s-infrastructure-heading">
         <h2>Infrastructure</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-          volutpat diam turpis aliquam a. Dictum massa ut sit odio. Quis augue
-          risus morbi dictum sem varius. Non.
+          We Deliver Exceptional Mechanical and automotive designs coupled with
+          cutting edge manufacturing services for your specialized needs in
+          terms of Vehicle and Mechanical Domain .
         </p>
       </div>
 

@@ -94,9 +94,11 @@ function Services() {
       <div className="s-infrastructure-heading">
         <h2>Our Services</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-          volutpat diam turpis aliquam a. Dictum massa ut sit odio. Quis augue
-          risus morbi dictum sem varius. Non.
+          From core mechanical engineering to advanced 3D technologies and
+          full-scale vehicle development, our services span the complete product
+          and vehicle lifecycle. Explore how Koios Engineering delivers
+          specialized solutions across these domains—tailored, tested, and built
+          for performance.
         </p>
       </div>
       <div className="s-services-container">
@@ -142,10 +144,13 @@ function Services() {
                       </section>
                       <h3>General Engineering</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur. Nisi facilisis
-                        facilisis fusce in. Interdum integer nec ultrices tempor
-                        cursus. Viverra sit tempus tortor platea. Sit non donec
-                        vulputate mattis.
+                        At Koios Engineering, our General Engineering services
+                        are built on precision, innovation, and performance. We
+                        bring together advanced mechanical design, detailed CAD
+                        modeling, and expert manufacturing to deliver
+                        engineering solutions that meet real-world demands.
+                        Whether it’s a single component or a complex system, we
+                        design and build with purpose.
                       </p>
                       <Link to="/general_engineering" className="yellow-button">
                         <p>Explore</p>
@@ -309,10 +314,11 @@ function Services() {
                       </section>
                       <h3>Vehicle Development</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur. Nisi facilisis
-                        facilisis fusce in. Interdum integer nec ultrices tempor
-                        cursus. Viverra sit tempus tortor platea. Sit non donec
-                        vulputate mattis.
+                        We Build vehicles from the stage of design to
+                        manufacturing prototype which involves multiple
+                        activities which contribute to deliver a vehicle which
+                        is tested extensively to meet the technical requirement
+                        to ply on the roads safely .
                       </p>
                       <Link to="/vehicle_development" className="yellow-button">
                         <p>Explore</p>
@@ -575,10 +581,12 @@ function Services() {
                       </section>
                       <h3>3D Services</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur. Nisi facilisis
-                        facilisis fusce in. Interdum integer nec ultrices tempor
-                        cursus. Viverra sit tempus tortor platea. Sit non donec
-                        vulputate mattis.
+                        We provide product development services such as 3D
+                        scanning play a very key role in the process of product
+                        design, we do have inhouse 3D printer which help in
+                        bringing our designs and products to reality to help us
+                        check the functional and aesthetic requirements before
+                        we move along the process of manufacturing .
                       </p>
                       <Link to="/3d_scanning" className="yellow-button">
                         <p>Explore</p>
@@ -598,7 +606,7 @@ function Services() {
                     </div>
                     <div className="s-services-container-info-line"></div>
                     <div className="s-services-container-info-right">
-                      {/* <a href="#" className="s-services-container-info-set">
+                      <Link  to="/3d_printing" className="s-services-container-info-set">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -660,7 +668,7 @@ function Services() {
                           </defs>
                         </svg>
                         <h4>3D Printing</h4>
-                      </a> */}
+                      </Link>
                       <Link
                         to="/3d_scanning"
                         className="s-services-container-info-set"
@@ -727,9 +735,12 @@ function Services() {
               </section>
               <h3>General Engineering</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Nisi facilisis facilisis
-                fusce in. Interdum integer nec ultrices tempor cursus. Viverra
-                sit tempus tortor platea. Sit non donec vulputate mattis.
+                At Koios Engineering, our General Engineering services are built
+                on precision, innovation, and performance. We bring together
+                advanced mechanical design, detailed CAD modeling, and expert
+                manufacturing to deliver engineering solutions that meet
+                real-world demands. Whether it’s a single component or a complex
+                system, we design and build with purpose.
               </p>
               <Link to="/general_engineering" className="yellow-button">
                 <p>Explore</p>
@@ -892,9 +903,10 @@ function Services() {
               </section>
               <h3>Vehicle Development</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Nisi facilisis facilisis
-                fusce in. Interdum integer nec ultrices tempor cursus. Viverra
-                sit tempus tortor platea. Sit non donec vulputate mattis.
+                We Build vehicles from the stage of design to manufacturing
+                prototype which involves multiple activities which contribute to
+                deliver a vehicle which is tested extensively to meet the
+                technical requirement to ply on the roads safely .
               </p>
               <Link to="/vehicle_development" className="yellow-button">
                 <p>Explore</p>
@@ -1156,9 +1168,12 @@ function Services() {
               </section>
               <h3>3D Services</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Nisi facilisis facilisis
-                fusce in. Interdum integer nec ultrices tempor cursus. Viverra
-                sit tempus tortor platea. Sit non donec vulputate mattis.
+                We provide product development services such as 3D scanning play
+                a very key role in the process of product design, we do have
+                inhouse 3D printer which help in bringing our designs and
+                products to reality to help us check the functional and
+                aesthetic requirements before we move along the process of
+                manufacturing .
               </p>
               <Link to="/3d_scanning" className="yellow-button">
                 <p>Explore</p>
@@ -1178,7 +1193,7 @@ function Services() {
             </div>
             <div className="s-services-container-info-line"></div>
             <div className="s-services-container-info-right">
-              {/* <a href="#" className="s-services-container-info-set">
+              <Link to="/3d_printing" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -1240,7 +1255,7 @@ function Services() {
                   </defs>
                 </svg>
                 <h4>3D Printing</h4>
-              </a> */}
+              </Link>
               <Link to="/3d_scanning" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

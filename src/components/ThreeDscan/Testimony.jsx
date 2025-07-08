@@ -5,7 +5,7 @@ import ISK from "../../assets/ThreeDscan/Testimony/ISK.png";
 import Motorcycles89 from "../../assets/ThreeDscan/Testimony/89 Motorcycles.png";
 import Sukalpatech from "../../assets/ThreeDscan/Testimony/Sukalpatech.png"
 import Eparivahan from "../../assets/ThreeDscan/Testimony/Eparivahan.png"
-import Testimony1 from "../../assets/ThreeDscan/Testimony/Testimony1.avif";
+import Micronix from "../../assets/ThreeDscan/Testimony/Micronix.png"
 import SectionScrollAnimation from "../SectionScrollAnimation";
 
 function Testimony() {
@@ -91,7 +91,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Testimony1} />
+                  <img src={Micronix} />
                   <h3>Micronix</h3>
                 </div>
               </div>
@@ -222,7 +222,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Testimony1} />
+              <img src={Micronix} />
               <h3>Micronix</h3>
             </div>
           </div>
