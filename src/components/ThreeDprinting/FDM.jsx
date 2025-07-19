@@ -1,5 +1,5 @@
 import React from "react";
-import DesktopBackground from "../../assets/ThreeDprinting/FDM/Desktop Background.jpg";
+import DesktopBackground from "../../assets/ThreeDprinting/FDM/Desktop Background.webp";
 
 function FDM() {
   return (
