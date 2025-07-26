@@ -1,5 +1,5 @@
 import React from "react";
-import DesktopImg from "../../assets/ThreeDprinting/FDM Capabilities/Desktop Img.png";
+import DesktopImg from "../../assets/ThreeDprinting/FDM Capabilities/Desktop Img.jpg";
 
 function FDMCapabilities() {
   return (

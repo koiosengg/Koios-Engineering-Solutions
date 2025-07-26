@@ -1,4 +1,12 @@
 import React, { useRef, useState, useEffect } from "react";
+import PLA from "../../assets/ThreeDprinting/Materials/PLA.jpg";
+import ABS from "../../assets/ThreeDprinting/Materials/ABS.jpg";
+import PETG from "../../assets/ThreeDprinting/Materials/PETG.jpg";
+import PACF from "../../assets/ThreeDprinting/Materials/PACF.jpg";
+import PLACF from "../../assets/ThreeDprinting/Materials/PLACF.jpg";
+import PET from "../../assets/ThreeDprinting/Materials/PET.webp";
+import ASA from "../../assets/ThreeDprinting/Materials/ASA.jpg";
+import PPACF from "../../assets/ThreeDprinting/Materials/PPACF.jpg";
 
 function Materials() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -38,7 +46,7 @@ function Materials() {
         >
           <div className="threeD-printing-materials-group">
             <div className="threeD-printing-materials-set">
-              <img />
+              <img src={PLA} />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>PLA +</h3>
@@ -57,7 +65,7 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img />
+              <img src={ABS} />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>ABS</h3>
@@ -76,11 +84,11 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img />
+              <img src={PETG} />
               <div className="threeD-printing-materials-text">
                 <section>
-                  <h3>Flexible TPU</h3>
-                  <span>( Thermoplastic Polyurethane )</span>
+                  <h3>PETG</h3>
+                  <span>( Polyethylene Terephthalate Glycol )</span>
                 </section>
                 <ul>
                   <li>
@@ -96,11 +104,11 @@ function Materials() {
           </div>
           <div className="threeD-printing-materials-group">
             <div className="threeD-printing-materials-set">
-              <img />
+              <img src={PACF} />
               <div className="threeD-printing-materials-text">
                 <section>
-                  <h3>PLA +</h3>
-                  <span>( Polylactic Acid )</span>
+                  <h3>PA-CF</h3>
+                  <span>( Polyamide Carbon Fiber )</span>
                 </section>
                 <ul>
                   <li>
@@ -115,11 +123,11 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img />
+              <img src={PLACF} />
               <div className="threeD-printing-materials-text">
                 <section>
-                  <h3>ABS</h3>
-                  <span>( Acrylonitrile Butadiene Styrene )</span>
+                  <h3>PLACF</h3>
+                  <span>( Polylactic Acid Carbon Fiber)</span>
                 </section>
                 <ul>
                   <li>
@@ -134,11 +142,11 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img />
+              <img src={PET} />
               <div className="threeD-printing-materials-text">
                 <section>
-                  <h3>Flexible TPU</h3>
-                  <span>( Thermoplastic Polyurethane )</span>
+                  <h3>PET</h3>
+                  <span>( Polyethylene Terephthalate )</span>
                 </section>
                 <ul>
                   <li>
@@ -154,11 +162,11 @@ function Materials() {
           </div>
           <div className="threeD-printing-materials-group">
             <div className="threeD-printing-materials-set">
-              <img />
+              <img src={ASA} />
               <div className="threeD-printing-materials-text">
                 <section>
-                  <h3>PLA +</h3>
-                  <span>( Polylactic Acid )</span>
+                  <h3>ASA</h3>
+                  <span>( Acrylonitrile Styrene Acrylate )</span>
                 </section>
                 <ul>
                   <li>
@@ -173,30 +181,11 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img />
+              <img src={PPACF} />
               <div className="threeD-printing-materials-text">
                 <section>
-                  <h3>ABS</h3>
-                  <span>( Acrylonitrile Butadiene Styrene )</span>
-                </section>
-                <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
-                  </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="threeD-printing-materials-set">
-              <img />
-              <div className="threeD-printing-materials-text">
-                <section>
-                  <h3>Flexible TPU</h3>
-                  <span>( Thermoplastic Polyurethane )</span>
+                  <h3>PPA-CF</h3>
+                  <span>( Polyphthalamide Carbon Fiber )</span>
                 </section>
                 <ul>
                   <li>
