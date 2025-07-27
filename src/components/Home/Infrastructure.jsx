@@ -8,26 +8,22 @@ const images = [
   {
     src: Img1,
     title: "Workspace 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh volutpat",
+    description: "Our Workspace ",
   },
   {
     src: Img2,
     title: "Workspace 2",
-    description:
-      "Modern collaborative space with natural light and ergonomic seating.",
+    description: " Design Space",
   },
   {
     src: Img3,
     title: "Workspace 3",
-    description:
-      "Spacious infrastructure equipped with the latest tech solutions.",
+    description: "3D Service Space",
   },
   {
     src: Img4,
     title: "Workspace 4",
-    description:
-      "Creative work environment fostering productivity and innovation.",
+    description: "Our Facility",
   },
 ];
 

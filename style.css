@@ -676,6 +676,7 @@ body {
   height: 100%;
   object-fit: cover;
   flex-shrink: 0;
+  object-position: bottom;
 }
 
 .s-infrastructure-button {
@@ -1033,9 +1034,9 @@ body {
   line-height: 30px;
 }
 
-.s-tools-set section h3 span{
+.s-tools-set section h3 span {
   font-family: Inter;
-    color: var(--Absolute-White, #fff);
+  color: var(--Absolute-White, #fff);
 }
 
 .s-tools-set p {
