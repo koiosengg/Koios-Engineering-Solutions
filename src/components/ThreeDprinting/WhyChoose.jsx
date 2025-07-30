@@ -10,7 +10,7 @@ function WhyChoose() {
       <div className="threeD-printing-why-choose-container">
         <h2>
           <span>Why Choose </span>
-          3D Printing for Your Project
+          Us
         </h2>
         <ul>
           <li>

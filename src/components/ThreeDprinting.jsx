@@ -21,8 +21,9 @@ function ThreeDprinting() {
       </Helmet>
       <Banner />
       <FDM />
-      <WhyChoose />
       <WhyChooseFDM />
+      <WhyChoose />
+
       <FDMCapabilities />
       <Applications />
       <Materials />
