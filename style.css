@@ -3109,7 +3109,7 @@ span {
   overflow: hidden;
   display: inline-flex;
   align-items: center;
-  animation: marquee 20s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 @keyframes marquee {
