@@ -17,6 +17,7 @@ import Img15 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing K
 import Img16 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 16.jpeg";
 import Img17 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 17.jpeg";
 import Img18 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 18.jpeg";
+import Img19 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 19.jpg";
 
 function Marquee() {
   return (
@@ -40,6 +41,7 @@ function Marquee() {
         <img src={Img16} alt="Koios Engineering Solution Marquee Img" />
         <img src={Img17} alt="Koios Engineering Solution Marquee Img" />
         <img src={Img18} alt="Koios Engineering Solution Marquee Img" />
+        <img src={Img19} alt="Koios Engineering Solution Marquee Img" />
         <img src={Img1} alt="Koios Engineering Solution Marquee Img" />
         <img src={Img2} alt="Koios Engineering Solution Marquee Img" />
         <img src={Img3} alt="Koios Engineering Solution Marquee Img" />
@@ -58,6 +60,7 @@ function Marquee() {
         <img src={Img16} alt="Koios Engineering Solution Marquee Img" />
         <img src={Img17} alt="Koios Engineering Solution Marquee Img" />
         <img src={Img18} alt="Koios Engineering Solution Marquee Img" />
+        <img src={Img19} alt="Koios Engineering Solution Marquee Img" />
       </div>
     </div>
   );
