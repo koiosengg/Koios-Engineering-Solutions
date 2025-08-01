@@ -1,11 +1,11 @@
 import React from "react";
 import Img1 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 1.jpg";
-import Img2 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 2.jpg";
-import Img3 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 3.jpg";
-import Img4 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 4.jpg";
-import Img5 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 5.jpg";
-import Img6 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 6.jpg";
-import Img7 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 7.jpg";
+import Img2 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 2.jpeg";
+import Img3 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 3.jpeg";
+import Img4 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 4.jpeg";
+import Img5 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 5.jpeg";
+import Img6 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 6.jpeg";
+import Img7 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 7.jpeg";
 import Img8 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 8.jpg";
 import Img9 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 9.jpg";
 import Img10 from "../../assets/ThreeDprinting/Marquee/Marquee Img 3D Printing Koios Engineering Solutions 10.jpg";
