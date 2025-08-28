@@ -11,6 +11,7 @@ import OBEN from "../../assets/Home/Marquee/OBEN.png";
 import Ampere from "../../assets/Home/Marquee/Ampere.png";
 import SPREMFI from "../../assets/Home/Marquee/SPREMFI.png";
 import Sukalpa from "../../assets/Home/Marquee/Sukalpa.png";
+import Sora from "../../assets/Home/Marquee/Sora.png";
 
 function Marquee() {
   return (
@@ -28,6 +29,7 @@ function Marquee() {
         <img src={Ampere} />
         <img src={SPREMFI} />
         <img src={Sukalpa} />
+        <img src={Sora} />
         <img src={LML} />
         <img src={SEG} />
         <img src={ISK} />
@@ -40,6 +42,7 @@ function Marquee() {
         <img src={Ampere} />
         <img src={SPREMFI} />
         <img src={Sukalpa} />
+        <img src={Sora} />
         <img src={LML} />
         <img src={SEG} />
         <img src={ISK} />
@@ -52,6 +55,7 @@ function Marquee() {
         <img src={Ampere} />
         <img src={SPREMFI} />
         <img src={Sukalpa} />
+        <img src={Sora} />
         <img src={LML} />
         <img src={SEG} />
         <img src={ISK} />
@@ -64,6 +68,7 @@ function Marquee() {
         <img src={Ampere} />
         <img src={SPREMFI} />
         <img src={Sukalpa} />
+        <img src={Sora} />
       </div>
     </div>
   );

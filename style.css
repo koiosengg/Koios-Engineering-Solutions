@@ -437,7 +437,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 84px;
-  animation: marquee 20s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 @keyframes marquee {
