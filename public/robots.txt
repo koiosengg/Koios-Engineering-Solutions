@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block sensitive or system folders (edit/remove if not present)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /config/
+
+# Sitemap (update once sitemap.xml is ready)
+Sitemap: https://www.koiosengg.com/sitemap.xml
