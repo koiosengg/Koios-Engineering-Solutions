@@ -4,17 +4,19 @@ import Banner from "./Electric Vehicle/Banner";
 import Products from "./Electric Vehicle/Products";
 
 function ElectricVehicle() {
-  return    <div className="p-mechanical-design">
+  return (
+    <div className="p-mechanical-design">
       <Helmet>
-        <title>Electric Vehicle</title>
+        <title>Electric Vehicle Engineering</title>
         <meta
           name="description"
-          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+          content="EV Protype Design and Development in bangalore."
         />
       </Helmet>
       <Banner />
       <Products />
-    </div>;
+    </div>
+  );
 }
 
 export default ElectricVehicle;

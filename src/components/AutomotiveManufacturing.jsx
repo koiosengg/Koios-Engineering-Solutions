@@ -7,10 +7,10 @@ function AutomotiveManufacturing() {
   return (
     <div className="p-mechanical-design">
       <Helmet>
-        <title>Automotive Manufacturing</title>
+        <title>Automotive Manufacturing Bangalore</title>
         <meta
           name="description"
-          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+          content="Automotive manufacturing in Bangalore: precision parts, machining."
         />
       </Helmet>
       <Banner />

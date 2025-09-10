@@ -9,10 +9,10 @@ function GeneralEngineering() {
   return (
     <>
       <Helmet>
-        <title>General Engineering</title>
+        <title>General Engineering Solutions</title>
         <meta
           name="description"
-          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+          content="Comprehensive general engineering in Bangalore: mechanical, automotive & industrial design."
         />
       </Helmet>
       <Banner />

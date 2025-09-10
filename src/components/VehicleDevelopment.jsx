@@ -9,10 +9,10 @@ function VehicleDevelopment() {
   return (
     <>
       <Helmet>
-        <title>Vehicle Development</title>
+        <title>Vehicle Development Bangalore</title>
         <meta
           name="description"
-          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+          content="Full-cycle vehicle development in Bangalore: concept to prototype to production-ready solutions."
         />
       </Helmet>
       <Banner />

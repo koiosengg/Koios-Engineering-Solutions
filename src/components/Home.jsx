@@ -15,7 +15,7 @@ function Home() {
         <title>Koios Engineering Solutions</title>
         <meta
           name="description"
-          content="Welcome to Koios Engineering Solutions"
+          content="Automobile service company in Bangalore offering vehicle R&D, 3D printing & manufacturing expertise."
         />
       </Helmet>
       <Banner />
