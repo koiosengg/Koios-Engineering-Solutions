@@ -16,8 +16,8 @@ function ThreeDprinting() {
   return (
     <div className="threeD-printing" style={{ background: "#111" }}>
       <Helmet>
-        <title>3D Printing</title>
-        <meta name="description" content="Welcome to 3D Printing Page" />
+        <title>3D Printing Bangalore</title>
+        <meta name="description" content="3D printing in Bangalore: metal, polymer, rapid prototyping & additive manufacturing." />
       </Helmet>
       <Banner />
       <FDM />

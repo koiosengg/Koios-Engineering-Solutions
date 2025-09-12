@@ -13,8 +13,11 @@ function ThreeDscan() {
   return (
     <div style={{ background: "#111" }}>
       <Helmet>
-        <title>3D Scan</title>
-        <meta name="description" content="Welcome to 3D Scanning Page" />
+        <title>3D Scanning Services</title>
+        <meta
+          name="description"
+          content="3D scanning services in Bangalore: precision measurement, inspection & reverse engineering."
+        />
       </Helmet>
       <Banner />
       <Marquee />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Banner from "./About/Banner";
 import Validators from "./About/Validators";
 import Koios from "./About/Koios";
@@ -8,6 +9,13 @@ import BelowVision from "./About/BelowVision";
 function About() {
   return (
     <>
+      <Helmet>
+        <title>About Koios Engineering</title>
+        <meta
+          name="description"
+          content="Learn about Koios Engineering, Bangalore’s trusted partner for vehicle R&D, 3D printing & manufacturing."
+        />
+      </Helmet>
       <Banner />
       <Validators />
       <Koios />

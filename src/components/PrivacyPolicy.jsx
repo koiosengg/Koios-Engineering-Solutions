@@ -1,8 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 function PrivacyPolicy() {
   return (
     <div class="p-privacy-policy-main">
+      <Helmet>
+        <title>Privacy Policy Koios Bangalore</title>
+        <meta
+          name="description"
+          content="Koios Engineering privacy policy: protecting client data, compliance with Indian and global standards."
+        />
+      </Helmet>
       <h1>Koios Engineering Solutions</h1>
       <br />
       <br />

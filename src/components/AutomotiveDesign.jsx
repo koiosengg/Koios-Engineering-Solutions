@@ -7,10 +7,10 @@ function AutomotiveDesign() {
   return (
     <div className="p-mechanical-design">
       <Helmet>
-        <title>Automotive Design</title>
+        <title>Vehicle Design Bangalore</title>
         <meta
           name="description"
-          content="Explore Koios' Website Designing services including responsive design and UI/UX development."
+          content="Automotive design in Bangalore: 3D modelling, styling & prototyping for manufacturers."
         />
       </Helmet>
       <Banner />
