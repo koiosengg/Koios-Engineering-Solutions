@@ -13,7 +13,7 @@ function Banner() {
           ></div>
         </div>
         <div className="s-product-banner-text">
-          <p>General Engineering</p>
+          <h1>General Engineering Services</h1>
           <span>
             We deliver exceptional mechanical design and mechanical
             manufacturing solutions, combining CAD precision with real-world

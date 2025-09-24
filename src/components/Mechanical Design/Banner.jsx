@@ -9,7 +9,7 @@ function Banner() {
           <Link to="/">
             Home<span> / </span>
           </Link>
-          <Link to="/general_engineering">
+          <Link to="/general-engineering-services">
             General Engineering<span> / </span>
           </Link>
           <p>Mechanical Design</p>

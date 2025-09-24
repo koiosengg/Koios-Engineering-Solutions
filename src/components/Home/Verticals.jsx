@@ -58,7 +58,10 @@ function Verticals() {
                     .
                   </p>
                 </section>
-                <Link to="/general_engineering" className="p-get-started-btn">
+                <Link
+                  to="/general-engineering-services"
+                  className="p-get-started-btn"
+                >
                   <p>Know More</p>
                 </Link>
               </div>
@@ -106,7 +109,7 @@ function Verticals() {
               with cutting-edge manufacturing, for your specialized machines and
               vehicles, meticulously meeting the highest industry standards...
             </p>
-            <Link to="/general_engineering">Know More</Link>
+            <Link to="/general-engineering-services">Know More</Link>
           </section>
         </div>
         <div className="s-mobile-verticals-set">

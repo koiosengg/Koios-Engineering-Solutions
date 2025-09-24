@@ -139,7 +139,7 @@ function AutomotiveDesign() {
           engineering principles to engineer innovative solutions that drive
           performance and efficiency.
         </p>
-        <Link to="/automotive_design">
+        <Link to="/automotive-design-services">
           <span>Explore More</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"

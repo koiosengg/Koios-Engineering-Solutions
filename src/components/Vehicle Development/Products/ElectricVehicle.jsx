@@ -122,7 +122,7 @@ function ElectricVehicle() {
           design, we're your go-to for cutting-edge solutions in electric
           vehicle innovation.
         </p>
-        <Link to="/electric_vehicle">
+        <Link to="/electric-vehicle-development-services">
           <span>Explore More</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"

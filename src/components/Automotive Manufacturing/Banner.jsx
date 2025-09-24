@@ -9,7 +9,7 @@ function Banner() {
           <Link to="/">
             Home<span> / </span>
           </Link>
-          <Link to="/vehicle_development">
+          <Link to="/vehicle-development">
             Vehicle Development<span> / </span>
           </Link>
           <p>Automotive Manufacturing</p>
@@ -18,7 +18,7 @@ function Banner() {
       <div className="p-mechanical-text-container">
         <div className="p-blue-gradient-text">AUTOMOTIVE</div>
         <div className="p-title-description">
-          <div className="p-big-mechanical-title">Automotive Manufacturing</div>
+          <h1 className="p-big-mechanical-title">Automotive Manufacturing Solutions</h1>
           <p>
             Rev up your automotive dreams with our manufacturing expertise! From
             vehicles to components, we engineer top-notch chassis and suspension

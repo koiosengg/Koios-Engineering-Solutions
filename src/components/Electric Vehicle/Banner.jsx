@@ -9,7 +9,7 @@ function Banner() {
           <Link to="/">
             Home<span> / </span>
           </Link>
-          <Link to="/vehicle_development">
+          <Link to="/vehicle-development">
             Vehicle Development<span> / </span>
           </Link>
           <p>Electric Vehicle</p>
@@ -18,7 +18,7 @@ function Banner() {
       <div className="p-mechanical-text-container">
         <div className="p-blue-gradient-text">AUTOMOTIVE</div>
         <div className="p-title-description">
-          <div className="p-big-mechanical-title">Electric Vehicle</div>
+          <h1 className="p-big-mechanical-title">Electric Vehicle Design & Engineering Services</h1>
           <p>
             We specialize in end-to-end EV Vehicle development services with 40+
             prototypes of two and 3-Wheeler built over the years.

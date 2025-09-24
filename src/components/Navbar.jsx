@@ -28,7 +28,10 @@ function Navbar() {
         </Link>
         <div className="s-nav-link notMobile">
           <div className="s-nav-link-heading">
-            <Link to="/general_engineering" className="s-nav-link-text">
+            <Link
+              to="/general-engineering-services"
+              className="s-nav-link-text"
+            >
               <p>General Engineering</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +51,9 @@ function Navbar() {
                     src={GeneralEngineeringLogo}
                     alt="General Engineering Logo"
                   />
-                  <Link to="/general_engineering">General Engineering</Link>
+                  <Link to="/general-engineering-services">
+                    General Engineering
+                  </Link>
                 </div>
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">
@@ -62,7 +67,7 @@ function Navbar() {
             </div>
           </div>
           <div className="s-nav-link-heading">
-            <Link to="/vehicle_development" className="s-nav-link-text">
+            <Link to="/vehicle-development" className="s-nav-link-text">
               <p>Vehicle Development</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,22 +87,26 @@ function Navbar() {
                     src={VehicleDevelopmentLogo}
                     alt="Vehicle Development Logo"
                   />
-                  <Link to="/vehicle_development">Vehicle Development</Link>
+                  <Link to="/vehicle-development">Vehicle Development</Link>
                 </div>
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">
-                    <Link to="/automotive_design">Automotive Design</Link>
-                    <Link to="/automotive_manufacturing">
+                    <Link to="/automotive-design-services">
+                      Automotive Design
+                    </Link>
+                    <Link to="/automotive-manufacturing-solutions">
                       Automotive Manufacturing
                     </Link>
-                    <Link to="/electric_vehicle">Electric Vehicle</Link>
+                    <Link to="/electric-vehicle-development-services">
+                      Electric Vehicle
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="s-nav-link-heading">
-            <Link to="/3d_scanning" className="s-nav-link-text">
+            <Link to="/3d-scanning" className="s-nav-link-text">
               <p>
                 {" "}
                 <span>3</span>D Service
@@ -120,16 +129,16 @@ function Navbar() {
                     src={ThreeDServicesLogo}
                     alt="3D Services Logo"
                   />
-                  <Link to="/3d_scanning">
+                  <Link to="/3d-scanning">
                     <span>3</span>D Service
                   </Link>
                 </div>
                 <div className="s-dropdown-set">
                   <div className="s-dropdown-options">
-                    <Link to="/3d_scanning">
+                    <Link to="/3d-scanning">
                       <span>3</span>D Scanning
                     </Link>
-                    <Link to="/3d_printing">
+                    <Link to="/3d-printing">
                       <span>3</span>D Printing
                     </Link>
                   </div>
@@ -138,12 +147,12 @@ function Navbar() {
             </div>
           </div>
           <div className="s-nav-link-heading">
-            <Link to="/about" className="s-nav-link-text">
+            <Link to="/about-us" className="s-nav-link-text">
               <p>About Us</p>
             </Link>
           </div>
           <div className="s-contact-us">
-            <Link to="/contact" className="s-nav-link-text">
+            <Link to="/contact-us" className="s-nav-link-text">
               <p>Contact Us</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +214,7 @@ function Navbar() {
           <div className="s-mobile-navlink-set Engineering">
             <div className="s-mobile-navlink-heading">
               <Link
-                to="/general_engineering"
+                to="/general-engineering-services"
                 onClick={toggleMobileNav}
                 className="heading"
               >
@@ -259,7 +268,7 @@ function Navbar() {
           <div className="s-mobile-navlink-set Engineering">
             <div className="s-mobile-navlink-heading">
               <Link
-                to="/vehicle_development"
+                to="/vehicle-development"
                 onClick={toggleMobileNav}
                 className="heading"
               >
@@ -291,7 +300,7 @@ function Navbar() {
               <div className="s-mobile-nav-list-container">
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/automotive_design"
+                    to="/automotive-design-services"
                     onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
@@ -300,7 +309,7 @@ function Navbar() {
                 </div>
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/automotive_manufacturing"
+                    to="/automotive-manufacturing-solutions"
                     onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
@@ -309,7 +318,7 @@ function Navbar() {
                 </div>
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/electric_vehicle"
+                    to="/electric-vehicle-development-services"
                     onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
@@ -322,7 +331,7 @@ function Navbar() {
           <div className="s-mobile-navlink-set Engineering">
             <div className="s-mobile-navlink-heading">
               <Link
-                to="/3d_scanning"
+                to="/3d-scanning"
                 onClick={toggleMobileNav}
                 className="heading"
               >
@@ -354,7 +363,7 @@ function Navbar() {
               <div className="s-mobile-nav-list-container">
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/3d_scanning"
+                    to="/3d-scanning"
                     onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
@@ -363,7 +372,7 @@ function Navbar() {
                 </div>
                 <div className="s-mobile-nav-list-item">
                   <Link
-                    to="/3d_printing"
+                    to="/3d-printing"
                     onClick={toggleMobileNav}
                     style={{ padding: "2px", textDecoration: "none" }}
                   >
@@ -375,14 +384,14 @@ function Navbar() {
           </div>
           <div className="s-mobile-navlink-set Engineering">
             <div className="s-mobile-navlink-heading">
-              <Link to="/about" onClick={toggleMobileNav} className="heading">
+              <Link to="/about-us" onClick={toggleMobileNav} className="heading">
                 About Us
               </Link>
             </div>
           </div>
         </div>
         <div className="s-mobile-navlink-contact-button">
-          <Link to="/contact" onClick={toggleMobileNav}>
+          <Link to="/contact-us" onClick={toggleMobileNav}>
             Contact us
           </Link>
         </div>

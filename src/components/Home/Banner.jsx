@@ -6,9 +6,9 @@ function Banner() {
         <Particle />
       <div className="p-home-heading">
         <div className="p-implementing-container">
-          <div className="p-implementing-text">
+          <h1 className="p-implementing-text">
             implementing your ideas to reality
-          </div>
+          </h1>
         </div>
         <a href="#Services" className="p-get-started-btn">
           <p>Get Started</p>

@@ -30,7 +30,7 @@ function App() {
           <Route path="/">
             <Route index element={<Home />} />
             <Route
-              path="/general_engineering"
+              path="/general-engineering-services"
               element={<GeneralEngineering />}
             />
             <Route path="/mechanical_design" element={<MechanicalDesign />} />
@@ -39,19 +39,25 @@ function App() {
               element={<MechanicalManufacturing />}
             />
             <Route
-              path="/vehicle_development"
+              path="/vehicle-development"
               element={<VehicleDevelopment />}
             />
-            <Route path="/automotive_design" element={<AutomotiveDesign />} />
             <Route
-              path="/automotive_manufacturing"
+              path="/automotive-design-services"
+              element={<AutomotiveDesign />}
+            />
+            <Route
+              path="/automotive-manufacturing-solutions"
               element={<AutomotiveManufacturing />}
             />
-            <Route path="/electric_vehicle" element={<ElectricVehicle />} />
-            <Route path="/3d_scanning" element={<ThreeDscan />} />
-            <Route path="/3d_printing" element={<ThreeDprinting />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route
+              path="/electric-vehicle-development-services"
+              element={<ElectricVehicle />}
+            />
+            <Route path="/3d-scanning" element={<ThreeDscan />} />
+            <Route path="/3d-printing" element={<ThreeDprinting />} />
+            <Route path="/about-us" element={<About />} />
+            <Route path="/contact-us" element={<Contact />} />
             <Route path="/privacy_policy" element={<PrivacyPolicy />} />
             <Route path="*" element={<Home />} />
           </Route>

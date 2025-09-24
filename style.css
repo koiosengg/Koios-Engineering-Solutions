@@ -1500,6 +1500,16 @@ body {
   line-height: 24px;
 }
 
+.p-koios h4 {
+  align-self: center;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .p-links {
   display: flex;
   justify-content: center;
@@ -1747,7 +1757,7 @@ body {
 .s-product-banner {
   width: 100%;
   display: flex;
-  padding: 229px 320px 158px 320px;
+  padding: 229px 180px 158px 180px;
   justify-content: center;
   align-items: center;
 }
@@ -1945,6 +1955,17 @@ body {
 }
 
 .s-product-banner-text p {
+  color: #fff;
+  text-align: center;
+  font-family: "Allerta Stencil";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+}
+
+.s-product-banner-text h1 {
   color: #fff;
   text-align: center;
   font-family: "Allerta Stencil";
@@ -4721,6 +4742,24 @@ span {
   -webkit-text-fill-color: transparent;
 }
 
+.s-aboutus-text h1 {
+  text-align: center;
+  font-family: "Allerta Stencil";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+  background: radial-gradient(
+    4636.51% 174.87% at 5.28% 5.83%,
+    #fff 0%,
+    rgba(255, 255, 255, 0.49) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .s-aboutus-text span {
   color: #fff;
   text-align: center;
@@ -6135,6 +6174,17 @@ span {
     letter-spacing: -0.72px;
   }
 
+  .s-product-banner-text h1 {
+    color: #fff;
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+  }
+
   .s-product-banner-text span {
     width: 100%;
     color: var(--Woodsmoke----BG-300, #b0b0b0);
@@ -6623,6 +6673,23 @@ span {
   }
 
   .s-aboutus-text p {
+    font-family: "Allerta Stencil";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    background: linear-gradient(
+      90deg,
+      #fff 3.85%,
+      rgba(255, 255, 255, 0.6) 143.9%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .s-aboutus-text h1 {
     font-family: "Allerta Stencil";
     font-size: 36px;
     font-style: normal;
@@ -7593,6 +7660,15 @@ span {
     font-weight: 500;
     line-height: 24px;
     /* 171.429% */
+  }
+
+  .p-koios h4 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
   }
 
   .p-koios img {

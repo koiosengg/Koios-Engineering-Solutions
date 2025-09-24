@@ -13,7 +13,7 @@ function Banner() {
           ></div>
         </div>
         <div className="s-product-banner-text">
-          <p>Vehicle Development</p>
+          <h1>Vehicle Development Service</h1>
           <span>
             We deliver exceptional mechanical and automotive design, coupled
             with cutting-edge manufacturing, for your specialized machines and

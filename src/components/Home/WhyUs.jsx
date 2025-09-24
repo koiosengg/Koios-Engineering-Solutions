@@ -9,7 +9,7 @@ function WhyUs() {
       </div>
       <div className="p-whyus-container">
         <div className="p-whyus-p-container">
-          <h1 className="p-whyus-text">Why Us</h1>
+          <h2 className="p-whyus-text">Why Us</h2>
           <p>
             As one of the most trusted companies by industries, Koios
             Engineering Solutions offer a fusion of visionary engineering,

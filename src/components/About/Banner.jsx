@@ -104,7 +104,7 @@ function Banner() {
         </svg>
       </div>
       <div className="s-aboutus-text">
-        <p>About Us</p>
+        <h1>About Koios Engineering Solutions</h1>
         <span>
           <span className="yellow"> we're all about making things happen.</span>
           <br />

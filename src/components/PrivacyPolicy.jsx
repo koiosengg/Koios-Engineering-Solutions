@@ -11,7 +11,7 @@ function PrivacyPolicy() {
           content="Koios Engineering privacy policy: protecting client data, compliance with Indian and global standards."
         />
       </Helmet>
-      <h1>Koios Engineering Solutions</h1>
+      <h1>Privacy Policy Koios Engineering</h1>
       <br />
       <br />
       <h1 class="p-privacy-policy-text">PRIVACY POLICY</h1>

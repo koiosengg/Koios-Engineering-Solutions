@@ -124,7 +124,7 @@ function AutomotiveManufacturing() {
           springs, ensuring your ride is smooth and exhilarating. We even build
           custom vehicles to suit all needs.
         </p>
-        <Link to="/automotive_manufacturing">
+        <Link to="/automotive-manufacturing-solutions">
           <span>Explore More</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"

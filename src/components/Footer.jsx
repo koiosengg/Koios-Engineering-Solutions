@@ -182,28 +182,28 @@ function Footer() {
             alt="koios logo"
             style={{ margin: "0px" }}
           />
-          <h1>Koios Engineering Solutions</h1>
+          <h4>Koios Engineering Solutions</h4>
         </div>
         <div className="p-rights-reserved mobile">
           © 2023 All rights reserved.
         </div>
         <div className="p-links">
           <div className="p-link-three">
-            <Link to="/general_engineering" className="p-hover engg">
+            <Link to="/general-engineering-services" className="p-hover engg">
               General Engineering
             </Link>
-            <Link to="/vehicle_development" className="p-hover software">
+            <Link to="/vehicle-development" className="p-hover software">
               Vehicle Development
             </Link>
-            <Link to="/3d_scanning" className="p-hover edutech">
+            <Link to="/3d-scanning" className="p-hover edutech">
               <span>3</span>D Services
             </Link>
           </div>
           <div className="p-link-two">
-            <Link to="/about" className="p-hover software">
+            <Link to="/about-us" className="p-hover software">
               About Us
             </Link>
-            <Link to="/contact" className="p-hover software">
+            <Link to="/contact-us" className="p-hover software">
               Contact
             </Link>
           </div>

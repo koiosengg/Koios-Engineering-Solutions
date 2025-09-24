@@ -12,7 +12,7 @@ function Contact() {
         />
       </Helmet>
       <div className="p-text">
-        <div className="p-get-in-touch">Get In Touch</div>
+        <h1 className="p-get-in-touch">Contact Koios <br className="notMobile"/> Engineering Bangalore</h1>
         <div className="p-talk-to-us">
           Talk to us and we will help you reach out as soon as possible.
         </div>

@@ -19,7 +19,7 @@ function Scanning() {
           </h2>
         </div>
         <div className="threeD-scan-line"></div>
-        <Link to="/contact" className="threeD-contact-button">
+        <Link to="/contact-us" className="threeD-contact-button">
           Contact Us
         </Link>
       </div>

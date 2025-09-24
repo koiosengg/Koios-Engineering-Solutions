@@ -152,7 +152,10 @@ function Services() {
                         Whether it’s a single component or a complex system, we
                         design and build with purpose.
                       </p>
-                      <Link to="/general_engineering" className="yellow-button">
+                      <Link
+                        to="/general-engineering-services"
+                        className="yellow-button"
+                      >
                         <p>Explore</p>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -320,7 +323,7 @@ function Services() {
                         is tested extensively to meet the technical requirement
                         to ply on the roads safely .
                       </p>
-                      <Link to="/vehicle_development" className="yellow-button">
+                      <Link to="/vehicle-development" className="yellow-button">
                         <p>Explore</p>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -413,7 +416,7 @@ function Services() {
                         <h4>Styling</h4>
                       </a> */}
                       <Link
-                        to="/automotive_manufacturing"
+                        to="/automotive-manufacturing-solutions"
                         className="s-services-container-info-set"
                       >
                         <svg
@@ -447,7 +450,7 @@ function Services() {
                         <h4>Automotive Manufacturing</h4>
                       </Link>
                       <Link
-                        to="/automotive_design"
+                        to="/automotive-design-services"
                         className="s-services-container-info-set"
                       >
                         <svg
@@ -495,7 +498,7 @@ function Services() {
                         <h4>Automotive Design</h4>
                       </Link>
                       <Link
-                        to="/electric_vehicle"
+                        to="/electric-vehicle-development-services"
                         className="s-services-container-info-set"
                       >
                         <svg
@@ -588,7 +591,7 @@ function Services() {
                         check the functional and aesthetic requirements before
                         we move along the process of manufacturing .
                       </p>
-                      <Link to="/3d_scanning" className="yellow-button">
+                      <Link to="/3d-scanning" className="yellow-button">
                         <p>Explore</p>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -606,7 +609,10 @@ function Services() {
                     </div>
                     <div className="s-services-container-info-line"></div>
                     <div className="s-services-container-info-right">
-                      <Link  to="/3d_printing" className="s-services-container-info-set">
+                      <Link
+                        to="/3d-printing"
+                        className="s-services-container-info-set"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -670,7 +676,7 @@ function Services() {
                         <h4>3D Printing</h4>
                       </Link>
                       <Link
-                        to="/3d_scanning"
+                        to="/3d-scanning"
                         className="s-services-container-info-set"
                       >
                         <svg
@@ -742,7 +748,10 @@ function Services() {
                 real-world demands. Whether it’s a single component or a complex
                 system, we design and build with purpose.
               </p>
-              <Link to="/general_engineering" className="yellow-button">
+              <Link
+                to="/general-engineering-services"
+                className="yellow-button"
+              >
                 <p>Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -908,7 +917,7 @@ function Services() {
                 deliver a vehicle which is tested extensively to meet the
                 technical requirement to ply on the roads safely .
               </p>
-              <Link to="/vehicle_development" className="yellow-button">
+              <Link to="/vehicle-development" className="yellow-button">
                 <p>Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1001,7 +1010,7 @@ function Services() {
                 <h4>Styling</h4>
               </a> */}
               <Link
-                to="/automotive_manufacturing"
+                to="/automotive-manufacturing-solutions"
                 className="s-services-container-info-set"
               >
                 <svg
@@ -1035,7 +1044,7 @@ function Services() {
                 <h4>Automotive Manufacturing</h4>
               </Link>
               <Link
-                to="/automotive_design"
+                to="/automotive-design-services"
                 className="s-services-container-info-set"
               >
                 <svg
@@ -1083,7 +1092,7 @@ function Services() {
                 <h4>Automotive Design</h4>
               </Link>
               <Link
-                to="/electric_vehicle"
+                to="/electric-vehicle-development-services"
                 className="s-services-container-info-set"
               >
                 <svg
@@ -1175,7 +1184,7 @@ function Services() {
                 aesthetic requirements before we move along the process of
                 manufacturing .
               </p>
-              <Link to="/3d_scanning" className="yellow-button">
+              <Link to="/3d-scanning" className="yellow-button">
                 <p>Explore</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1193,7 +1202,7 @@ function Services() {
             </div>
             <div className="s-services-container-info-line"></div>
             <div className="s-services-container-info-right">
-              <Link to="/3d_printing" className="s-services-container-info-set">
+              <Link to="/3d-printing" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -1256,7 +1265,7 @@ function Services() {
                 </svg>
                 <h4>3D Printing</h4>
               </Link>
-              <Link to="/3d_scanning" className="s-services-container-info-set">
+              <Link to="/3d-scanning" className="s-services-container-info-set">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

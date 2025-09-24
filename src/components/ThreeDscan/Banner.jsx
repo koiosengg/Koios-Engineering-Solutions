@@ -44,8 +44,8 @@ const ThreeDBanner = () => {
       />
 
       <div className="threeD-banner-heading">
-        <h1>3D SCANNING SERVICES</h1>
-        <Link to="/contact" className="threeD-contact-button">
+        <h1>3D Scanning & Reverse<br className="notMobile"/> Engineering Services</h1>
+        <Link to="/contact-us" className="threeD-contact-button">
           Contact Us
         </Link>
       </div>
