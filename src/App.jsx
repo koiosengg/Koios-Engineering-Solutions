@@ -18,6 +18,7 @@ import ThreeDprinting from "./components/ThreeDprinting";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
             <Route path="/about-us" element={<About />} />
             <Route path="/contact-us" element={<Contact />} />
             <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>
