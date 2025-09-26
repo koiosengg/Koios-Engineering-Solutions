@@ -1,7 +1,8 @@
 import React from "react";
 import SampleImage from "../../assets/Sample Image.png";
 import DesktopBackground from "../../assets/Home/Tools/Desktop Background.png";
-import ThreeDprinting from "../../assets/Home/Tools/3D Printing.jpg";
+import ShopFloor from "../../assets/Home/Tools/Shop Floor.jpeg";
+import ThreeDprinting from "../../assets/Home/Tools/3D Printing.jpeg";
 import ThreeDscanning from "../../assets/Home/Tools/3D Scanning.avif";
 import MIG from "../../assets/Home/Tools/MIG.webp";
 import Drill from "../../assets/Home/Tools/Drill.webp";
@@ -22,13 +23,13 @@ function Tools() {
           <img src={DesktopBackground} className="s-tools-set-background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={SampleImage} />
+              <img src={ShopFloor} alt="Shop Floor" />
             </div>
-            <h3>Assembly Areas </h3>
+            <h3>Shop Floor </h3>
           </section>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
+            We have a spacious shop floor with dedicated to undertake all the
+            manufacturing activities required .
           </p>
         </div>
         <div className="s-tools-set">
@@ -42,8 +43,8 @@ function Tools() {
             </h3>
           </section>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
+            We FDm 3D printers upto 470mm cube print volume which can
+            accommodate huge parts for prototyping.
           </p>
         </div>
         <div className="s-tools-set">
@@ -57,8 +58,8 @@ function Tools() {
             </h3>
           </section>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
+            We have Blue laser and NIR scan technology scanners Up to 20 microns
+            accuracy.
           </p>
         </div>
         <div className="s-tools-set">
@@ -67,12 +68,9 @@ function Tools() {
             <div className="s-tools-set-img">
               <img src={MIG} />
             </div>
-            <h3>Mig Welding </h3>
+            <h3>Welding </h3>
           </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
+          <p>We have Mig and arch welding facility inhouse.</p>
         </div>
         <div className="s-tools-set">
           <img src={DesktopBackground} className="s-tools-set-background" />
@@ -83,8 +81,8 @@ function Tools() {
             <h3>Radial Drilling Machine</h3>
           </section>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
+            We have radial drilling machine which provide versatile positioning
+            for complex drilling, high precision due to a rigid design.
           </p>
         </div>
         <div className="s-tools-set">
@@ -95,10 +93,7 @@ function Tools() {
             </div>
             <h3>Two wheeler lift </h3>
           </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
+          <p>Two wheeler lifts help in ease of operation</p>
         </div>
         <div className="s-tools-set">
           <img src={DesktopBackground} className="s-tools-set-background" />
@@ -108,10 +103,7 @@ function Tools() {
             </div>
             <h3>Four wheeler lift </h3>
           </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
+          <p>Four wheeler lifts help in ease of operation</p>
         </div>
         <div className="s-tools-set">
           <img src={DesktopBackground} className="s-tools-set-background" />
@@ -122,8 +114,8 @@ function Tools() {
             <h3>Tools and Wrench </h3>
           </section>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
+            We have all kids of tools and wrenches which allow ease of
+            operation.
           </p>
         </div>
         <div className="s-tools-set">
@@ -132,11 +124,11 @@ function Tools() {
             <div className="s-tools-set-img">
               <img src={AngleGrinderAndHandDrilling} />
             </div>
-            <h3>Angle Grinder and Hand Drilling </h3>
+            <h3>Power Tool </h3>
           </section>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
+            Power tools help work on metals easily for all manufacturing
+            operations.
           </p>
         </div>
         <div className="s-tools-set">
@@ -148,8 +140,8 @@ function Tools() {
             <h3>Paint Booth</h3>
           </section>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
+            We have a Portable paint booth which helps us give parts a good
+            finish in house .
           </p>
         </div>
       </div>

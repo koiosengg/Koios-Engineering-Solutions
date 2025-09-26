@@ -2,28 +2,29 @@ import React, { useRef, useState, useEffect } from "react";
 import Img1 from "../../assets/Home/Infrastructure/Img (1).jpg";
 import Img2 from "../../assets/Home/Infrastructure/Img (2).jpg";
 import Img3 from "../../assets/Home/Infrastructure/Img (3).jpg";
-import Img4 from "../../assets/Home/Infrastructure/Img (4).jpg";
+import Img4 from "../../assets/Home/Infrastructure/Img (4).jpeg";
+import Img5 from "../../assets/Home/Infrastructure/Img (5).jpeg";
 
 const images = [
   {
     src: Img1,
     title: "Workspace 1",
-    description: "Our Workspace ",
   },
   {
     src: Img2,
-    title: "Workspace 2",
-    description: " Design Space",
+    title: "Design place",
   },
   {
     src: Img3,
-    title: "Workspace 3",
-    description: "3D Service Space",
+    title: "Design place 2",
   },
   {
     src: Img4,
-    title: "Workspace 4",
-    description: "Our Facility",
+    title: "Shop floor",
+  },
+  {
+    src: Img5,
+    title: "External Image",
   },
 ];
 
@@ -135,7 +136,6 @@ function Infrastructure() {
 
         <div className="s-infrastructure-text">
           <h3>{images[currentIndex].title}</h3>
-          <p>{images[currentIndex].description}</p>
         </div>
       </div>
     </div>
