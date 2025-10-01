@@ -15,7 +15,7 @@ function OurBlogs() {
         </p>
       </div>
       <div className="s-tools-container">
-        <Link to="/" className="s-tools-set">
+        <Link to="/blogs/sample-blog" className="s-tools-set">
           <img src={DesktopBackground} className="s-tools-set-background" />
           <section>
             <div className="s-tools-set-img">

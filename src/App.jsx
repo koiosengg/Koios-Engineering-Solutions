@@ -60,7 +60,7 @@ function App() {
             <Route path="/about-us" element={<About />} />
             <Route path="/contact-us" element={<Contact />} />
             <Route path="/privacy_policy" element={<PrivacyPolicy />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/blogs/*" element={<Blog />} />
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>
