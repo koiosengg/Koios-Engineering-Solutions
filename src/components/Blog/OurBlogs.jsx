@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import DesktopBackground from "../../assets/Home/Tools/Desktop Background.png";
 import SampleImage from "../../assets/Sample Image.png";
+import Links from "./Links";
 
 function OurBlogs() {
   return (
@@ -15,84 +16,7 @@ function OurBlogs() {
         </p>
       </div>
       <div className="s-tools-container">
-        <Link to="/blogs/sample-blog" className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
-          <section>
-            <div className="s-tools-set-img">
-              <img src={SampleImage} />
-            </div>
-            <h3>Blog 1 </h3>
-          </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
-        </Link>
-        <Link to="/" className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
-          <section>
-            <div className="s-tools-set-img">
-              <img src={SampleImage} />
-            </div>
-            <h3>Blog 1 </h3>
-          </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
-        </Link>
-        <Link to="/" className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
-          <section>
-            <div className="s-tools-set-img">
-              <img src={SampleImage} />
-            </div>
-            <h3>Blog 1 </h3>
-          </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
-        </Link>
-        <Link to="/" className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
-          <section>
-            <div className="s-tools-set-img">
-              <img src={SampleImage} />
-            </div>
-            <h3>Blog 1 </h3>
-          </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
-        </Link>
-        <Link to="/" className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
-          <section>
-            <div className="s-tools-set-img">
-              <img src={SampleImage} />
-            </div>
-            <h3>Blog 1 </h3>
-          </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
-        </Link>
-        <Link to="/" className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
-          <section>
-            <div className="s-tools-set-img">
-              <img src={SampleImage} />
-            </div>
-            <h3>Blog 1 </h3>
-          </section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-            volutpat
-          </p>
-        </Link>
+        <Links />
       </div>
     </div>
   );

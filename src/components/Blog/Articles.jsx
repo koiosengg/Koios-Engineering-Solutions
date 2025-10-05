@@ -1,40 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import DesktopBackground from "../../assets/Home/Tools/Desktop Background.png";
-import SampleImage from "../../assets/Sample Image.png";
-
-const blogItems = [
-  {
-    path: "/blogs/sample-blog",
-    title: "Sample Blog",
-    desc: "This is the first sample blog with insights about design.",
-  },
-  {
-    path: "/blogs/sample-blog-1",
-    title: "Blog 1",
-    desc: "Exploring advanced engineering concepts with examples.",
-  },
-  {
-    path: "/blogs/sample-blog-2",
-    title: "Blog 2",
-    desc: "How innovation drives the future of automotive solutions.",
-  },
-  {
-    path: "/blogs/sample-blog-new",
-    title: "New Blog",
-    desc: "Latest updates and strategies shaping manufacturing today.",
-  },
-  {
-    path: "/blogs/sample-blog-3",
-    title: "Blog 3",
-    desc: "Exploring advanced engineering concepts with examples.",
-  },
-  {
-    path: "/blogs/sample-blog-4",
-    title: "Blog 4",
-    desc: "How innovation drives the future of automotive solutions.",
-  },
-];
+import Links from "./Links";
 
 function Articles() {
   const containerRef = useRef(null);
@@ -56,7 +21,9 @@ function Articles() {
     return () => window.removeEventListener("resize", updateSlideWidth);
   }, []);
 
-  const maxIndex = Math.ceil(blogItems.length / itemsPerView) - 1;
+  // Need to update this everytime i add a new blog
+  const totalItems = 3;
+  const maxIndex = Math.ceil(totalItems / itemsPerView) - 1;
 
   const handlePrev = () => {
     setCurrentIndex((prev) => Math.max(prev - 1, 0));
@@ -89,22 +56,7 @@ function Articles() {
               transition: "transform 0.5s ease-in-out",
             }}
           >
-            {blogItems.map((item, index) => (
-              <Link key={index} to={item.path} className="s-tools-set">
-                <img
-                  src={DesktopBackground}
-                  className="s-tools-set-background"
-                  alt="background"
-                />
-                <section>
-                  <div className="s-tools-set-img">
-                    <img src={SampleImage} alt="thumbnail" />
-                  </div>
-                  <h3>{item.title}</h3>
-                </section>
-                <p>{item.desc}</p>
-              </Link>
-            ))}
+            <Links />
           </div>
         </div>
 
@@ -124,8 +76,8 @@ function Articles() {
               fill="none"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M6.12155 7.50011H19.0002V10.5001H6.12155L11.0609 15.4395L8.93957 17.5608L0.378906 9.00011L8.93957 0.439453L11.0609 2.56077L6.12155 7.50011Z"
                 fill="#999999"
               />
@@ -156,10 +108,11 @@ function Articles() {
               height="18"
               viewBox="0 0 19 18"
               fill="none"
+              style={{ transform: "rotate(180deg)" }}
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M6.12155 7.50011H19.0002V10.5001H6.12155L11.0609 15.4395L8.93957 17.5608L0.378906 9.00011L8.93957 0.439453L11.0609 2.56077L6.12155 7.50011Z"
                 fill="#999999"
               />

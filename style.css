@@ -5649,6 +5649,57 @@ span {
   line-height: 24px;
 }
 
+.blog-inner-text-span {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px 0px;
+}
+
+.blog-inner-text h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 191, 0, 0.25);
+  color: #fff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.blog-inner-text ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  padding: 20px 0px 20px 20px;
+}
+
+.blog-inner-text strong {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.blog-inner-text li {
+  color: var(--Woodsmoke----BG-300, #b0b0b0);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .blog-article {
   width: 100%;
   display: flex;
