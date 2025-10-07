@@ -34,7 +34,7 @@ function Articles() {
   };
 
   return (
-    <div className="s-infrastructure our-blogs">
+    <div className="s-infrastructure our-blogs blogs-article">
       <div className="s-infrastructure-heading">
         <h2>Read Our Next Articles</h2>
         <p>

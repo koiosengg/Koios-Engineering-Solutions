@@ -5463,7 +5463,7 @@ span {
 
 .blog-faq-set span {
   color: #fff;
-  font-family: Quicksand;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -7005,7 +7005,7 @@ span {
     align-self: center;
     color: var(--Woodsmoke----BG-300, #b0b0b0);
     text-align: center;
-    font-family: Quicksand;
+    font-family: Raleway;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -8269,5 +8269,139 @@ span {
   .p-mail-button svg {
     height: 20px;
     width: 20px;
+  }
+
+  /* Blog */
+
+  .blog-banner-container {
+    padding: 0px 20px;
+  }
+
+  .blog-banner-container h1 {
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 200% */
+    letter-spacing: -0.72px;
+    background: linear-gradient(
+      90deg,
+      #fff 3.85%,
+      rgba(255, 255, 255, 0.6) 143.9%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .blog-banner-container p {
+    color: var(--gray---for-text-400, #98a2b3);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .our-blogs .s-tools-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .our-blogs .s-tools-set {
+    width: 100%;
+  }
+
+  .blog-faq-set h3 {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .blog-faq-set p {
+    color: var(--Woodsmoke----BG-300, #b0b0b0);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+  }
+
+  /* Blog Inner Page */
+
+  .blog-inner {
+    padding: 110px 20px 48px 20px;
+  }
+
+  .blog-inner-top-heading p {
+    padding-top: 32px;
+    color: var(--Woodsmoke----BG-400, #888);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+  }
+
+  .blog-inner-top-heading h1 {
+    color: var(--Amber-500----Primary, #ffbf00);
+    font-family: "Allerta Stencil";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
+
+  .blog-inner-text h2 {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .blog-inner-text-span {
+    gap: 16px;
+  }
+
+  .blog-inner-text h3 {
+    color: var(--gray---for-text-25, #fcfcfd);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .blogs-article .blog-article-container {
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .blogs-article .blog-article-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .blogs-article .s-tools-set {
+    width: 90%;
+  }
+
+  .blog-article-controls {
+    display: none;
+  }
+
+  .our-blogs .s-tools-set-background {
+    opacity: 1;
   }
 }
