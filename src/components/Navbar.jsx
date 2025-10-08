@@ -151,6 +151,11 @@ function Navbar() {
               <p>About Us</p>
             </Link>
           </div>
+          <div className="s-nav-link-heading">
+            <Link to="/blogs" className="s-nav-link-text">
+              <p>Blogs</p>
+            </Link>
+          </div>
           <div className="s-contact-us">
             <Link to="/contact-us" className="s-nav-link-text">
               <p>Contact Us</p>
@@ -384,8 +389,19 @@ function Navbar() {
           </div>
           <div className="s-mobile-navlink-set Engineering">
             <div className="s-mobile-navlink-heading">
-              <Link to="/about-us" onClick={toggleMobileNav} className="heading">
+              <Link
+                to="/about-us"
+                onClick={toggleMobileNav}
+                className="heading"
+              >
                 About Us
+              </Link>
+            </div>
+          </div>
+          <div className="s-mobile-navlink-set Engineering">
+            <div className="s-mobile-navlink-heading">
+              <Link to="/blogs" onClick={toggleMobileNav} className="heading">
+                Blogs
               </Link>
             </div>
           </div>
