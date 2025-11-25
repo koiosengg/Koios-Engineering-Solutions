@@ -20,8 +20,8 @@ function Links() {
           <h3>Prototyping Services at KoiosEngg</h3>
         </section>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-          volutpat
+          Prototypig services at Koiosengg sub heading: Read about our
+          End-to-end automotive prototyping solutions for manufacturers.
         </p>
       </Link>
       <Link
@@ -36,8 +36,8 @@ function Links() {
           <h3>Automotive Design Services</h3>
         </section>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-          volutpat
+          Discover how advanced design workflows turn automotive concepts into
+          precise, production-ready engineering outcomes.
         </p>
       </Link>
       <Link
@@ -52,8 +52,8 @@ function Links() {
           <h3>Electric Vehicle Design Services</h3>
         </section>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-          volutpat
+          Explore the key engineering steps that shape efficient, lightweight,
+          and scalable electric vehicle development.
         </p>
       </Link>
     </>

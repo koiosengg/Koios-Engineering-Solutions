@@ -10,9 +10,8 @@ function OurBlogs() {
       <div className="s-infrastructure-heading">
         <h2>Our Blogs</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-          volutpat diam turpis aliquam a. Dictum massa ut sit odio. Quis augue
-          risus morbi dictum sem varius. Non.
+          Explore practical knowledge, technical trends, and real-world
+          engineering solutions crafted for modern industrial challenges today.
         </p>
       </div>
       <div className="s-tools-container">

@@ -39,10 +39,10 @@ function FAQ() {
   return (
     <div className="s-infrastructure">
       <div className="s-infrastructure-heading">
-        <h2>FAQ’s</h2>
+        <h2>Frequently Asked Questions</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-          volutpat diam turpis
+          Get quick clarity on our services, development timelines, and
+          manufacturing solutions.
         </p>
       </div>
       <div className="blog-faq">

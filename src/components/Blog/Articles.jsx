@@ -36,10 +36,11 @@ function Articles() {
   return (
     <div className="s-infrastructure our-blogs blogs-article">
       <div className="s-infrastructure-heading">
-        <h2>Read Our Next Articles</h2>
+        <h2>Explore More Engineering Insights</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Tortor eget at dolor nibh
-          volutpat diam turpis aliquam a.
+          Stay updated with expert engineering articles covering prototyping,
+          product development, manufacturing technologies, and industry-focused
+          innovation trends.
         </p>
       </div>
 
