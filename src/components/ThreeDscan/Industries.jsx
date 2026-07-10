@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Aerospace from "../../assets/ThreeDscan/Industries/Aerospace.png";
 import ElectricVehicle from "../../assets/ThreeDscan/Industries/Electric Vehicle.png";
 import Automotive from "../../assets/ThreeDscan/Industries/Automotive.png";
-import GeneralEngineering from "../../assets/ThreeDscan/Industries/General Engineering.png";
+import GeneralEngineering from "../../assets/ThreeDscan/Industries/Laserscanning-683x1024.png";
 import Machinery from "../../assets/ThreeDscan/Industries/Machinery.png";
 import SectionScrollAnimation from "../SectionScrollAnimation";
 

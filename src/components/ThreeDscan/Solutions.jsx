@@ -1,5 +1,10 @@
 import React, { useEffect, useState, useRef } from "react";
-import Img1 from "../../assets/ThreeDscan/Solutions/threeD-solutions-set-content-img.png";
+import Img1 from "../../assets/ThreeDscan/Solutions/3d printing.jpg";
+import Img2 from "../../assets/ThreeDscan/Solutions/3d scanning.jpg";
+import Img3 from "../../assets/ThreeDscan/Solutions/desigs and engineering.webp";
+import Img4 from "../../assets/ThreeDscan/Solutions/digital inspection.png";
+import Img5 from "../../assets/ThreeDscan/Solutions/tear down and bench marking.jpg";
+import Img6 from "../../assets/ThreeDscan/Solutions/reverse-engineering.jpg";
 import FrameSVG from "../../assets/ThreeDscan/Solutions/FrameSVG";
 import ArrowSVG from "../../assets/ThreeDscan/Solutions/ArrowSVG";
 import SectionScrollAnimation from "../SectionScrollAnimation"
@@ -82,7 +87,7 @@ function Solutions() {
             >
               <FrameSVG />
               <div className="threeD-solutions-set-content">
-                <img src={Img1} alt="3D Scanning" />
+                <img src={Img2} alt="3D Scanning" />
                 <h3>3D Scanning</h3>
                 <p>
                   Capture intricate details of any part or prototype with
@@ -97,7 +102,7 @@ function Solutions() {
             >
               <FrameSVG />
               <div className="threeD-solutions-set-content">
-                <img src={Img1} alt="Reverse Engineering" />
+                <img src={Img6} alt="Reverse Engineering" />
                 <h3>Reverse Engineering</h3>
                 <p>
                   We help you dissect and recreate complex components,
@@ -112,7 +117,7 @@ function Solutions() {
             >
               <FrameSVG />
               <div className="threeD-solutions-set-content">
-                <img src={Img1} alt="Digital Inspection" />
+                <img src={Img4} alt="Digital Inspection" />
                 <h3>Digital Inspection</h3>
                 <p>
                   Our digital inspection service verifies dimensions and
@@ -127,7 +132,7 @@ function Solutions() {
             >
               <FrameSVG />
               <div className="threeD-solutions-set-content">
-                <img src={Img1} alt="Tear Down/Benchmarking" />
+                <img src={Img5} alt="Tear Down/Benchmarking" />
                 <h3>Tear Down/Bench Marking</h3>
                 <p>
                   Our tear down and benchmarking digs deep into component
@@ -157,7 +162,7 @@ function Solutions() {
             >
               <FrameSVG />
               <div className="threeD-solutions-set-content">
-                <img src={Img1} alt="Design & Engineering" />
+                <img src={Img3} alt="Design & Engineering" />
                 <h3>Design & Engineering Services</h3>
                 <p>
                   We bridge the gap between ideas and execution. Our expertise
