@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { AboutStructuredData } from "../structured-data";
 import Banner from "./About/Banner";
 import Validators from "./About/Validators";
 import Koios from "./About/Koios";
@@ -9,6 +10,7 @@ import BelowVision from "./About/BelowVision";
 function About() {
   return (
     <>
+      <AboutStructuredData />
       <Helmet>
         <title>About Koios Engineering</title>
         <meta

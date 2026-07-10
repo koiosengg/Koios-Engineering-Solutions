@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { GeneralEngineeringStructuredData } from "../structured-data";
 import Banner from "./General Engineering/Banner";
 import Benefits from "./General Engineering/Benefits";
 import Products from "./General Engineering/Products";
@@ -8,6 +9,7 @@ import Gallery from "./General Engineering/Gallery";
 function GeneralEngineering() {
   return (
     <>
+      <GeneralEngineeringStructuredData />
       <Helmet>
         <title>General Engineering Solutions</title>
         <meta

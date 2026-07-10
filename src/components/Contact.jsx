@@ -1,9 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { ContactStructuredData } from "../structured-data";
 
 function Contact() {
   return (
     <div className="p-contact">
+      <ContactStructuredData />
       <Helmet>
         <title>Contact Koios Engineering</title>
         <meta

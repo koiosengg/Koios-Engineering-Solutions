@@ -1,11 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { MechanicalDesignStructuredData } from "../structured-data";
 import Banner from "./Mechanical Design/Banner";
 import Products from "./Mechanical Design/Products";
 
 function MechanicalDesign() {
   return (
     <div className="p-mechanical-design">
+      <MechanicalDesignStructuredData />
       <Helmet>
         <title>Mechanical Design</title>
         <meta

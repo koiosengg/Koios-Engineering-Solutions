@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { ThreeDPrintingStructuredData } from "../structured-data";
 import Banner from "./ThreeDprinting/Banner";
 import FDM from "./ThreeDprinting/FDM";
 import WhyChoose from "./ThreeDprinting/WhyChoose";
@@ -15,6 +16,7 @@ import Testimony from "./ThreeDprinting/Testimony";
 function ThreeDprinting() {
   return (
     <div className="threeD-printing" style={{ background: "#111" }}>
+      <ThreeDPrintingStructuredData />
       <Helmet>
         <title>3D Printing Bangalore</title>
         <meta name="description" content="3D printing in Bangalore: metal, polymer, rapid prototyping & additive manufacturing." />

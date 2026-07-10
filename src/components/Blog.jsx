@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Routes, Route } from "react-router-dom";
+import { BlogStructuredData } from "../structured-data";
 import Banner from "./Blog/Banner";
 import OurBlogs from "./Blog/OurBlogs";
 import FAQ from "./Blog/FAQ";
@@ -13,6 +14,7 @@ import Electric from "./Blog/Electric";
 function Blog() {
   return (
     <>
+      <BlogStructuredData />
       <Helmet>
         <title>Blogs</title>
         <meta name="description" content="Koios Engineering Solution Blogs" />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { VehicleDevelopmentStructuredData } from "../structured-data";
 import Banner from "./Vehicle Development/Banner";
 import Benefits from "./Vehicle Development/Benefits";
 import Products from "./Vehicle Development/Products";
@@ -8,6 +9,7 @@ import Gallery from "./Vehicle Development/Gallery";
 function VehicleDevelopment() {
   return (
     <>
+      <VehicleDevelopmentStructuredData />
       <Helmet>
         <title>Vehicle Development Bangalore</title>
         <meta

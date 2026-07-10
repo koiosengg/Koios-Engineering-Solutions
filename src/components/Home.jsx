@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { HomePageStructuredData } from "../structured-data";
 import Banner from "./Home/Banner";
 import Marquee from "./Home/Marquee";
 import WhyUs from "./Home/WhyUs";
@@ -11,6 +12,7 @@ import Verticals from "./Home/Verticals";
 function Home() {
   return (
     <>
+      <HomePageStructuredData />
       <Helmet>
         <title>Koios Engineering Solutions</title>
         <meta
