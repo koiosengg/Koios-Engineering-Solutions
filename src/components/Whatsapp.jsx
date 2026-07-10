@@ -2,7 +2,7 @@ import React from "react";
 
 function Whatsapp() {
   return (
-    <a href="https://wa.me/917338658118" target="_blank" className="s-whatsapp">
+    <a href="https://wa.me/917338658118" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" className="s-whatsapp">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="48"

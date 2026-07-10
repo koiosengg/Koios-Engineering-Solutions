@@ -20,7 +20,7 @@ function Tools() {
       </div>
       <div className="s-tools-container">
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
               <img src={ShopFloor} alt="Shop Floor" />
@@ -33,10 +33,10 @@ function Tools() {
           </p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={ThreeDprinting} />
+              <img src={ThreeDprinting} alt="3D Printing" />
             </div>
             <h3>
               <span>3</span>D Printing{" "}
@@ -48,10 +48,10 @@ function Tools() {
           </p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={ThreeDscanning} />
+              <img src={ThreeDscanning} alt="3D Scanning" />
             </div>
             <h3>
               <span>3</span>D Scanning{" "}
@@ -63,20 +63,20 @@ function Tools() {
           </p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={MIG} />
+              <img src={MIG} alt="MIG welding" />
             </div>
             <h3>Welding </h3>
           </section>
           <p>We have Mig and arch welding facility inhouse.</p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={Drill} />
+              <img src={Drill} alt="Radial drilling machine" />
             </div>
             <h3>Radial Drilling Machine</h3>
           </section>
@@ -86,30 +86,30 @@ function Tools() {
           </p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={TwoWheelerLift} />
+              <img src={TwoWheelerLift} alt="Two wheeler lift" />
             </div>
             <h3>Two wheeler lift </h3>
           </section>
           <p>Two wheeler lifts help in ease of operation</p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={FourWheelerLift} />
+              <img src={FourWheelerLift} alt="Four wheeler lift" />
             </div>
             <h3>Four wheeler lift </h3>
           </section>
           <p>Four wheeler lifts help in ease of operation</p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={ToolsandWrench} />
+              <img src={ToolsandWrench} alt="Tools and wrench" />
             </div>
             <h3>Tools and Wrench </h3>
           </section>
@@ -119,10 +119,10 @@ function Tools() {
           </p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={AngleGrinderAndHandDrilling} />
+              <img src={AngleGrinderAndHandDrilling} alt="Angle grinder and hand drilling" />
             </div>
             <h3>Power Tool </h3>
           </section>
@@ -132,10 +132,10 @@ function Tools() {
           </p>
         </div>
         <div className="s-tools-set">
-          <img src={DesktopBackground} className="s-tools-set-background" />
+          <img src={DesktopBackground} className="s-tools-set-background" alt="Tool card background" />
           <section>
             <div className="s-tools-set-img">
-              <img src={PaintBooth} />
+              <img src={PaintBooth} alt="Paint booth" />
             </div>
             <h3>Paint Booth</h3>
           </section>

@@ -26,7 +26,7 @@ function SampleBlog() {
             <p>July 07, 2025</p>
             <h1>The Ultimate Guide to Our Industry 2025</h1>
           </div>
-          <img src={SampleImage} />
+          <img src={SampleImage} alt="Blog post cover image" />
         </div>
         <div className="blog-inner-bottom">
           <div className="blog-inner-text">

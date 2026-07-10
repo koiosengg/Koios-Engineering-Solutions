@@ -21,9 +21,9 @@ function Navbar() {
   };
   return (
     <>
-      <div className="s-navbar">
+      <nav className="s-navbar" aria-label="Main navigation">
         <Link to="/" className="s-logo-container">
-          <img src={Logo} />
+          <img src={Logo} alt="Koios Engineering Solutions" />
           <p>Koios Engineering Solutions</p>
         </Link>
         <div className="s-nav-link notMobile">
@@ -188,7 +188,7 @@ function Navbar() {
             />
           </svg>
         </div>
-      </div>
+      </nav>
       <div
         className={` s-mobile-navbar mobileNavbar mobile ${
           isMobileNavOpen
@@ -197,6 +197,7 @@ function Navbar() {
             ? "nonactiveMobileNavbar"
             : ""
         }`}
+        aria-label="Mobile navigation"
       >
         <div
           className="s-mobile-navbar-cancel-button"

@@ -69,7 +69,7 @@ function Footer() {
   }, []);
 
   return (
-    <div className="p-footer-container">
+    <footer className="p-footer-container">
       <div className="p-connection-container">
         <div className="p-circle-text">
           <div className="p-circle-svg" ref={circleRef}>
@@ -209,7 +209,7 @@ function Footer() {
           </div>
         </div>
         <div className="p-social-icons mobile">
-          <a href="https://www.facebook.com/profile.php?id=61558132420825">
+          <a href="https://www.facebook.com/profile.php?id=61558132420825" aria-label="Facebook">
             <svg
               width="21"
               height="21"
@@ -223,7 +223,7 @@ function Footer() {
               />
             </svg>
           </a>
-          <a href="https://www.instagram.com/koiosengg/?hl=en">
+          <a href="https://www.instagram.com/koiosengg/?hl=en" aria-label="Instagram">
             <svg
               width="21"
               height="21"
@@ -237,7 +237,7 @@ function Footer() {
               />
             </svg>
           </a>
-          <a id="dropdown-toggle" href="#">
+          <a id="dropdown-toggle" href="#" aria-label="LinkedIn">
             <svg
               width="21"
               height="21"
@@ -255,7 +255,7 @@ function Footer() {
         <div className="p-line"></div>
 
         <div className="p-address-container">
-          <a href="tel:+916361668024" target="_blank" className="p-call-div">
+          <a href="tel:+916361668024" target="_blank" rel="noopener noreferrer" className="p-call-div">
             <div className="p-gd">
               <svg
                 width="24"
@@ -274,7 +274,7 @@ function Footer() {
           </a>
           <a
             href="https://maps.app.goo.gl/Ug5DpBKpAW9bUKka6"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             className="p-location-div"
           >
             <div className="p-gd location">
@@ -293,7 +293,7 @@ function Footer() {
           </a>
           <a
             href="https://mail.google.com/mail/?view=cm&to=info@koiosengg.com"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             className="p-mail-div"
           >
             <div className="p-gd">
@@ -340,7 +340,7 @@ function Footer() {
           <div className="p-social-icons">
             <a
               href="https://www.facebook.com/profile.php?id=61570978105729&mibextid=ZbWKwL"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer" aria-label="Facebook"
             >
               <svg
                 width="21"
@@ -357,7 +357,7 @@ function Footer() {
             </a>
             <a
               href="https://www.instagram.com/koiostudio?igsh=MXg4OTJ5bHlkaGc3Nw=="
-              target="_blank"
+              target="_blank" rel="noopener noreferrer" aria-label="Instagram"
             >
               <svg
                 width="21"
@@ -374,7 +374,7 @@ function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/company/koiostudio/"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
             >
               <svg
                 width="21"
@@ -399,7 +399,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

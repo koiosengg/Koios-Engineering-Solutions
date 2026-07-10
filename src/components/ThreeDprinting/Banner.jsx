@@ -5,8 +5,8 @@ import MobileBanner from "../../assets/ThreeDprinting/Banner/Mobile Banner.png"
 function Banner() {
   return (
     <div className="threeD-printing-banner">
-      <img src={DesktopBanner} className="threeD-printing-banner-background notMobile" />
-      <img src={MobileBanner} className="threeD-printing-banner-background mobile" />
+      <img src={DesktopBanner} className="threeD-printing-banner-background notMobile" alt="3D Printing banner" />
+      <img src={MobileBanner} className="threeD-printing-banner-background mobile" alt="3D Printing banner" />
       <div className="threeD-printing-banner-container">
         <section>
           <h1>
@@ -22,7 +22,7 @@ function Banner() {
             experienced hands.
           </p>
         </section>
-        <a href="#" className="yellow-button">
+        <a href="#contact" className="yellow-button" aria-label="Get Started">
           <p>Get Started</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"

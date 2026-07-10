@@ -17,58 +17,58 @@ function Marquee() {
   return (
     <div className="p-logos-container">
       <div className="p-logos">
-        <img src={LML} />
-        <img src={SEG} />
-        <img src={ISK} />
-        <img src={Staidrich} />
-        <img src={Engginno} />
-        <img src={EParivahan} />
-        <img src={Micronix} />
-        <img src={UrbanSphere} />
-        <img src={OBEN} />
-        <img src={Ampere} />
-        <img src={SPREMFI} />
-        <img src={Sukalpa} />
-        <img src={Sora} />
-        <img src={LML} />
-        <img src={SEG} />
-        <img src={ISK} />
-        <img src={Staidrich} />
-        <img src={Engginno} />
-        <img src={EParivahan} />
-        <img src={Micronix} />
-        <img src={UrbanSphere} />
-        <img src={OBEN} />
-        <img src={Ampere} />
-        <img src={SPREMFI} />
-        <img src={Sukalpa} />
-        <img src={Sora} />
-        <img src={LML} />
-        <img src={SEG} />
-        <img src={ISK} />
-        <img src={Staidrich} />
-        <img src={Engginno} />
-        <img src={EParivahan} />
-        <img src={Micronix} />
-        <img src={UrbanSphere} />
-        <img src={OBEN} />
-        <img src={Ampere} />
-        <img src={SPREMFI} />
-        <img src={Sukalpa} />
-        <img src={Sora} />
-        <img src={LML} />
-        <img src={SEG} />
-        <img src={ISK} />
-        <img src={Staidrich} />
-        <img src={Engginno} />
-        <img src={EParivahan} />
-        <img src={Micronix} />
-        <img src={UrbanSphere} />
-        <img src={OBEN} />
-        <img src={Ampere} />
-        <img src={SPREMFI} />
-        <img src={Sukalpa} />
-        <img src={Sora} />
+        <img src={LML} alt="LML logo" />
+        <img src={SEG} alt="SEG logo" />
+        <img src={ISK} alt="ISK logo" />
+        <img src={Staidrich} alt="Staidrich logo" />
+        <img src={Engginno} alt="Engginno logo" />
+        <img src={EParivahan} alt="E Parivahan logo" />
+        <img src={Micronix} alt="Micronix logo" />
+        <img src={UrbanSphere} alt="Urban Sphere logo" />
+        <img src={OBEN} alt="OBEN logo" />
+        <img src={Ampere} alt="Ampere logo" />
+        <img src={SPREMFI} alt="SPREMFI logo" />
+        <img src={Sukalpa} alt="Sukalpa logo" />
+        <img src={Sora} alt="Sora logo" />
+        <img src={LML} alt="LML logo" />
+        <img src={SEG} alt="SEG logo" />
+        <img src={ISK} alt="ISK logo" />
+        <img src={Staidrich} alt="Staidrich logo" />
+        <img src={Engginno} alt="Engginno logo" />
+        <img src={EParivahan} alt="E Parivahan logo" />
+        <img src={Micronix} alt="Micronix logo" />
+        <img src={UrbanSphere} alt="Urban Sphere logo" />
+        <img src={OBEN} alt="OBEN logo" />
+        <img src={Ampere} alt="Ampere logo" />
+        <img src={SPREMFI} alt="SPREMFI logo" />
+        <img src={Sukalpa} alt="Sukalpa logo" />
+        <img src={Sora} alt="Sora logo" />
+        <img src={LML} alt="LML logo" />
+        <img src={SEG} alt="SEG logo" />
+        <img src={ISK} alt="ISK logo" />
+        <img src={Staidrich} alt="Staidrich logo" />
+        <img src={Engginno} alt="Engginno logo" />
+        <img src={EParivahan} alt="E Parivahan logo" />
+        <img src={Micronix} alt="Micronix logo" />
+        <img src={UrbanSphere} alt="Urban Sphere logo" />
+        <img src={OBEN} alt="OBEN logo" />
+        <img src={Ampere} alt="Ampere logo" />
+        <img src={SPREMFI} alt="SPREMFI logo" />
+        <img src={Sukalpa} alt="Sukalpa logo" />
+        <img src={Sora} alt="Sora logo" />
+        <img src={LML} alt="LML logo" />
+        <img src={SEG} alt="SEG logo" />
+        <img src={ISK} alt="ISK logo" />
+        <img src={Staidrich} alt="Staidrich logo" />
+        <img src={Engginno} alt="Engginno logo" />
+        <img src={EParivahan} alt="E Parivahan logo" />
+        <img src={Micronix} alt="Micronix logo" />
+        <img src={UrbanSphere} alt="Urban Sphere logo" />
+        <img src={OBEN} alt="OBEN logo" />
+        <img src={Ampere} alt="Ampere logo" />
+        <img src={SPREMFI} alt="SPREMFI logo" />
+        <img src={Sukalpa} alt="Sukalpa logo" />
+        <img src={Sora} alt="Sora logo" />
       </div>
     </div>
   );

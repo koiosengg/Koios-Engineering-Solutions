@@ -1,0 +1,31 @@
+# Koios Engineering Solutions
+
+> Koios Engineering Solutions delivers exceptional mechanical and automotive designs coupled with cutting-edge manufacturing services for specialized needs in vehicle and mechanical domains.
+
+## Services
+
+- General Engineering (Mechanical Design, Mechanical Manufacturing)
+- Vehicle Development (Automotive Design, Automotive Manufacturing, Electric Vehicle Development)
+- 3D Services (3D Scanning, 3D Printing)
+
+## Key Pages
+
+- Home: /
+- General Engineering: /general-engineering-services
+- Mechanical Design: /mechanical_design
+- Mechanical Manufacturing: /mechanical_manufacturing
+- Vehicle Development: /vehicle-development
+- Automotive Design: /automotive-design-services
+- Automotive Manufacturing: /automotive-manufacturing-solutions
+- Electric Vehicle: /electric-vehicle-development-services
+- 3D Scanning: /3d-scanning
+- 3D Printing: /3d-printing
+- About Us: /about-us
+- Contact Us: /contact-us
+- Blogs: /blogs
+
+## Contact
+
+- Email: info@koiosengg.com
+- Phone: +91 63616 68024
+- Address: No.315/64, Mallasandra village, off holiday village road, Thalaghattapura, Bangalore, India - 560109

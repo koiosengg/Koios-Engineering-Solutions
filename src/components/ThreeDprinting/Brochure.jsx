@@ -32,7 +32,7 @@ function Brochure() {
           </a>
         </div>
         <div className="threeD-printing-brochure-img">
-          <img src={DesktopImg} />
+          <img src={DesktopImg} alt="3D Printing brochure" />
         </div>
       </div>
     </div>

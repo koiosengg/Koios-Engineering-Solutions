@@ -22,7 +22,7 @@ function Verticals() {
   return (
     <>
       <div className="s-verticals">
-        <img src={DesktopBackground} className="s-verticals-background" />
+        <img src={DesktopBackground} className="s-verticals-background" alt="Verticals section background" />
         <div className="s-verticals-container">
           <div className="s-verticals-heading">
             <h2>Our Verticals</h2>
@@ -41,7 +41,7 @@ function Verticals() {
                   }`}
                   onClick={() => setActiveVertical(vertical.id)}
                 >
-                  <img src={vertical.image} />
+                  <img src={vertical.image} alt={vertical.name} />
                   <p>{vertical.name}</p>
                 </div>
               ))}
@@ -100,7 +100,7 @@ function Verticals() {
         </div>
         <div className="s-mobile-verticals-set">
           <section>
-            <img src={verticals[0].image} />
+            <img src={verticals[0].image} alt={verticals[0].name} />
             <h3>{verticals[0].name}</h3>
           </section>
           <section>
@@ -114,7 +114,7 @@ function Verticals() {
         </div>
         <div className="s-mobile-verticals-set">
           <section>
-            <img src={verticals[1].image} />
+            <img src={verticals[1].image} alt={verticals[1].name} />
             <h3>{verticals[1].name}</h3>
           </section>
           <section>
@@ -123,7 +123,7 @@ function Verticals() {
               with cutting-edge manufacturing, for your specialized machines and
               vehicles, meticulously meeting the highest industry standards...
             </p>
-            <a href="https://www.koiostudio.com/" target="_blank">
+            <a href="https://www.koiostudio.com/" target="_blank" rel="noopener noreferrer">
               Know More
             </a>
           </section>

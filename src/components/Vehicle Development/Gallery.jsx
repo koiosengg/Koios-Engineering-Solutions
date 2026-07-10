@@ -67,7 +67,7 @@ function Gallery() {
             ref={(el) => (carouselRefs.current[i] = el)}
             className="s-carousel-set"
           >
-            <img src={img}  />
+            <img src={img} alt={`Vehicle development gallery image ${i + 1}`} />
             <div className="s-carousel-set-bg"></div>
           </div>
         ))}

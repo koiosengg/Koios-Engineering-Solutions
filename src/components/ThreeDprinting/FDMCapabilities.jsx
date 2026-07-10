@@ -109,7 +109,7 @@ function FDMCapabilities() {
           </ul>
         </div>
         <div className="threeD-printing-fdm-capabilities-img">
-            <img src={DesktopImg}/>
+            <img src={DesktopImg} alt="FDM capabilities" />
         </div>
       </div>
     </div>

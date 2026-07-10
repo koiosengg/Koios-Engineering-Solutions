@@ -5,7 +5,7 @@ function WhyUs() {
   return (
     <div className="p-whyus">
       <div className="p-spotlight-container">
-        <img loading="lazy" className="p-spotlight" src={Spotlight} />
+        <img loading="lazy" className="p-spotlight" src={Spotlight} alt="Spotlight effect" />
       </div>
       <div className="p-whyus-container">
         <div className="p-whyus-p-container">

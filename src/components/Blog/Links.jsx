@@ -12,10 +12,10 @@ function Links() {
         to="/blogs/prototyping-services-automotive-vehicle-development"
         className="s-tools-set"
       >
-        <img src={DesktopBackground} className="s-tools-set-background" />
+        <img src={DesktopBackground} className="s-tools-set-background" alt="Blog card background" />
         <section>
           <div className="s-tools-set-img">
-            <img src={Prototyping} />
+            <img src={Prototyping} alt="Prototyping" />
           </div>
           <h3>Prototyping Services at KoiosEngg</h3>
         </section>
@@ -28,10 +28,10 @@ function Links() {
         to="/blogs/automotive-design-services-vehicle-development"
         className="s-tools-set"
       >
-        <img src={DesktopBackground} className="s-tools-set-background" />
+        <img src={DesktopBackground} className="s-tools-set-background" alt="Blog card background" />
         <section>
           <div className="s-tools-set-img">
-            <img src={AutomotiveDesign} />
+            <img src={AutomotiveDesign} alt="Automotive Design" />
           </div>
           <h3>Automotive Design Services</h3>
         </section>
@@ -44,10 +44,10 @@ function Links() {
         to="/blogs/electric-vehicle-design-services"
         className="s-tools-set"
       >
-        <img src={DesktopBackground} className="s-tools-set-background" />
+        <img src={DesktopBackground} className="s-tools-set-background" alt="Blog card background" />
         <section>
           <div className="s-tools-set-img">
-            <img src={ElectricVehicle} />
+            <img src={ElectricVehicle} alt="Electric Vehicle" />
           </div>
           <h3>Electric Vehicle Design Services</h3>
         </section>
