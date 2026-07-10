@@ -49,7 +49,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Motorcycles89} />
+                  <img src={Motorcycles89} alt="89 Motorcycles" />
                   <h3><span>89</span> Motorcycles</h3>
                 </div>
               </div>
@@ -70,7 +70,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Sukalpatech} />
+                  <img src={Sukalpatech} alt="Sukalpatech" />
                   <h3>Sukalpatech</h3>
                 </div>
               </div>
@@ -91,7 +91,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Micronix} />
+                  <img src={Micronix} alt="Micronix" />
                   <h3>Micronix</h3>
                 </div>
               </div>
@@ -114,7 +114,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={Eparivahan} />
+                  <img src={Eparivahan} alt="Eparivahan" />
                   <h3>Eparivahan</h3>
                 </div>
               </div>
@@ -134,7 +134,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={UrbanSphere} />
+                  <img src={UrbanSphere} alt="Urban Sphere" />
                   <h3>Urban Sphere</h3>
                 </div>
               </div>
@@ -155,7 +155,7 @@ function Testimony() {
                   <StarSVG />
                 </div>
                 <div className="testimony-set-person">
-                  <img src={ISK} />
+                  <img src={ISK} alt="ISK Auto Industries" />
                   <h3>Isk Auto Industries</h3>
                 </div>
               </div>
@@ -180,7 +180,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Motorcycles89} />
+              <img src={Motorcycles89} alt="89 Motorcycles" />
               <h3><span>89</span> Motorcycles</h3>
             </div>
           </div>
@@ -201,7 +201,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Sukalpatech} />
+              <img src={Sukalpatech} alt="Sukalpatech" />
               <h3>Sukalpa Tech</h3>
             </div>
           </div>
@@ -222,7 +222,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Micronix} />
+              <img src={Micronix} alt="Micronix" />
               <h3>Micronix</h3>
             </div>
           </div>
@@ -242,7 +242,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={Eparivahan} />
+              <img src={Eparivahan} alt="Eparivahan" />
               <h3>Eparivahan</h3>
             </div>
           </div>
@@ -262,7 +262,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={UrbanSphere} />
+              <img src={UrbanSphere} alt="Urban Sphere" />
               <h3>Urban Sphere</h3>
             </div>
           </div>
@@ -283,7 +283,7 @@ function Testimony() {
               <StarSVG />
             </div>
             <div className="testimony-set-person">
-              <img src={ISK} />
+              <img src={ISK} alt="ISK Auto Industries" />
               <h3>Isk Auto Industries</h3>
             </div>
           </div>

@@ -17,8 +17,8 @@ function Vision() {
       </div>
       <div className="threeD-vision-container">
         <img src={CircleScanner} className="circle-scanner" alt="3D scanner vision" />
-        <img src={VisionSVG} className="notMobile visionImg" />
-        <img src={VisionMobile} className="mobile visionImg" />
+        <img src={VisionSVG} className="notMobile visionImg" alt="3D vision process diagram" />
+        <img src={VisionMobile} className="mobile visionImg" alt="3D vision process" />
       </div>
     </div>
   );

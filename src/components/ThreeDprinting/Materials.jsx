@@ -46,7 +46,7 @@ function Materials() {
         >
           <div className="threeD-printing-materials-group">
             <div className="threeD-printing-materials-set">
-              <img src={PLA} />
+              <img src={PLA} alt="PLA plus material" />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>PLA +</h3>
@@ -65,7 +65,7 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img src={ABS} />
+              <img src={ABS} alt="ABS material" />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>ABS</h3>
@@ -84,7 +84,7 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img src={PETG} />
+              <img src={PETG} alt="PETG material" />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>PETG</h3>
@@ -104,7 +104,7 @@ function Materials() {
           </div>
           <div className="threeD-printing-materials-group">
             <div className="threeD-printing-materials-set">
-              <img src={PACF} />
+              <img src={PACF} alt="PA-CF material" />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>PA-CF</h3>
@@ -123,7 +123,7 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img src={PLACF} />
+              <img src={PLACF} alt="PLACF material" />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>PLACF</h3>
@@ -142,7 +142,7 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img src={PET} />
+              <img src={PET} alt="PET material" />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>PET</h3>
@@ -162,7 +162,7 @@ function Materials() {
           </div>
           <div className="threeD-printing-materials-group">
             <div className="threeD-printing-materials-set">
-              <img src={ASA} />
+              <img src={ASA} alt="ASA material" />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>ASA</h3>
@@ -181,7 +181,7 @@ function Materials() {
             </div>
 
             <div className="threeD-printing-materials-set">
-              <img src={PPACF} />
+              <img src={PPACF} alt="PPA-CF material" />
               <div className="threeD-printing-materials-text">
                 <section>
                   <h3>PPA-CF</h3>

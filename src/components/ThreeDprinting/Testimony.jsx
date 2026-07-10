@@ -12,11 +12,11 @@ function Testimony() {
           <div className="threeD-printing-testimony-marquee">
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -26,11 +26,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -40,11 +40,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -54,11 +54,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -68,11 +68,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -82,11 +82,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -96,11 +96,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -110,11 +110,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -124,11 +124,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -138,11 +138,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -152,11 +152,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -166,11 +166,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -180,11 +180,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -194,11 +194,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -208,11 +208,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -222,11 +222,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -236,11 +236,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -250,11 +250,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -268,11 +268,11 @@ function Testimony() {
           <div className="threeD-printing-testimony-marquee threeD-printing-testimony-marquee-rev">
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -282,11 +282,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -296,11 +296,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -310,11 +310,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -324,11 +324,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -338,11 +338,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -352,11 +352,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -366,11 +366,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -380,11 +380,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -394,11 +394,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -408,11 +408,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -422,11 +422,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -436,11 +436,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -450,11 +450,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -464,11 +464,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -478,11 +478,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -492,11 +492,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc
@@ -506,11 +506,11 @@ function Testimony() {
             </div>
             <div className="threeD-printing-testimony-set">
               <section>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
+                <img src={Star} alt="" />
               </section>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Tellus est eget nunc

@@ -5,7 +5,7 @@ function WhyChoose() {
   return (
     <div className="threeD-printing-why-choose">
       <div className="threeD-printing-why-choose-img">
-        <img src={DesktopImg} />
+        <img src={DesktopImg} alt="Why choose Koios 3D printing" />
       </div>
       <div className="threeD-printing-why-choose-container">
         <h2>
