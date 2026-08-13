@@ -1,4 +1,3 @@
-import React from "react";
 import { Helmet } from "react-helmet-async";
 import { ThreeDPrintingStructuredData } from "../structured-data";
 import Banner from "./ThreeDprinting/Banner";
@@ -11,7 +10,7 @@ import Materials from "./ThreeDprinting/Materials";
 import Logos from "./ThreeDprinting/Logos";
 import Marquee from "./ThreeDprinting/Marquee";
 import Brochure from "./ThreeDprinting/Brochure";
-import Testimony from "./ThreeDprinting/Testimony";
+// import Testimony from "./ThreeDprinting/Testimony";
 
 function ThreeDprinting() {
   return (
@@ -19,20 +18,22 @@ function ThreeDprinting() {
       <ThreeDPrintingStructuredData />
       <Helmet>
         <title>3D Printing Bangalore</title>
-        <meta name="description" content="3D printing in Bangalore: metal, polymer, rapid prototyping & additive manufacturing." />
+        <meta
+          name="description"
+          content="3D printing in Bangalore: metal, polymer, rapid prototyping & additive manufacturing."
+        />
       </Helmet>
       <Banner />
       <FDM />
       <WhyChooseFDM />
       <WhyChoose />
-
       <FDMCapabilities />
       <Applications />
       <Materials />
       <Logos />
       <Marquee />
       <Brochure />
-      <Testimony />
+      {/* <Testimony /> */}
     </div>
   );
 }

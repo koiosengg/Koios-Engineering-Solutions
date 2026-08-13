@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import PLA from "../../assets/ThreeDprinting/Materials/PLA.jpg";
 import ABS from "../../assets/ThreeDprinting/Materials/ABS.jpg";
 import PETG from "../../assets/ThreeDprinting/Materials/PETG.jpg";
@@ -53,13 +53,12 @@ function Materials() {
                   <span>( Polylactic Acid )</span>
                 </section>
                 <ul>
+                  <li>Higher strength and toughness than standard PLA</li>
+                  <li>Excellent surface finish and dimensional accuracy</li>
                   <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
+                    Ideal for prototypes, enclosures, and functional parts
                   </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
+                  <li>Easy to print with minimal warping</li>
                 </ul>
               </div>
             </div>
@@ -72,13 +71,10 @@ function Materials() {
                   <span>( Acrylonitrile Butadiene Styrene )</span>
                 </section>
                 <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
-                  </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
+                  <li>Strong, durable, and heat-resistant</li>
+                  <li>Suitable for automotive and engineering applications</li>
+                  <li>Good impact resistance and machinability</li>
+                  <li>Ideal for functional prototypes</li>
                 </ul>
               </div>
             </div>
@@ -91,13 +87,10 @@ function Materials() {
                   <span>( Polyethylene Terephthalate Glycol )</span>
                 </section>
                 <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
-                  </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
+                  <li>High strength with excellent layer adhesion</li>
+                  <li>Resistant to moisture, chemicals, and impact</li>
+                  <li>Suitable for functional and end-use parts</li>
+                  <li>Good balance of flexibility and durability</li>
                 </ul>
               </div>
             </div>
@@ -111,13 +104,10 @@ function Materials() {
                   <span>( Polyamide Carbon Fiber )</span>
                 </section>
                 <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
-                  </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
+                  <li>Extremely strong and lightweight</li>
+                  <li>High stiffness with excellent wear resistance</li>
+                  <li>Ideal for structural and engineering components</li>
+                  <li>Excellent heat and chemical resistance</li>
                 </ul>
               </div>
             </div>
@@ -126,17 +116,14 @@ function Materials() {
               <img src={PLACF} alt="PLACF material" />
               <div className="threeD-printing-materials-text">
                 <section>
-                  <h3>PLACF</h3>
+                  <h3>PLA-CF</h3>
                   <span>( Polylactic Acid Carbon Fiber)</span>
                 </section>
                 <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
-                  </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
+                  <li>Increased rigidity over standard PLA</li>
+                  <li>Lightweight with a premium matte finish</li>
+                  <li>High dimensional accuracy</li>
+                  <li>Ideal for aesthetic and functional prototypes</li>
                 </ul>
               </div>
             </div>
@@ -149,13 +136,10 @@ function Materials() {
                   <span>( Polyethylene Terephthalate )</span>
                 </section>
                 <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
-                  </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
+                  <li>Strong, durable, and chemically resistant</li>
+                  <li>Excellent dimensional stability</li>
+                  <li>Good moisture resistance</li>
+                  <li>Suitable for industrial and functional applications</li>
                 </ul>
               </div>
             </div>
@@ -169,13 +153,10 @@ function Materials() {
                   <span>( Acrylonitrile Styrene Acrylate )</span>
                 </section>
                 <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
-                  </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
+                  <li>UV and weather resistant</li>
+                  <li>Excellent outdoor durability</li>
+                  <li>High impact and heat resistance</li>
+                  <li>Ideal for exterior automotive and industrial parts</li>
                 </ul>
               </div>
             </div>
@@ -188,13 +169,13 @@ function Materials() {
                   <span>( Polyphthalamide Carbon Fiber )</span>
                 </section>
                 <ul>
+                  <li>Lightweight with exceptional stiffness</li>
+                  <li>Excellent chemical and fatigue resistance</li>
+                  <li>Low moisture absorption</li>
                   <li>
-                    Lorem ipsum dolor sit amet consectetur. Elit quis in elit
-                    interdum.
+                    Ideal for automotive, industrial, and load-bearing
+                    applications
                   </li>
-                  <li>Mauris semper nullam nunc eleifend.</li>
-                  <li>Cras ut nunc ut lacus. Ornare et consectetur</li>
-                  <li>eu enim vestibulum.</li>
                 </ul>
               </div>
             </div>

@@ -542,7 +542,7 @@ body {
       rgba(255, 191, 0, 0) 27.86%
     ),
     linear-gradient(267deg, #1c1c1c 40.67%, rgba(28, 28, 28, 0.5) 99.81%),
-    url(./aboutus-koios-bg.png);
+    url(/aboutus-koios-bg.png);
   background-blend-mode: normal, normal, screen;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -713,7 +713,7 @@ body {
   border: 1px solid #ffbf00;
   opacity: 0.9;
   background: linear-gradient(0deg, #191919 0%, #191919 100%),
-    url(<path-to-image>) lightgray 0% 0% / 62.46418356895447px
+    lightgray 0% 0% / 62.46418356895447px
       62.46418356895447px repeat;
   background-blend-mode: normal, screen;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -4884,7 +4884,7 @@ span {
       rgba(255, 191, 0, 0) 27.86%
     ),
     linear-gradient(267deg, #1c1c1c 40.67%, rgba(28, 28, 28, 0) 99.81%),
-    url(./s-public/aboutus-koios-bg.png);
+    url(/aboutus-koios-bg.png);
   background-blend-mode: normal, normal, screen;
 }
 
@@ -7191,7 +7191,7 @@ span {
         rgba(255, 191, 0, 0) 27.86%
       ),
       linear-gradient(267deg, #1c1c1c 40.67%, rgba(28, 28, 28, 0) 99.81%),
-      url("./s-public/aboutus-koios-bg.png");
+      url("/aboutus-koios-bg.png");
     background-blend-mode: normal, normal, screen;
   }
 
@@ -8195,7 +8195,6 @@ span {
   .p-circle-svg {
     width: 64px;
     height: 64px;
-    background: url(./assets/border.png);
   }
 
   .p-circle-cover {

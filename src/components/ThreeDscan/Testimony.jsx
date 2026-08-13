@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import StarSVG from "../../assets/ThreeDscan/Testimony/StarSVG";
-import UrbanSphere from "../../assets/ThreeDscan/Testimony/UrbanSphere.png";
 import ISK from "../../assets/ThreeDscan/Testimony/ISK.png";
 import Motorcycles89 from "../../assets/ThreeDscan/Testimony/89 Motorcycles.png";
-import Sukalpatech from "../../assets/ThreeDscan/Testimony/Sukalpatech.png"
-import Eparivahan from "../../assets/ThreeDscan/Testimony/Eparivahan.png"
-import Micronix from "../../assets/ThreeDscan/Testimony/Micronix.png"
+import Eparivahan from "../../assets/ThreeDscan/Testimony/Eparivahan.png";
+import Micronix from "../../assets/ThreeDscan/Testimony/Micronix.png";
 import SectionScrollAnimation from "../SectionScrollAnimation";
 
 function Testimony() {
@@ -35,10 +33,10 @@ function Testimony() {
           <div className="testimony-container-div">
             <div className="testimony-set">
               <p>
-                "Koios Engineering Solutions exceeded our expectations with
+                &quot;Koios Engineering Solutions exceeded our expectations with
                 their <span>3</span>D scanning services. The level of detail and accuracy in
                 the scans helped us streamline our design process and improve
-                overall efficiency. Highly recommended!"
+                overall efficiency. Highly recommended!&quot;
               </p>
               <div className="testimony-set-info">
                 <div className="testimony-set-star">
@@ -54,33 +52,13 @@ function Testimony() {
                 </div>
               </div>
             </div>
-            <div className="testimony-set">
-              <p>
-                "We approached Koios for <span>3</span>D scanning of our aerospace
-                components. Their team was professional, timely, and delivered
-                precise scans that were critical to our project. We couldn’t
-                have asked for better support."
-              </p>
-              <div className="testimony-set-info">
-                <div className="testimony-set-star">
-                  <StarSVG />
-                  <StarSVG />
-                  <StarSVG />
-                  <StarSVG />
-                  <StarSVG />
-                </div>
-                <div className="testimony-set-person">
-                  <img src={Sukalpatech} alt="Sukalpatech" />
-                  <h3>Sukalpatech</h3>
-                </div>
-              </div>
-            </div>
+
 
             <div className="testimony-set">
               <p>
-                "Their <span>3</span>D scanning service saved us countless hours. The
+                &quot;Their <span>3</span>D scanning service saved us countless hours. The
                 detailed scans made reverse engineering our old machinery parts
-                much easier. Koios is now our go-to for scanning needs."
+                much easier. Koios is now our go-to for scanning needs.&quot;
               </p>
               <div className="testimony-set-info">
                 <div className="testimony-set-star">
@@ -100,10 +78,10 @@ function Testimony() {
           <div className="testimony-container-div">
             <div className="testimony-set">
               <p>
-                "Thanks to Koios' accurate <span>3</span>D scans, we were able to identify
+                &quot;Thanks to Koios&apos; accurate <span>3</span>D scans, we were able to identify
                 flaws in our prototype early, saving significant costs in the
-                production phase. It’s a service every manufacturer should
-                consider."
+                production phase. It&apos;s a service every manufacturer should
+                consider.&quot;
               </p>
               <div className="testimony-set-info">
                 <div className="testimony-set-star">
@@ -119,32 +97,13 @@ function Testimony() {
                 </div>
               </div>
             </div>
+
             <div className="testimony-set">
               <p>
-                "Koios Engineering Solutions provided us with quick and reliable
-                <span>3</span>D scanning services. The team was approachable and made sure we
-                got exactly what we needed for our engineering project."
-              </p>
-              <div className="testimony-set-info">
-                <div className="testimony-set-star">
-                  <StarSVG />
-                  <StarSVG />
-                  <StarSVG />
-                  <StarSVG />
-                  <StarSVG />
-                </div>
-                <div className="testimony-set-person">
-                  <img src={UrbanSphere} alt="Urban Sphere" />
-                  <h3>Urban Sphere</h3>
-                </div>
-              </div>
-            </div>
-            <div className="testimony-set">
-              <p>
-                "The <span>3</span>D scanning services from Koios simplified our entire
+                &quot;The <span>3</span>D scanning services from Koios simplified our entire
                 workflow. The scans were detailed and accurate, making our
-                design modifications easier and faster. It’s been a game changer
-                for our company."
+                design modifications easier and faster. It&apos;s been a game changer
+                for our company.&quot;
               </p>
               <div className="testimony-set-info">
                 <div className="testimony-set-star">
@@ -166,10 +125,10 @@ function Testimony() {
       <div className="testimony-container mobile">
         <div className="testimony-set">
           <p>
-            "Koios Engineering Solutions exceeded our expectations with their <span>3</span>D
+            &quot;Koios Engineering Solutions exceeded our expectations with their <span>3</span>D
             scanning services. The level of detail and accuracy in the scans
             helped us streamline our design process and improve overall
-            efficiency. Highly recommended!"
+            efficiency. Highly recommended!&quot;
           </p>
           <div className="testimony-set-info">
             <div className="testimony-set-star">
@@ -185,33 +144,13 @@ function Testimony() {
             </div>
           </div>
         </div>
-        <div className="testimony-set">
-          <p>
-            "We approached Koios for <span>3</span>D scanning of our aerospace components.
-            Their team was professional, timely, and delivered precise scans
-            that were critical to our project. We couldn’t have asked for better
-            support."
-          </p>
-          <div className="testimony-set-info">
-            <div className="testimony-set-star">
-              <StarSVG />
-              <StarSVG />
-              <StarSVG />
-              <StarSVG />
-              <StarSVG />
-            </div>
-            <div className="testimony-set-person">
-              <img src={Sukalpatech} alt="Sukalpatech" />
-              <h3>Sukalpa Tech</h3>
-            </div>
-          </div>
-        </div>
+
 
         <div className="testimony-set">
           <p>
-            "Their <span>3</span>D scanning service saved us countless hours. The detailed
+            &quot;Their <span>3</span>D scanning service saved us countless hours. The detailed
             scans made reverse engineering our old machinery parts much easier.
-            Koios is now our go-to for scanning needs."
+            Koios is now our go-to for scanning needs.&quot;
           </p>
           <div className="testimony-set-info">
             <div className="testimony-set-star">
@@ -229,9 +168,9 @@ function Testimony() {
         </div>
         <div className="testimony-set">
           <p>
-            "Thanks to Koios' accurate <span>3</span>D scans, we were able to identify flaws
+            &quot;Thanks to Koios&apos; accurate <span>3</span>D scans, we were able to identify flaws
             in our prototype early, saving significant costs in the production
-            phase. It’s a service every manufacturer should consider."
+            phase. It&apos;s a service every manufacturer should consider.&quot;
           </p>
           <div className="testimony-set-info">
             <div className="testimony-set-star">
@@ -247,32 +186,13 @@ function Testimony() {
             </div>
           </div>
         </div>
+
         <div className="testimony-set">
           <p>
-            "Koios Engineering Solutions provided us with quick and reliable <span>3</span>D
-            scanning services. The team was approachable and made sure we got
-            exactly what we needed for our engineering project."
-          </p>
-          <div className="testimony-set-info">
-            <div className="testimony-set-star">
-              <StarSVG />
-              <StarSVG />
-              <StarSVG />
-              <StarSVG />
-              <StarSVG />
-            </div>
-            <div className="testimony-set-person">
-              <img src={UrbanSphere} alt="Urban Sphere" />
-              <h3>Urban Sphere</h3>
-            </div>
-          </div>
-        </div>
-        <div className="testimony-set">
-          <p>
-            "The <span>3</span>D scanning services from Koios simplified our entire workflow.
+            &quot;The <span>3</span>D scanning services from Koios simplified our entire workflow.
             The scans were detailed and accurate, making our design
-            modifications easier and faster. It’s been a game changer for our
-            company."
+            modifications easier and faster. It&apos;s been a game changer for our
+            company.&quot;
           </p>
           <div className="testimony-set-info">
             <div className="testimony-set-star">
