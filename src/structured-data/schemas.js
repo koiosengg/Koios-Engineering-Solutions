@@ -1,6 +1,6 @@
 const BASE_URL = 'https://www.koiosengg.com';
 const COMPANY_NAME = 'Koios Engineering Solutions';
-const LOGO_URL = `${BASE_URL}/Logo.png`;
+const LOGO_URL = `${BASE_URL}/Logo.webp`;
 
 export const organizationSchema = {
   "@context": "https://schema.org",

@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SkyBanner from "../../assets/ThreeDscan/Banner/Sky Banner.png";
-import MobileSkyBanner from "../../assets/ThreeDscan/Banner/Mobile Sky Banner.png";
-import OuterRing from "../../assets/ThreeDscan/Banner/Outer Ring.png";
-import MobileOuterRing from "../../assets/ThreeDscan/Banner/Mobile Outer Ring.png";
-import MiddleRing from "../../assets/ThreeDscan/Banner/Middle Ring.png";
-import InnerRing from "../../assets/ThreeDscan/Banner/Inner Ring.png";
-import MountainBanner from "../../assets/ThreeDscan/Banner/Mountain Banner.png";
-import FrontBanner from "../../assets/ThreeDscan/Banner/Front Banner.png";
-import MobileFrontBanner from "../../assets/ThreeDscan/Banner/Mobile Front Banner.png";
+import SkyBanner from "../../assets/ThreeDscan/Banner/Sky Banner.webp";
+import MobileSkyBanner from "../../assets/ThreeDscan/Banner/Mobile Sky Banner.webp";
+import OuterRing from "../../assets/ThreeDscan/Banner/Outer Ring.webp";
+import MobileOuterRing from "../../assets/ThreeDscan/Banner/Mobile Outer Ring.webp";
+import MiddleRing from "../../assets/ThreeDscan/Banner/Middle Ring.webp";
+import InnerRing from "../../assets/ThreeDscan/Banner/Inner Ring.webp";
+import MountainBanner from "../../assets/ThreeDscan/Banner/Mountain Banner.webp";
+import FrontBanner from "../../assets/ThreeDscan/Banner/Front Banner.webp";
+import MobileFrontBanner from "../../assets/ThreeDscan/Banner/Mobile Front Banner.webp";
 
 const ThreeDBanner = () => {
   return (

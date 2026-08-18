@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import GeneralEngineeringLogo from "../assets/Navbar/General Engineering Logo.png";
-import VehicleDevelopmentLogo from "../assets/Navbar/Vehicle Development Logo.png";
-import ThreeDServicesLogo from "../assets/Navbar/3D Services Logo.png";
-import Logo from "../assets/Navbar/Navbar Logo.png";
+import GeneralEngineeringLogo from "../assets/Navbar/General Engineering Logo.webp";
+import VehicleDevelopmentLogo from "../assets/Navbar/Vehicle Development Logo.webp";
+import ThreeDServicesLogo from "../assets/Navbar/3D Services Logo.webp";
+import Logo from "../assets/Navbar/Navbar Logo.webp";
 
 function Navbar() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);

@@ -1,6 +1,6 @@
 import React from "react";
-import ISK from "../../assets/ThreeDprinting/Logos/ISK.png";
-import Micronix from "../../assets/ThreeDprinting/Logos/Micronix.png";
+import ISK from "../../assets/ThreeDprinting/Logos/ISK.webp";
+import Micronix from "../../assets/ThreeDprinting/Logos/Micronix.webp";
 
 function Logos() {
   return (

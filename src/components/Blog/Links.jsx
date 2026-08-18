@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DesktopBackground from "../../assets/Home/Tools/Desktop Background.png";
-import SampleImage from "../../assets/Sample Image.png";
-import Prototyping from "../../assets/Blog/Prototyping.png";
-import AutomotiveDesign from "../../assets/Blog/Automotive Design.png";
-import ElectricVehicle from "../../assets/Blog/Electric Vehicle.png";
+import DesktopBackground from "../../assets/Home/Tools/Desktop Background.webp";
+import SampleImage from "../../assets/Sample Image.webp";
+import Prototyping from "../../assets/Blog/Prototyping.webp";
+import AutomotiveDesign from "../../assets/Blog/Automotive Design.webp";
+import ElectricVehicle from "../../assets/Blog/Electric Vehicle.webp";
 function Links() {
   return (
     <>

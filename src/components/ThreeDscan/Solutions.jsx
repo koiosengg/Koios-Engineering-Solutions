@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useRef } from "react";
-import Img1 from "../../assets/ThreeDscan/Solutions/3d printing.jpg";
-import Img2 from "../../assets/ThreeDscan/Solutions/3d scanning.jpg";
+import Img1 from "../../assets/ThreeDscan/Solutions/3d printing.webp";
+import Img2 from "../../assets/ThreeDscan/Solutions/3d scanning.webp";
 import Img3 from "../../assets/ThreeDscan/Solutions/desigs and engineering.webp";
-import Img4 from "../../assets/ThreeDscan/Solutions/digital inspection.png";
-import Img5 from "../../assets/ThreeDscan/Solutions/tear down and bench marking.jpg";
-import Img6 from "../../assets/ThreeDscan/Solutions/reverse-engineering.jpg";
+import Img4 from "../../assets/ThreeDscan/Solutions/digital inspection.webp";
+import Img5 from "../../assets/ThreeDscan/Solutions/tear down and bench marking.webp";
+import Img6 from "../../assets/ThreeDscan/Solutions/reverse-engineering.webp";
 import FrameSVG from "../../assets/ThreeDscan/Solutions/FrameSVG";
 import ArrowSVG from "../../assets/ThreeDscan/Solutions/ArrowSVG";
 import SectionScrollAnimation from "../SectionScrollAnimation"

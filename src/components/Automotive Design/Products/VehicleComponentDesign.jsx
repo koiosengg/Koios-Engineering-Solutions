@@ -1,17 +1,17 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Vehicle_Component_Design_wheel.png";
-import Img2 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Vehicle_Component_Design_wheel_full.png";
-import Img3 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Hub.png";
-import Img4 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Int_Front_v3.png";
-import Img5 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Yezdi_rear_v1.png";
-import Img6 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Front_visor_v1.png";
-import Img7 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions 01.53.png";
-import Img8 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Silencer Body v34.35.png";
-import Img9 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions ktm_390_rear_wheel_hub_v6.png";
-import Img10 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions ktm_390_rear_wheel_hub_v6_side-view.png";
-import Img11 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Sprocket adopter v4.66.png";
-import Img12 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Swing Arm v12.63.png";
-import Img13 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Lower v3.67.png";
+import Img1 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Vehicle_Component_Design_wheel.webp";
+import Img2 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Vehicle_Component_Design_wheel_full.webp";
+import Img3 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Hub.webp";
+import Img4 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Int_Front_v3.webp";
+import Img5 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Yezdi_rear_v1.webp";
+import Img6 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Front_visor_v1.webp";
+import Img7 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions 01.53.webp";
+import Img8 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Silencer Body v34.35.webp";
+import Img9 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions ktm_390_rear_wheel_hub_v6.webp";
+import Img10 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions ktm_390_rear_wheel_hub_v6_side-view.webp";
+import Img11 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Sprocket adopter v4.66.webp";
+import Img12 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Swing Arm v12.63.webp";
+import Img13 from "../../../assets/Automotive Design/Vehicle Component Design/Koios Engineering Solutions Lower v3.67.webp";
 
 function VehicleComponentDesign() {
   const sliderRef = useRef(null);

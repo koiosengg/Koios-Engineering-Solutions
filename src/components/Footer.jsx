@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import Frame from "../assets/Footer/Rectangle 7.png";
-import Icon from "../assets/Footer/svgt.png";
-import Logo from "../assets/Navbar/Navbar Logo.png";
-import Location from "../assets/Footer/location svg.png";
+import Frame from "../assets/Footer/Rectangle 7.webp";
+import Icon from "../assets/Footer/svgt.webp";
+import Logo from "../assets/Navbar/Navbar Logo.webp";
+import Location from "../assets/Footer/location svg.webp";
 
 function Footer() {
   const circleRef = useRef(null);

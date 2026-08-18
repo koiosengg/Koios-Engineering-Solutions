@@ -1,15 +1,15 @@
 import React from "react";
-import SampleImage from "../../assets/Sample Image.png";
-import DesktopBackground from "../../assets/Home/Tools/Desktop Background.png";
-import ShopFloor from "../../assets/Home/Tools/Shop Floor.jpeg";
-import ThreeDprinting from "../../assets/Home/Tools/3D Printing.jpeg";
+import SampleImage from "../../assets/Sample Image.webp";
+import DesktopBackground from "../../assets/Home/Tools/Desktop Background.webp";
+import ShopFloor from "../../assets/Home/Tools/Shop Floor.webp";
+import ThreeDprinting from "../../assets/Home/Tools/3D Printing.webp";
 import ThreeDscanning from "../../assets/Home/Tools/3D Scanning.avif";
 import MIG from "../../assets/Home/Tools/MIG.webp";
 import Drill from "../../assets/Home/Tools/Drill.webp";
-import TwoWheelerLift from "../../assets/Home/Tools/Two Wheeler Lift.jpg";
+import TwoWheelerLift from "../../assets/Home/Tools/Two Wheeler Lift.webp";
 import FourWheelerLift from "../../assets/Home/Tools/Four Wheeler Lift.avif";
-import ToolsandWrench from "../../assets/Home/Tools/Tools and Wrench.png";
-import AngleGrinderAndHandDrilling from "../../assets/Home/Tools/Angle Grinder and Hand Drilling.jpg";
+import ToolsandWrench from "../../assets/Home/Tools/Tools and Wrench.webp";
+import AngleGrinderAndHandDrilling from "../../assets/Home/Tools/Angle Grinder and Hand Drilling.webp";
 import PaintBooth from "../../assets/Home/Tools/Paint Shop.avif";
 
 function Tools() {

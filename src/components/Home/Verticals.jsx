@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import DesktopBackground from "../../assets/Home/Verticals/Desktop Background.png";
-import KES from "../../assets/Home/Verticals/KES.png";
-import TKS from "../../assets/Home/Verticals/TKS.png";
+import DesktopBackground from "../../assets/Home/Verticals/Desktop Background.webp";
+import KES from "../../assets/Home/Verticals/KES.webp";
+import TKS from "../../assets/Home/Verticals/TKS.webp";
 
 function Verticals() {
   const [activeVertical, setActiveVertical] = useState("KES");

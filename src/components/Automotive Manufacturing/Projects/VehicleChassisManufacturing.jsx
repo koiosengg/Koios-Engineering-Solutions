@@ -1,12 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions 20240118_095335.jpg";
-import Img2 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions 20240118_095624.png";
-import Img3 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions 20240717_140536-removebg-preview.png";
-import Img4 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0008.jpg";
-import Img5 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0009.jpg";
-import Img6 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0010.jpg";
-import Img7 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0018.jpg";
-import Img8 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0019.jpg";
+import Img1 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions 20240118_095335.webp";
+import Img2 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions 20240118_095624.webp";
+import Img3 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions 20240717_140536-removebg-preview.webp";
+import Img4 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0008.webp";
+import Img5 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0009.webp";
+import Img6 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0010.webp";
+import Img7 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0018.webp";
+import Img8 from "../../../assets/Automotive Manufacturing/Vehicle Chassis Manufacturing/Koios Engineering Solutions IMG-20240330-WA0019.webp";
 
 function VehicleChassisManufacturing() {
   const sliderRef = useRef(null);

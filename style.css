@@ -542,7 +542,7 @@ body {
       rgba(255, 191, 0, 0) 27.86%
     ),
     linear-gradient(267deg, #1c1c1c 40.67%, rgba(28, 28, 28, 0.5) 99.81%),
-    url(/aboutus-koios-bg.png);
+    url(/aboutus-koios-bg.webp);
   background-blend-mode: normal, normal, screen;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -4884,7 +4884,7 @@ span {
       rgba(255, 191, 0, 0) 27.86%
     ),
     linear-gradient(267deg, #1c1c1c 40.67%, rgba(28, 28, 28, 0) 99.81%),
-    url(/aboutus-koios-bg.png);
+    url(/aboutus-koios-bg.webp);
   background-blend-mode: normal, normal, screen;
 }
 
@@ -7191,7 +7191,7 @@ span {
         rgba(255, 191, 0, 0) 27.86%
       ),
       linear-gradient(267deg, #1c1c1c 40.67%, rgba(28, 28, 28, 0) 99.81%),
-      url("/aboutus-koios-bg.png");
+      url("/aboutus-koios-bg.webp");
     background-blend-mode: normal, normal, screen;
   }
 

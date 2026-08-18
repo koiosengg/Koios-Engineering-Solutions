@@ -1,9 +1,9 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240117_155940.png";
-import Img2 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240117_160035.png";
-import Img3 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240117_160122.png";
-import Img4 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240117_160150.png";
-import Img5 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240213_132456.png";
+import Img1 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240117_155940.webp";
+import Img2 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240117_160035.webp";
+import Img3 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240117_160122.webp";
+import Img4 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240117_160150.webp";
+import Img5 from "../../../assets/Automotive Manufacturing/Custom Vehicle Manufacturing/Koios Engineering Solutions 20240213_132456.webp";
 
 function CustomVehicleManufacturing() {
   const sliderRef = useRef(null);

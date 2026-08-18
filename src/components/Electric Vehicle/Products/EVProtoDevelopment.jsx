@@ -1,16 +1,16 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240724_124250-removebg-preview.png";
-import Img2 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240724_124425-removebg-preview.png";
-import Img3 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240724_124227-removebg-preview.png";
-import Img4 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240723_174827-removebg-preview (1).png";
-import Img5 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture1.png";
-import Img6 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture3.png";
-import Img7 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture4.png";
-import Img8 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240117_155940.png";
-import Img9 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240213_132456.png";
-import Img10 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Copy of Picture16.png";
-import Img11 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture18.png";
-import Img12 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture17.png";
+import Img1 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240724_124250-removebg-preview.webp";
+import Img2 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240724_124425-removebg-preview.webp";
+import Img3 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240724_124227-removebg-preview.webp";
+import Img4 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240723_174827-removebg-preview (1).webp";
+import Img5 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture1.webp";
+import Img6 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture3.webp";
+import Img7 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture4.webp";
+import Img8 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240117_155940.webp";
+import Img9 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240213_132456.webp";
+import Img10 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Copy of Picture16.webp";
+import Img11 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture18.webp";
+import Img12 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture17.webp";
 
 function EVProtoDevelopment() {
   const sliderRef = useRef(null);

@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Electric Vehicle/EV - HV and LV Harness Manufacturing/WhatsApp_Image_2024-08-01_at_15.03.20_d8f6c29c-removebg-preview.png";
-import Img2 from "../../../assets/Electric Vehicle/EV - HV and LV Harness Manufacturing/WhatsApp_Image_2024-08-01_at_15.03.35_e2410a1e-removebg-preview.png";
-import Img3 from "../../../assets/Electric Vehicle/EV - HV and LV Harness Manufacturing/Ev Harness .png";
+import Img1 from "../../../assets/Electric Vehicle/EV - HV and LV Harness Manufacturing/WhatsApp_Image_2024-08-01_at_15.03.20_d8f6c29c-removebg-preview.webp";
+import Img2 from "../../../assets/Electric Vehicle/EV - HV and LV Harness Manufacturing/WhatsApp_Image_2024-08-01_at_15.03.35_e2410a1e-removebg-preview.webp";
+import Img3 from "../../../assets/Electric Vehicle/EV - HV and LV Harness Manufacturing/Ev Harness .webp";
 
 function EVHVandLVHarnessManufacturing() {
   const sliderRef = useRef(null);

@@ -1,20 +1,20 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions 01.52.png";
-import Img2 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Body for sheet v14.55.png";
+import Img1 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions 01.52.webp";
+import Img2 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Body for sheet v14.55.webp";
 import Img3 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Body_for_sheet_.webp";
 import Img4 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions LH_Clap_.webp";
-import Img5 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions 18x_4_v5_.png";
+import Img5 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions 18x_4_v5_.webp";
 import Img6 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Disc_320_one.webp";
 import Img7 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Disc_320_two.webp";
 import Img8 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions KTM_240_.webp";
 import Img9 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Int 650 Rear Disc v1 v2.webp";
 import Img10 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Rim_ktm_front__nipple_mount___v2_.webp";
-import Img11 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Lower v3.67.png";
+import Img11 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Lower v3.67.webp";
 import Img12 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions t_STEM_.webp";
 import Img13 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Untitled.webp";
-import Img14 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Gasket v2.52.png";
-import Img15 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Sprocket adopter v4.66.png";
-import Img16 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Swing Arm v12.62.png";
+import Img14 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Gasket v2.52.webp";
+import Img15 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Sprocket adopter v4.66.webp";
+import Img16 from "../../../assets/Mechanical Design/Component Design/Koios Engineering Solutions Swing Arm v12.62.webp";
 
 function ComponentDesign() {
   const sliderRef = useRef(null);

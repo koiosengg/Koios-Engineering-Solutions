@@ -1,21 +1,21 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_LOADER_CHASSIS v1.130.png";
-import Img2 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions 390 adv Chassis v4.82.png";
-import Img3 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions Expulse Copy v12.91.png";
-import Img4 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions Expulse Copy v12.93.png";
-import Img5 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions Impulse Chassis v34.100.png";
-import Img6 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions MOPED REF 04122023 v16.79.png";
-import Img7 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions MOPED REF 04122023 v16.80.png";
-import Img8 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_LOADER_CHASSIS v1.126.png";
-import Img9 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_LOADER_CHASSIS v1.128.png";
-import Img10 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_PASSENGER_CHASSIS v1.124.png";
-import Img11 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_PASSENGER_CHASSIS v1.125.png";
-import Img12 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3 - LOADER RIKSHAW ASSEMBLY v1.131.png";
-import Img13 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3 - LOADER RIKSHAW ASSEMBLY v1.132.png";
-import Img14 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3 - LOADER RIKSHAW ASSEMBLY v1.133.png";
-import Img15 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3 - LOADER RIKSHAW ASSEMBLY v1.134.png";
-import Img16 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions Chassis_cage.png";
-import Img17 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3_Passenger_Final_Assembly.png";
+import Img1 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_LOADER_CHASSIS v1.130.webp";
+import Img2 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions 390 adv Chassis v4.82.webp";
+import Img3 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions Expulse Copy v12.91.webp";
+import Img4 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions Expulse Copy v12.93.webp";
+import Img5 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions Impulse Chassis v34.100.webp";
+import Img6 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions MOPED REF 04122023 v16.79.webp";
+import Img7 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions MOPED REF 04122023 v16.80.webp";
+import Img8 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_LOADER_CHASSIS v1.126.webp";
+import Img9 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_LOADER_CHASSIS v1.128.webp";
+import Img10 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_PASSENGER_CHASSIS v1.124.webp";
+import Img11 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions GMPL_L3_PASSENGER_CHASSIS v1.125.webp";
+import Img12 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3 - LOADER RIKSHAW ASSEMBLY v1.131.webp";
+import Img13 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3 - LOADER RIKSHAW ASSEMBLY v1.132.webp";
+import Img14 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3 - LOADER RIKSHAW ASSEMBLY v1.133.webp";
+import Img15 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3 - LOADER RIKSHAW ASSEMBLY v1.134.webp";
+import Img16 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions Chassis_cage.webp";
+import Img17 from "../../../assets/Automotive Design/Vehicle Chassis And Powertrain Design/Koios Engineering Solutions L3_Passenger_Final_Assembly.webp";
 
 function VehicleChassisAndPowertrainDesign() {
   const sliderRef = useRef(null);

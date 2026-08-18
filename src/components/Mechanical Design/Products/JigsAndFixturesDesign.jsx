@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Mechanical Design/Jigs And Fixtures Design/Koios Engineering Solutions DEVELOPMENT_PARTS_FIXTURE_ASSY_stp_2.png";
+import Img1 from "../../../assets/Mechanical Design/Jigs And Fixtures Design/Koios Engineering Solutions DEVELOPMENT_PARTS_FIXTURE_ASSY_stp_2.webp";
 import Img2 from "../../../assets/Mechanical Design/Jigs And Fixtures Design/Koios Engineering Solutions jf_render_1.webp";
-import Img3 from "../../../assets/Mechanical Design/Jigs And Fixtures Design/Koios Engineering Solutions Silencer Cap 1 Female v3.60.png";
-import Img4 from "../../../assets/Mechanical Design/Jigs And Fixtures Design/Koios Engineering Solutions Silencer Cap 1 Female v3.61.png";
+import Img3 from "../../../assets/Mechanical Design/Jigs And Fixtures Design/Koios Engineering Solutions Silencer Cap 1 Female v3.60.webp";
+import Img4 from "../../../assets/Mechanical Design/Jigs And Fixtures Design/Koios Engineering Solutions Silencer Cap 1 Female v3.61.webp";
 
 function JigsAndFixturesDesign() {
   const sliderRef = useRef(null);

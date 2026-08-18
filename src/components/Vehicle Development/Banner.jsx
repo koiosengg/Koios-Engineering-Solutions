@@ -1,5 +1,5 @@
 import React from "react";
-import BannerIcon from "../../assets/General Engineering/Banner Icon.png";
+import BannerIcon from "../../assets/General Engineering/Banner Icon.webp";
 
 function Banner() {
   return (

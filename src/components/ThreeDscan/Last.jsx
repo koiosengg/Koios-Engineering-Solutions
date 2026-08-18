@@ -1,5 +1,5 @@
 import React from "react";
-import LastSection from "../../assets/ThreeDscan/Last/LastSection.png";
+import LastSection from "../../assets/ThreeDscan/Last/LastSection.webp";
 function Last() {
   return (
     <div className="threeD-last">

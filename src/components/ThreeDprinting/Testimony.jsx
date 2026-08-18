@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "../../assets/ThreeDprinting/Testimony/Star.png";
+import Star from "../../assets/ThreeDprinting/Testimony/Star.webp";
 
 function Testimony() {
   return (

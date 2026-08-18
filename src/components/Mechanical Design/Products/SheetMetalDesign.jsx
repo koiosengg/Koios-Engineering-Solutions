@@ -1,13 +1,13 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions AUX_battery_tray_PE.png";
-import Img2 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions BKT_BATTERY_SUPPORT.png";
-import Img3 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Bracket_PE_craddle.png";
-import Img4 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Front_Bracket_Battery.png";
-import Img5 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Motor_Front_Flange.png";
-import Img6 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Side_PT_plate.png";
-import Img7 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions U_Bracket.png";
-import Img8 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Bash plate v3.95.png";
-import Img9 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Bash plate v3.97.png";
+import Img1 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions AUX_battery_tray_PE.webp";
+import Img2 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions BKT_BATTERY_SUPPORT.webp";
+import Img3 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Bracket_PE_craddle.webp";
+import Img4 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Front_Bracket_Battery.webp";
+import Img5 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Motor_Front_Flange.webp";
+import Img6 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Side_PT_plate.webp";
+import Img7 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions U_Bracket.webp";
+import Img8 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Bash plate v3.95.webp";
+import Img9 from "../../../assets/Mechanical Design/Sheet Metal Design/Koios Engineering Solutions Bash plate v3.97.webp";
 
 function SheetMetalDesign() {
   const sliderRef = useRef(null);

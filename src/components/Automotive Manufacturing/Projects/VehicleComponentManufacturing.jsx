@@ -1,16 +1,16 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions Copy of WhatsApp Image 2024-03-30 at 3.10.35 PM.png";
-import Img2 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions 20240708_151230-removebg-preview.png";
-import Img3 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions Picture6.png";
-import Img4 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions Picture7.png";
-import Img5 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions 20240708_151335-removebg-preview.png";
-import Img6 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions IMG20231018201018.png";
-import Img7 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.33 PM.png";
-import Img8 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.34 PM.png";
-import Img9 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.35 PM (1).png";
-import Img10 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.35 PM (3).png";
-import Img11 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.36 PM (1).png";
-import Img12 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.36 PM.png";
+import Img1 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions Copy of WhatsApp Image 2024-03-30 at 3.10.35 PM.webp";
+import Img2 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions 20240708_151230-removebg-preview.webp";
+import Img3 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions Picture6.webp";
+import Img4 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions Picture7.webp";
+import Img5 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions 20240708_151335-removebg-preview.webp";
+import Img6 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions IMG20231018201018.webp";
+import Img7 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.33 PM.webp";
+import Img8 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.34 PM.webp";
+import Img9 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.35 PM (1).webp";
+import Img10 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.35 PM (3).webp";
+import Img11 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.36 PM (1).webp";
+import Img12 from "../../../assets/Automotive Manufacturing/Vehicle Component Manufacturing/Koios Engineering Solutions WhatsApp Image 2024-03-30 at 3.10.36 PM.webp";
 
 function VehicleComponentManufacturing() {
   const sliderRef = useRef(null);

@@ -1,7 +1,7 @@
 import React from "react";
-import CircleScanner from "../../assets/ThreeDscan/Vision/Circle scanner.png";
+import CircleScanner from "../../assets/ThreeDscan/Vision/Circle scanner.webp";
 import VisionSVG from "../../assets/ThreeDscan/Vision/vision.svg";
-import VisionMobile from "../../assets/ThreeDscan/Vision/visionMobile.png";
+import VisionMobile from "../../assets/ThreeDscan/Vision/visionMobile.webp";
 import SectionScrollAnimation from "../SectionScrollAnimation";
 
 function Vision() {

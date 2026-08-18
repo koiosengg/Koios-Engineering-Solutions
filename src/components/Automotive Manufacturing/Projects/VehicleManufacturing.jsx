@@ -1,12 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions Picture1.png";
-import Img2 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions Picture3.png";
-import Img3 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions Picture4.png";
-import Img4 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions 20240724_124250-removebg-preview.png";
-import Img5 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions 20240724_124425-removebg-preview.png";
-import Img6 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions 20240724_124227-removebg-preview.png";
-import Img7 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions 20240723_174827-removebg-preview (1).png";
-import Img8 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions Picture16.png";
+import Img1 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions Picture1.webp";
+import Img2 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions Picture3.webp";
+import Img3 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions Picture4.webp";
+import Img4 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions 20240724_124250-removebg-preview.webp";
+import Img5 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions 20240724_124425-removebg-preview.webp";
+import Img6 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions 20240724_124227-removebg-preview.webp";
+import Img7 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions 20240723_174827-removebg-preview (1).webp";
+import Img8 from "../../../assets/Automotive Manufacturing/Vehicle Manufacturing/Koios Engineering Solutions Picture16.webp";
 
 function VehicleManufacturing() {
   const sliderRef = useRef(null);

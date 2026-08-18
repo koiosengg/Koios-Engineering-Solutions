@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "../../assets/About/aboutus-bg.png";
+import Background from "../../assets/About/aboutus-bg.webp";
 
 function Banner() {
   return (

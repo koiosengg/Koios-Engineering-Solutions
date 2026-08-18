@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Electric Vehicle/EV Proto Integration/Koios Engineering Solutions 20240708_151230-removebg-preview.png";
-import Img2 from "../../../assets/Electric Vehicle/EV Proto Integration/Koios Engineering Solutions Picture6.png";
-import Img3 from "../../../assets/Electric Vehicle/EV Proto Integration/Koios Engineering Solutions Picture7.png";
-import Img4 from "../../../assets/Electric Vehicle/EV Proto Integration/Koios Engineering Solutions IMG20231018201018.png";
+import Img1 from "../../../assets/Electric Vehicle/EV Proto Integration/Koios Engineering Solutions 20240708_151230-removebg-preview.webp";
+import Img2 from "../../../assets/Electric Vehicle/EV Proto Integration/Koios Engineering Solutions Picture6.webp";
+import Img3 from "../../../assets/Electric Vehicle/EV Proto Integration/Koios Engineering Solutions Picture7.webp";
+import Img4 from "../../../assets/Electric Vehicle/EV Proto Integration/Koios Engineering Solutions IMG20231018201018.webp";
 
 function EVProtoIntegration() {
   const sliderRef = useRef(null);

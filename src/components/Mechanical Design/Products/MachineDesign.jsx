@@ -1,14 +1,14 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Dyno v1.112.png";
-import Img2 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Dyno v1.113.png";
-import Img3 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Dyno v1.114.png";
-import Img4 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Hopper 1 v8.108.png";
-import Img5 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Hopper 1 v8.110.png";
-import Img6 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Machine Base V2 v41.44.png";
-import Img7 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Machine Base V2 v41.45.png";
-import Img8 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Machine Base V2 v41.46.png";
-import Img9 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Bash plate v3.95.png";
-import Img10 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Bash plate v3.97.png";
+import Img1 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Dyno v1.112.webp";
+import Img2 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Dyno v1.113.webp";
+import Img3 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Dyno v1.114.webp";
+import Img4 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Hopper 1 v8.108.webp";
+import Img5 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Hopper 1 v8.110.webp";
+import Img6 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Machine Base V2 v41.44.webp";
+import Img7 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Machine Base V2 v41.45.webp";
+import Img8 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Machine Base V2 v41.46.webp";
+import Img9 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Bash plate v3.95.webp";
+import Img10 from "../../../assets/Mechanical Design/Machine Design/Koios Engineering Solutions Bash plate v3.97.webp";
 
 function MachineDesign() {
   const sliderRef = useRef(null);

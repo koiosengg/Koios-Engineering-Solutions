@@ -1,17 +1,17 @@
 import React from "react";
-import LML from "../../assets/Home/Marquee/LML.png";
-import SEG from "../../assets/Home/Marquee/SEG.png";
-import ISK from "../../assets/Home/Marquee/ISK.png";
-import Staidrich from "../../assets/Home/Marquee/Staidrich.png";
-import Engginno from "../../assets/Home/Marquee/Engginno.png";
-import EParivahan from "../../assets/Home/Marquee/e parivahan.png";
-import Micronix from "../../assets/Home/Marquee/Micronix.png";
-import UrbanSphere from "../../assets/Home/Marquee/Urban Sphere.png";
-import OBEN from "../../assets/Home/Marquee/OBEN.png";
-import Ampere from "../../assets/Home/Marquee/Ampere.png";
-import SPREMFI from "../../assets/Home/Marquee/SPREMFI.png";
-import Sukalpa from "../../assets/Home/Marquee/Sukalpa.png";
-import Sora from "../../assets/Home/Marquee/Sora.png";
+import LML from "../../assets/Home/Marquee/LML.webp";
+import SEG from "../../assets/Home/Marquee/SEG.webp";
+import ISK from "../../assets/Home/Marquee/ISK.webp";
+import Staidrich from "../../assets/Home/Marquee/Staidrich.webp";
+import Engginno from "../../assets/Home/Marquee/Engginno.webp";
+import EParivahan from "../../assets/Home/Marquee/e parivahan.webp";
+import Micronix from "../../assets/Home/Marquee/Micronix.webp";
+import UrbanSphere from "../../assets/Home/Marquee/Urban Sphere.webp";
+import OBEN from "../../assets/Home/Marquee/OBEN.webp";
+import Ampere from "../../assets/Home/Marquee/Ampere.webp";
+import SPREMFI from "../../assets/Home/Marquee/SPREMFI.webp";
+import Sukalpa from "../../assets/Home/Marquee/Sukalpa.webp";
+import Sora from "../../assets/Home/Marquee/Sora.webp";
 
 function Marquee() {
   return (

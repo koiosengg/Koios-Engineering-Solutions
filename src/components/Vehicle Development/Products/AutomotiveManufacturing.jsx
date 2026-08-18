@@ -1,14 +1,14 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Img1 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions Picture1.png";
-import Img2 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions Picture3.png";
-import Img3 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions Picture9.png";
-import Img4 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions 20240118_095335.jpg";
-import Img5 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions 20240717_140536-removebg-preview.png";
-import Img6 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions 20240708_151230-removebg-preview.png";
-import Img7 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions 20240708_151335-removebg-preview.png";
-import Img8 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions Copy of WhatsApp Image 2024-03-30 at 3.10.35 PM.png";
-import Img9 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions IMG20231018201018.jpg";
+import Img1 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions Picture1.webp";
+import Img2 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions Picture3.webp";
+import Img3 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions Picture9.webp";
+import Img4 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions 20240118_095335.webp";
+import Img5 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions 20240717_140536-removebg-preview.webp";
+import Img6 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions 20240708_151230-removebg-preview.webp";
+import Img7 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions 20240708_151335-removebg-preview.webp";
+import Img8 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions Copy of WhatsApp Image 2024-03-30 at 3.10.35 PM.webp";
+import Img9 from "../../../assets/Vehicle Development/Products/Automotive Manufacturing/Koios Engineering Solutions IMG20231018201018.webp";
 
 function AutomotiveManufacturing() {
   const sliderRef = useRef(null);

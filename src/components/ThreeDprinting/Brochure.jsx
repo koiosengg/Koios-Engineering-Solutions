@@ -1,5 +1,5 @@
 import React from "react";
-import DesktopImg from "../../assets/ThreeDprinting/Brochure/Desktop Img.png";
+import DesktopImg from "../../assets/ThreeDprinting/Brochure/Desktop Img.webp";
 
 function Brochure() {
   return (

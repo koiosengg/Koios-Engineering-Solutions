@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Manufacturing/Special Purpose Vehicle/Koios Engineering Solutions Picture18.png";
-import Img2 from "../../../assets/Automotive Manufacturing/Special Purpose Vehicle/Koios Engineering Solutions Picture17.png";
+import Img1 from "../../../assets/Automotive Manufacturing/Special Purpose Vehicle/Koios Engineering Solutions Picture18.webp";
+import Img2 from "../../../assets/Automotive Manufacturing/Special Purpose Vehicle/Koios Engineering Solutions Picture17.webp";
 
 function SpecialPurposeVehicle() {
   const sliderRef = useRef(null);

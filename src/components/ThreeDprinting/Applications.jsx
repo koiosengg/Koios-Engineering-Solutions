@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Img1 from "../../assets/ThreeDprinting/Applications/Img1.png";
-import Img2 from "../../assets/ThreeDprinting/Applications/Img2.png";
-import Img3 from "../../assets/ThreeDprinting/Applications/Img3.png";
-import Img4 from "../../assets/ThreeDprinting/Applications/Img4.png";
+import Img1 from "../../assets/ThreeDprinting/Applications/Img1.webp";
+import Img2 from "../../assets/ThreeDprinting/Applications/Img2.webp";
+import Img3 from "../../assets/ThreeDprinting/Applications/Img3.webp";
+import Img4 from "../../assets/ThreeDprinting/Applications/Img4.webp";
 
 const applicationData = [
   {

@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from "react";
-import Img1 from "../../assets/General Engineering/Gallery/Img (1).jpeg";
-import Img2 from "../../assets/General Engineering/Gallery/Img (2).jpeg";
-import Img3 from "../../assets/General Engineering/Gallery/Img (3).jpeg";
-import Img4 from "../../assets/General Engineering/Gallery/Img (4).jpeg";
-import Img5 from "../../assets/General Engineering/Gallery/Img (5).jpeg";
-import Img6 from "../../assets/General Engineering/Gallery/Img (6).jpeg";
-import Img7 from "../../assets/General Engineering/Gallery/Img (7).jpeg";
-import Img8 from "../../assets/General Engineering/Gallery/Img (8).jpeg";
-import Img9 from "../../assets/General Engineering/Gallery/Img (9).jpeg";
+import Img1 from "../../assets/General Engineering/Gallery/Img (1).webp";
+import Img2 from "../../assets/General Engineering/Gallery/Img (2).webp";
+import Img3 from "../../assets/General Engineering/Gallery/Img (3).webp";
+import Img4 from "../../assets/General Engineering/Gallery/Img (4).webp";
+import Img5 from "../../assets/General Engineering/Gallery/Img (5).webp";
+import Img6 from "../../assets/General Engineering/Gallery/Img (6).webp";
+import Img7 from "../../assets/General Engineering/Gallery/Img (7).webp";
+import Img8 from "../../assets/General Engineering/Gallery/Img (8).webp";
+import Img9 from "../../assets/General Engineering/Gallery/Img (9).webp";
 
 const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9];
 

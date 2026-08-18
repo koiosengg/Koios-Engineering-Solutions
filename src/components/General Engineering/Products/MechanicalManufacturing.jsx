@@ -1,16 +1,16 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Img1 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions Picture11.png";
-import Img2 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions Picture15.png";
-import Img3 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions gokart disc hub 1.png";
-import Img4 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions gokart disc hub 2.png";
-import Img5 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (1).png";
-import Img6 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (2).png";
-import Img7 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (3).png";
-import Img8 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.26_a1b10e92-removebg-preview.png";
-import Img9 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.29_9974c34c-removebg-preview.png";
-import Img10 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.37_46ca1fc5-removebg-preview.png";
-import Img11 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.38_383f6b66-removebg-preview.png";
+import Img1 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions Picture11.webp";
+import Img2 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions Picture15.webp";
+import Img3 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions gokart disc hub 1.webp";
+import Img4 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions gokart disc hub 2.webp";
+import Img5 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (1).webp";
+import Img6 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (2).webp";
+import Img7 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions special components and dies (3).webp";
+import Img8 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.26_a1b10e92-removebg-preview.webp";
+import Img9 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.29_9974c34c-removebg-preview.webp";
+import Img10 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.37_46ca1fc5-removebg-preview.webp";
+import Img11 from "../../../assets/General Engineering/Products/Mechanical Manufacturing/Koios Engineering Solutions WhatsApp_Image_2024-08-01_at_15.03.38_383f6b66-removebg-preview.webp";
 
 function MechanicalManufacturing() {
   const sliderRef = useRef(null);

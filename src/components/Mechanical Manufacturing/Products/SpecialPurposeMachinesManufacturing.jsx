@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../../../assets/Mechanical Manufacturing/Special Purpose Machines Manufacturing/Koios Engineering Solutions special purpose machine.jpg";
+import Img1 from "../../../assets/Mechanical Manufacturing/Special Purpose Machines Manufacturing/Koios Engineering Solutions special purpose machine.webp";
 
 function SpecialPurposeMachinesManufacturing() {
   return (

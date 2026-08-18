@@ -1,6 +1,6 @@
 import React from "react";
-import DesktopBanner from "../../assets/ThreeDprinting/Banner/Desktop Banner.png";
-import MobileBanner from "../../assets/ThreeDprinting/Banner/Mobile Banner.png"
+import DesktopBanner from "../../assets/ThreeDprinting/Banner/Desktop Banner.webp";
+import MobileBanner from "../../assets/ThreeDprinting/Banner/Mobile Banner.webp"
 
 function Banner() {
   return (

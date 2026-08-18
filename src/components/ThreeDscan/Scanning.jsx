@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BorderDiv from "../../assets/ThreeDscan/Scanning/BorderDiv.png";
-import BorderDivMobile from "../../assets/ThreeDscan/Scanning/BorderDivMobile.png";
+import BorderDiv from "../../assets/ThreeDscan/Scanning/BorderDiv.webp";
+import BorderDivMobile from "../../assets/ThreeDscan/Scanning/BorderDivMobile.webp";
 import SectionScrollAnimation from "../SectionScrollAnimation";
 
 function Scanning() {

@@ -1,5 +1,5 @@
 import React from "react";
-import Spotlight from "../../assets/spotlight.png";
+import Spotlight from "../../assets/spotlight.webp";
 
 function WhyUs() {
   return (

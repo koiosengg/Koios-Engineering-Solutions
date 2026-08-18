@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from "react";
-import Img1 from "../../assets/Home/Infrastructure/Img (1).jpg";
-import Img2 from "../../assets/Home/Infrastructure/Img (2).jpg";
-import Img3 from "../../assets/Home/Infrastructure/Img (3).jpg";
-import Img4 from "../../assets/Home/Infrastructure/Img (4).jpeg";
-import Img5 from "../../assets/Home/Infrastructure/Img (5).jpeg";
+import Img1 from "../../assets/Home/Infrastructure/Img (1).webp";
+import Img2 from "../../assets/Home/Infrastructure/Img (2).webp";
+import Img3 from "../../assets/Home/Infrastructure/Img (3).webp";
+import Img4 from "../../assets/Home/Infrastructure/Img (4).webp";
+import Img5 from "../../assets/Home/Infrastructure/Img (5).webp";
 
 const images = [
   {

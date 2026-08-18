@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DesktopBackground from "../../assets/Home/Tools/Desktop Background.png";
-import SampleImage from "../../assets/Sample Image.png";
+import DesktopBackground from "../../assets/Home/Tools/Desktop Background.webp";
+import SampleImage from "../../assets/Sample Image.webp";
 import Links from "./Links";
 
 function OurBlogs() {

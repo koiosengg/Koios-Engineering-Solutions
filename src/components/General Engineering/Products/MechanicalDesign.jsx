@@ -1,12 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Img1 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Dyno v1.112.png";
-import Img2 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Hopper 1 v8.110.png";
-import Img3 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Machine Base V2 v41.44.png";
-import Img4 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Bash plate v3.97.png";
-import Img5 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions 18x_4_v5_.png";
-import Img6 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Product_Design_side_view.png";
-import Img7 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Frame v7.49.png";
+import Img1 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Dyno v1.112.webp";
+import Img2 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Hopper 1 v8.110.webp";
+import Img3 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Machine Base V2 v41.44.webp";
+import Img4 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Bash plate v3.97.webp";
+import Img5 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions 18x_4_v5_.webp";
+import Img6 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Product_Design_side_view.webp";
+import Img7 from "../../../assets/General Engineering/Products/Mechanical Design/Koios Engineering Solutions Frame v7.49.webp";
 
 function MechanicalDesign() {
   const sliderRef = useRef(null);

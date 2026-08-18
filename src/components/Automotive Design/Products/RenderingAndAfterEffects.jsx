@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Design/Rendering And After Effects/Koios Engineering Solutions Chassis v4 cargo web.138.png";
-import Img2 from "../../../assets/Automotive Design/Rendering And After Effects/Koios Engineering Solutions L3 Passenger v5.158.png";
-import Img3 from "../../../assets/Automotive Design/Rendering And After Effects/Koios Engineering Solutions Moped Chassis V5 v12.116.png";
-import Img4 from "../../../assets/Automotive Design/Rendering And After Effects/Koios Engineering Solutions L3 Cargo v5.164.png";
+import Img1 from "../../../assets/Automotive Design/Rendering And After Effects/Koios Engineering Solutions Chassis v4 cargo web.138.webp";
+import Img2 from "../../../assets/Automotive Design/Rendering And After Effects/Koios Engineering Solutions L3 Passenger v5.158.webp";
+import Img3 from "../../../assets/Automotive Design/Rendering And After Effects/Koios Engineering Solutions Moped Chassis V5 v12.116.webp";
+import Img4 from "../../../assets/Automotive Design/Rendering And After Effects/Koios Engineering Solutions L3 Cargo v5.164.webp";
 
 function RenderingAndAfterEffects() {
   const sliderRef = useRef(null);

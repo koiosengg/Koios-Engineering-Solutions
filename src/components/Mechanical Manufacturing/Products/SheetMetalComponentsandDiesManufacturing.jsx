@@ -1,14 +1,14 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (1).png";
-import Img2 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (2).png";
-import Img3 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (3).png";
-import Img4 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (4).png";
-import Img5 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (5).png";
-import Img6 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (6).png";
-import Img7 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (7).png";
-import Img8 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (8).png";
-import Img9 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (9).png";
-import Img10 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (10).png";
+import Img1 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (1).webp";
+import Img2 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (2).webp";
+import Img3 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (3).webp";
+import Img4 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (4).webp";
+import Img5 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (5).webp";
+import Img6 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (6).webp";
+import Img7 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (7).webp";
+import Img8 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (8).webp";
+import Img9 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (9).webp";
+import Img10 from "../../../assets/Mechanical Manufacturing/Sheet Metal Components and Dies Manufacturing/Koios Engineering Solutions special components and dies (10).webp";
 
 function SheetMetalComponentsandDiesManufacturing() {
   const sliderRef = useRef(null);

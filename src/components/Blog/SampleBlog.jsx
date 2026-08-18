@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SampleImage from "../../assets/Sample Image.png";
+import SampleImage from "../../assets/Sample Image.webp";
 
 function SampleBlog() {
   return (

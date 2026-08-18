@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture11.png";
-import Img2 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture13.png";
-import Img3 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture14.png";
-import Img4 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture15.png";
+import Img1 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture11.webp";
+import Img2 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture13.webp";
+import Img3 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture14.webp";
+import Img4 from "../../../assets/Mechanical Manufacturing/Metal Fabrication/Koios Engineering Solutions Picture15.webp";
 
 function MetalFabrication() {
   const sliderRef = useRef(null);

@@ -1,12 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Img1 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of 20240724_124250-removebg-preview.png";
-import Img2 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of 20240724_124425-removebg-preview.png";
-import Img3 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of Picture1.png";
-import Img4 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of Picture3.png";
-import Img5 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of Picture16.png";
-import Img6 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Picture18.png";
-import Img7 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Picture17.png";
+import Img1 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of 20240724_124250-removebg-preview.webp";
+import Img2 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of 20240724_124425-removebg-preview.webp";
+import Img3 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of Picture1.webp";
+import Img4 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of Picture3.webp";
+import Img5 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Copy of Picture16.webp";
+import Img6 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Picture18.webp";
+import Img7 from "../../../assets/Vehicle Development/Products/Electric Vehicle/Koios Engineering Solutions Picture17.webp";
 
 function ElectricVehicle() {
   const sliderRef = useRef(null);

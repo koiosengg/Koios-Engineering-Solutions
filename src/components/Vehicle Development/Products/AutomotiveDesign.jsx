@@ -1,16 +1,16 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Img1 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions L3 Cargo v5.164.png";
-import Img2 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions L3 Passenger v5.159.png";
-import Img3 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Chassis v4 Cargo Web v10.144.png";
-import Img4 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Vehicle_Component_Design_wheel_full.png";
-import Img5 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Hub.png";
-import Img6 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Int_Front_v3.png";
-import Img7 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Yezdi_rear_v1.png";
-import Img8 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions 390 adv Chassis v4.82.png";
-import Img9 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Expulse Copy v12.91.png";
-import Img10 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions XLR8_blue_go-kart-pic.png";
-import Img11 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Copy of w.png";
+import Img1 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions L3 Cargo v5.164.webp";
+import Img2 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions L3 Passenger v5.159.webp";
+import Img3 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Chassis v4 Cargo Web v10.144.webp";
+import Img4 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Vehicle_Component_Design_wheel_full.webp";
+import Img5 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Hub.webp";
+import Img6 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Int_Front_v3.webp";
+import Img7 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Yezdi_rear_v1.webp";
+import Img8 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions 390 adv Chassis v4.82.webp";
+import Img9 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Expulse Copy v12.91.webp";
+import Img10 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions XLR8_blue_go-kart-pic.webp";
+import Img11 from "../../../assets/Vehicle Development/Products/Automotive Design/Koios Engineering Solutions Copy of w.webp";
 
 function AutomotiveDesign() {
   const sliderRef = useRef(null);

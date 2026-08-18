@@ -1,5 +1,5 @@
 import React from "react";
-import DesktopImg from "../../assets/ThreeDprinting/Why Choose/Desktop Img.png";
+import DesktopImg from "../../assets/ThreeDprinting/Why Choose/Desktop Img.webp";
 
 function WhyChoose() {
   return (

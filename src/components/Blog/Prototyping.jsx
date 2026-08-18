@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import SampleImage from "../../assets/Blog/Prototyping.png";
+import SampleImage from "../../assets/Blog/Prototyping.webp";
 
 function Prototyping() {
   return (

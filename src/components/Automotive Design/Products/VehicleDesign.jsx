@@ -1,20 +1,20 @@
 import React, { useRef, useEffect, useState } from "react";
-import Img1 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3 Passenger v5.158.png";
-import Img2 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3 Cargo v5.164.png";
-import Img3 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3 Cargo v5.165.png";
-import Img4 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3 Passenger v5.159.png";
-import Img5 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3_Passenger_Final_Assembly.png";
-import Img6 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Chassis v4 Cargo Web v10.144.png";
-import Img7 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Chassis v4 Cargo Web v10.147.png";
-import Img8 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Chassis v4 cargo web.138.png";
-import Img9 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Chassis v4 cargo web.141.png";
-import Img10 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Moped Chassis V5 v12.116.png";
-import Img11 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Moped Chassis V5 v12.120.png";
-import Img12 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Moped Chassis V5 v12.121.png";
-import Img13 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions 33421_Chasiss_14Dec2021 v1.83.png";
-import Img14 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Tricycle V5 v2.150.png";
-import Img15 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Dune_buggy.png";
-import Img16 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions gokart.png";
+import Img1 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3 Passenger v5.158.webp";
+import Img2 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3 Cargo v5.164.webp";
+import Img3 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3 Cargo v5.165.webp";
+import Img4 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3 Passenger v5.159.webp";
+import Img5 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions L3_Passenger_Final_Assembly.webp";
+import Img6 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Chassis v4 Cargo Web v10.144.webp";
+import Img7 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Chassis v4 Cargo Web v10.147.webp";
+import Img8 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Chassis v4 cargo web.138.webp";
+import Img9 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Chassis v4 cargo web.141.webp";
+import Img10 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Moped Chassis V5 v12.116.webp";
+import Img11 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Moped Chassis V5 v12.120.webp";
+import Img12 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Moped Chassis V5 v12.121.webp";
+import Img13 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions 33421_Chasiss_14Dec2021 v1.83.webp";
+import Img14 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Tricycle V5 v2.150.webp";
+import Img15 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions Dune_buggy.webp";
+import Img16 from "../../../assets/Automotive Design/Vehicle Design/Koios Engineering Solutions gokart.webp";
 
 function VehicleDesign() {
   const sliderRef = useRef(null);

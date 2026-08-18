@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import Aerospace from "../../assets/ThreeDscan/Industries/Aerospace.png";
-import ElectricVehicle from "../../assets/ThreeDscan/Industries/Electric Vehicle.png";
-import Automotive from "../../assets/ThreeDscan/Industries/Automotive.png";
-import GeneralEngineering from "../../assets/ThreeDscan/Industries/Laserscanning-683x1024.png";
-import Machinery from "../../assets/ThreeDscan/Industries/Machinery.png";
+import Aerospace from "../../assets/ThreeDscan/Industries/Aerospace.webp";
+import ElectricVehicle from "../../assets/ThreeDscan/Industries/Electric Vehicle.webp";
+import Automotive from "../../assets/ThreeDscan/Industries/Automotive.webp";
+import GeneralEngineering from "../../assets/ThreeDscan/Industries/Laserscanning-683x1024.webp";
+import Machinery from "../../assets/ThreeDscan/Industries/Machinery.webp";
 import SectionScrollAnimation from "../SectionScrollAnimation";
 
 function Industries() {

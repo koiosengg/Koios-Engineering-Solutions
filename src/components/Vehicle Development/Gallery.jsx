@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
-import Img1 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions L3 Cargo v5.164.png";
-import Img2 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions Chassis v4 Cargo Web v10.144.png";
-import Img3 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions 390 adv Chassis v4.82.png";
-import Img4 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions L3 Passenger v5.158.png";
-import Img5 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions GMPL_L3_LOADER_CHASSIS v1.130.png";
-import Img6 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions Chassis v4 cargo web.138.png";
-import Img7 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions gokart.png";
+import Img1 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions L3 Cargo v5.164.webp";
+import Img2 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions Chassis v4 Cargo Web v10.144.webp";
+import Img3 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions 390 adv Chassis v4.82.webp";
+import Img4 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions L3 Passenger v5.158.webp";
+import Img5 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions GMPL_L3_LOADER_CHASSIS v1.130.webp";
+import Img6 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions Chassis v4 cargo web.138.webp";
+import Img7 from "../../assets/Vehicle Development/Gallery/Koios Engineering Solutions gokart.webp";
 
 const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7];
 

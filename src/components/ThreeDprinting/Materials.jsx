@@ -1,12 +1,12 @@
 import { useRef, useState, useEffect } from "react";
-import PLA from "../../assets/ThreeDprinting/Materials/PLA.jpg";
-import ABS from "../../assets/ThreeDprinting/Materials/ABS.jpg";
-import PETG from "../../assets/ThreeDprinting/Materials/PETG.jpg";
-import PACF from "../../assets/ThreeDprinting/Materials/PACF.jpg";
-import PLACF from "../../assets/ThreeDprinting/Materials/PLACF.jpg";
+import PLA from "../../assets/ThreeDprinting/Materials/PLA.webp";
+import ABS from "../../assets/ThreeDprinting/Materials/ABS.webp";
+import PETG from "../../assets/ThreeDprinting/Materials/PETG.webp";
+import PACF from "../../assets/ThreeDprinting/Materials/PACF.webp";
+import PLACF from "../../assets/ThreeDprinting/Materials/PLACF.webp";
 import PET from "../../assets/ThreeDprinting/Materials/PET.webp";
-import ASA from "../../assets/ThreeDprinting/Materials/ASA.jpg";
-import PPACF from "../../assets/ThreeDprinting/Materials/PPACF.jpg";
+import ASA from "../../assets/ThreeDprinting/Materials/ASA.webp";
+import PPACF from "../../assets/ThreeDprinting/Materials/PPACF.webp";
 
 function Materials() {
   const [activeIndex, setActiveIndex] = useState(0);

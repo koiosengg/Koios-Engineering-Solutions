@@ -1,13 +1,13 @@
 import React from "react";
-import Img1 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (1).jpeg";
-import Img2 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (2).jpeg";
-import Img3 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (3).jpeg";
-import Img4 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (4).jpeg";
-import Img5 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (5).jpeg";
-import Img6 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (6).jpeg";
-import Img7 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (7).jpeg";
-import Img8 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (8).jpeg";
-import Img9 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (9).jpeg";
+import Img1 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (1).webp";
+import Img2 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (2).webp";
+import Img3 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (3).webp";
+import Img4 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (4).webp";
+import Img5 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (5).webp";
+import Img6 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (6).webp";
+import Img7 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (7).webp";
+import Img8 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (8).webp";
+import Img9 from "../../assets/ThreeDscan/Marquee/Marquee Img 3D Scanning Koios Engineering Solutions (9).webp";
 
 function Marquee() {
   return (

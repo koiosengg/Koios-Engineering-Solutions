@@ -1,9 +1,9 @@
 import { useState } from "react";
 import StarSVG from "../../assets/ThreeDscan/Testimony/StarSVG";
-import ISK from "../../assets/ThreeDscan/Testimony/ISK.png";
-import Motorcycles89 from "../../assets/ThreeDscan/Testimony/89 Motorcycles.png";
-import Eparivahan from "../../assets/ThreeDscan/Testimony/Eparivahan.png";
-import Micronix from "../../assets/ThreeDscan/Testimony/Micronix.png";
+import ISK from "../../assets/ThreeDscan/Testimony/ISK.webp";
+import Motorcycles89 from "../../assets/ThreeDscan/Testimony/89 Motorcycles.webp";
+import Eparivahan from "../../assets/ThreeDscan/Testimony/Eparivahan.webp";
+import Micronix from "../../assets/ThreeDscan/Testimony/Micronix.webp";
 import SectionScrollAnimation from "../SectionScrollAnimation";
 
 function Testimony() {
