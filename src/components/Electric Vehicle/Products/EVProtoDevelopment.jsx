@@ -8,7 +8,7 @@ import Img6 from "../../../assets/Electric Vehicle/EV Proto Development/Koios En
 import Img7 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture4.webp";
 import Img8 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240117_155940.webp";
 import Img9 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions 20240213_132456.webp";
-import Img10 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Copy of Picture16.webp";
+import Img10 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Copy of Picture16.png";
 import Img11 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture18.webp";
 import Img12 from "../../../assets/Electric Vehicle/EV Proto Development/Koios Engineering Solutions Picture17.webp";
 

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import GeneralEngineeringLogo from "../assets/Navbar/General Engineering Logo.webp";
 import VehicleDevelopmentLogo from "../assets/Navbar/Vehicle Development Logo.webp";
-import ThreeDServicesLogo from "../assets/Navbar/3D Services Logo.webp";
 import Logo from "../assets/Navbar/Navbar Logo.webp";
 
 function Navbar() {
@@ -108,43 +107,16 @@ function Navbar() {
           <div className="s-nav-link-heading">
             <Link to="/3d-scanning" className="s-nav-link-text">
               <p>
-                {" "}
-                <span>3</span>D Service
+                <span>3</span>D Scanning & Reverse Engineering
               </p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="9"
-                viewBox="0 0 14 9"
-                fill="none"
-              >
-                <path d="M1.70667 0.792998L6.99966 6.086L12.2927 0.792998L13.7067 2.207L8.41366 7.5C8.03861 7.87494 7.52999 8.08557 6.99966 8.08557C6.46934 8.08557 5.96072 7.87494 5.58566 7.5L0.292663 2.207L1.70667 0.792998Z" />
-              </svg>
             </Link>
-            <div className="s-dropdown">
-              <div className="s-dropdown-container">
-                <div className="s-dropdown-heading">
-                  <img
-                    loading="lazy"
-                    src={ThreeDServicesLogo}
-                    alt="3D Services Logo"
-                  />
-                  <Link to="/3d-scanning">
-                    <span>3</span>D Service
-                  </Link>
-                </div>
-                <div className="s-dropdown-set">
-                  <div className="s-dropdown-options">
-                    <Link to="/3d-scanning">
-                      <span>3</span>D Scanning
-                    </Link>
-                    <Link to="/3d-printing">
-                      <span>3</span>D Printing
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+          </div>
+          <div className="s-nav-link-heading">
+            <Link to="/3d-printing" className="s-nav-link-text">
+              <p>
+                <span>3</span>D Printing
+              </p>
+            </Link>
           </div>
           <div className="s-nav-link-heading">
             <Link to="/about-us" className="s-nav-link-text">
@@ -194,8 +166,8 @@ function Navbar() {
           isMobileNavOpen
             ? "activeMobileNavbar"
             : hasToggled
-            ? "nonactiveMobileNavbar"
-            : ""
+              ? "nonactiveMobileNavbar"
+              : ""
         }`}
         aria-label="Mobile navigation"
       >
@@ -341,51 +313,19 @@ function Navbar() {
                 onClick={toggleMobileNav}
                 className="heading"
               >
-                3D Service
+                3D Scanning & Reverse Engineering
               </Link>
-              <div className="s-mobile-navlink-heading-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="8"
-                  viewBox="0 0 12 8"
-                  fill="none"
-                >
-                  <path
-                    d="M11.5892 2.14019L10.4108 0.964355L5.99999 5.37185L1.58916 0.964355L0.410828 2.14352L4.82166 6.54768C5.13421 6.86013 5.55805 7.03566 5.99999 7.03566C6.44193 7.03566 6.86578 6.86013 7.17833 6.54768L11.5892 2.14019Z"
-                    fill="#98A2B3"
-                  />
-                </svg>
-              </div>
             </div>
-            <div className="s-mobile-nav-list">
-              <div className="s-mobile-nav-list-logo">
-                <img
-                  loading="lazy"
-                  src={ThreeDServicesLogo}
-                  alt="3D Services Logo"
-                />
-              </div>
-              <div className="s-mobile-nav-list-container">
-                <div className="s-mobile-nav-list-item">
-                  <Link
-                    to="/3d-scanning"
-                    onClick={toggleMobileNav}
-                    style={{ padding: "2px", textDecoration: "none" }}
-                  >
-                    <p>3D Scanning</p>
-                  </Link>
-                </div>
-                <div className="s-mobile-nav-list-item">
-                  <Link
-                    to="/3d-printing"
-                    onClick={toggleMobileNav}
-                    style={{ padding: "2px", textDecoration: "none" }}
-                  >
-                    <p> 3D Printing</p>
-                  </Link>
-                </div>
-              </div>
+          </div>
+          <div className="s-mobile-navlink-set Engineering">
+            <div className="s-mobile-navlink-heading">
+              <Link
+                to="/3d-printing"
+                onClick={toggleMobileNav}
+                className="heading"
+              >
+                3D Printing
+              </Link>
             </div>
           </div>
           <div className="s-mobile-navlink-set Engineering">
